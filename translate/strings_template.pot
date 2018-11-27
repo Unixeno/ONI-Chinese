@@ -7285,7 +7285,7 @@ msgstr ""
 
 #. STRINGS.CODEX.GASGRASS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GASGRASS.BODY.CONTAINER1"
-msgid "Much remains a mystery about the biology of Gas Grass, a plant-like lifeform only recently recovered from missions into outer space.\n\nHowever, it appears to use ambient radiation from space as an energy source, growing rapidly when given a suitable <link=\"CHLORINE\">Chlorine</link>-laden environment."
+msgid "Much remains a mystery about the biology of Gas Grass, a plant-like lifeform only recently recovered from missions into outer space.\n\nHowever, it appears to use ambient radiation from space as an energy source, outputting pure chlorine gas as a byproduct."
 msgstr ""
 
 #. STRINGS.CODEX.GASGRASS.BODY.CONTAINER2
@@ -38458,11 +38458,6 @@ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.COST"
 msgid "<b>Ingredients:</b>\n"
 msgstr ""
 
-#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CURRENT_ORDER
-msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CURRENT_ORDER"
-msgid "Current order: {0}"
-msgstr ""
-
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.COOL_VEST
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.COOL_VEST"
 msgid "<link=\"COOLVEST\">Cool Vest</link> ({0})"
@@ -38506,16 +38501,6 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.KG
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.KG"
 msgid "- {0}: {1}\n"
-msgstr ""
-
-#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NEXT_ORDER
-msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NEXT_ORDER"
-msgid "Next order: {0}"
-msgstr ""
-
-#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NO_WORKABLE_ORDER
-msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NO_WORKABLE_ORDER"
-msgid "No workable order"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED
@@ -38931,11 +38916,6 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
 msgid "{0} to {1}"
-msgstr ""
-
-#. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_WITH_NEWLINES
-msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_WITH_NEWLINES"
-msgid "{0}\nto\n{1}"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING
