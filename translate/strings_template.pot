@@ -200,7 +200,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP"
-msgid "Press <color=#F44A47>[ENTER]</color> to resume use"
+msgid "Press <color=#F44A47><b>[ENTER]</b></color> to resume use"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME
@@ -310,7 +310,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.TOOLTIP"
-msgid "Open the Jobs Panel <color=#F44A47><b>(L)</b></color> and assign a Duplicant to the {Roles} position to use this building"
+msgid "Open the Jobs Panel <color=#F44A47><b>[L]</b></color> and assign a Duplicant to the {Roles} position to use this building"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
@@ -546,6 +546,16 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP"
 msgid "Duplicants will only use this building when walking by it. Currently allowed direction: {Direction}"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.NAME"
+msgid "Waiting To Disembark"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.TOOLTIP"
+msgid "The Duplicant inside this rocket can't come out until the <link=\"GANTRY\">Gantry</link> is extended"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME
@@ -1180,7 +1190,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.TOOLTIP"
-msgid "Build <link=\"TILE\">Tile</link> beneath this building\n------------------\nTile can be found in the <color=#833A5FFF>Base Tab</color> <color=#F44A47>[1]</color> of the Build Menu"
+msgid "Build <link=\"TILE\">Tile</link> beneath this building\n------------------\nTile can be found in the <color=#833A5FFF>Base Tab</color> <color=#F44A47><b>[1]</b></color> of the Build Menu"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.NAME
@@ -1325,7 +1335,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
-msgid "Material cannot be fed onto this Conveyor Rail system for transport\n------------------\nEnter the Shipping Tab <color=#F44A47>[7]</color> of the Build Menu to build and connect a Conveyor Loader"
+msgid "Material cannot be fed onto this Conveyor Rail system for transport\n------------------\nEnter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build Menu to build and connect a Conveyor Loader"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.NAME
@@ -1335,7 +1345,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
-msgid "Material cannot be offloaded from this Conveyor system and will backup the rails\n------------------\nEnter the Shipping Tab <color=#F44A47>[7]</color> of the Build Menu to build and connect a Conveyor Receptacle"
+msgid "Material cannot be offloaded from this Conveyor system and will backup the rails\n------------------\nEnter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build Menu to build and connect a Conveyor Receptacle"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME
@@ -1370,7 +1380,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_TOOLTIP"
-msgid "The Printing Pod <color=#F44A47>[H]</color> is ready to print a new Duplicant.\nI'll need to select a DNA blueprint:"
+msgid "The Printing Pod <color=#F44A47><b>[H]</b></color> is ready to print a new Duplicant.\nI'll need to select a DNA blueprint:"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP
@@ -1575,7 +1585,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP"
-msgid "Docks must be placed beside an Exosuit Checkpoint, opposite the side its checkpoint faces"
+msgid "Docks must be placed beside a checkpoint, opposite the side the checkpoint faces"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME
@@ -1595,7 +1605,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINANYROOM.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINANYROOM.TOOLTIP"
-msgid "This building must be built inside a room for full functionality\n\nOpen the Room Overlay <color=#F44A47>[F11]</color> to view full room status"
+msgid "This building must be built inside a room for full functionality\n\nOpen the Room Overlay <color=#F44A47><b>[F11]</b></color> to view full room status"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.NAME
@@ -1605,7 +1615,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINRECOMMENDEDROOM.TOOLTIP"
-msgid "It is recommended to build this building inside a {0}\n\nOpen the Room Overlay <color=#F44A47>[F11]</color> to view full room status"
+msgid "It is recommended to build this building inside a {0}\n\nOpen the Room Overlay <color=#F44A47><b>[F11]</b></color> to view full room status"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.NAME
@@ -1615,7 +1625,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTINREQUIREDROOM.TOOLTIP"
-msgid "This building must be built inside a {0} for full functionality\n\nOpen the Room Overlay <color=#F44A47>[F11]</color> to view full room status"
+msgid "This building must be built inside a {0} for full functionality\n\nOpen the Room Overlay <color=#F44A47><b>[F11]</b></color> to view full room status"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
@@ -1995,17 +2005,17 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP"
-msgid "This Exosuit is docked and charging"
+msgid "This suit is docked and refueling"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME"
-msgid "Current Status: Full Charge"
+msgid "Current Status: Full Fuelled"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP"
-msgid "This Exosuit is fully charged and ready for use"
+msgid "This suit is fully refuelled and ready for use"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.NAME
@@ -2015,7 +2025,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP"
-msgid "Set this Dock to store an Exosuit or remain on Standby"
+msgid "Set this dock to store a suit or remain on Standby"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.NAME
@@ -2025,7 +2035,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.TOOLTIP"
-msgid "This Dock does not contain enough fuel to refill a suit"
+msgid "This dock does not contain enough fuel to refill a suit"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.NAME
@@ -2035,7 +2045,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.TOOLTIP"
-msgid "This Dock does not contain enough oxygen to refill a suit"
+msgid "This dock does not contain enough oxygen to refill a suit"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.NAME
@@ -2045,7 +2055,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.TOOLTIP"
-msgid "This Exosuit Dock requires power"
+msgid "This dock requires power"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.NAME
@@ -2055,7 +2065,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.TOOLTIP"
-msgid "This Dock is functional and ready to receive an Exosuit"
+msgid "This dock is ready to receive a suit"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.NAME
@@ -2065,7 +2075,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.TOOLTIP"
-msgid "Waiting for a Duplicant to deliver an Exosuit"
+msgid "Waiting for a Duplicant to deliver a suit"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.NAME
@@ -2075,7 +2085,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.TOOLTIP"
-msgid "Exosuit Dock settings not configured"
+msgid "Dock settings not configured"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.NAME
@@ -2085,7 +2095,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.TOOLTIP"
-msgid "Suited Duplicants may pass even if there is no room to store their suits\n------------------\nWhen Exosuit Docks are all full, Duplicants will unequip their suits and drop them on the floor"
+msgid "Suited Duplicants may pass even if there is no room to store their suits\n------------------\nWhen all available docks are full, Duplicants will unequip their suits and drop them on the floor"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.NAME
@@ -2095,7 +2105,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.TOOLTIP"
-msgid "Suited Duplicants may pass only if there is room in an Exosuit Dock to store their suit"
+msgid "Suited Duplicants may pass only if there is room in a dock to store their suit"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.NAME
@@ -2105,7 +2115,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.TOOLTIP"
-msgid "This building has been built on the wrong side of an Exosuit Checkpoint\n\nExosuit Docks must be placed beside a Checkpoint, opposite the side its checkpoint faces"
+msgid "This building has been built on the wrong side of a checkpoint\n\nDocks must be placed beside a checkpoint, opposite the side the checkpoint faces"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME
@@ -2700,7 +2710,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT"
-msgid "Allows Duplicants to play video games on their breaks.\n\nIncreases Duplicant Morale."
+msgid "Allows Duplicants to play video games on their breaks.\n\nIncreases Duplicant <link=\"MORALE\">Morale</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME
@@ -2730,7 +2740,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.EFFECT"
-msgid "Automatically <link=\"CHORES\">digs</link> out all materials in a set range."
+msgid "Automatically digs out all materials in a set range."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME
@@ -2900,7 +2910,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.EFFECT"
-msgid "Produces a searing <link=\"HEAT\">Heat Jet</link> using liquid <link=\"CRUDEOIL\">Crude Oil</link>."
+msgid "Produces a searing <link=\"HEAT\">Heat Jet</link> using <link=\"ELEMENTSLIQUID\">Liquid</link> <link=\"CRUDEOIL\">Crude Oil</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.NAME
@@ -2935,6 +2945,66 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.POORQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.POORQUALITYNAME"
+msgid "Crude Painting"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.AVERAGEQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.AVERAGEQUALITYNAME"
+msgid "Mediocre Painting"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.DESC"
+msgid "Once built, a Duplicant can paint a blank canvas to produce a decorative painting."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.EFFECT"
+msgid "Moderately increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be painted by a Duplicant."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.EXCELLENTQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.EXCELLENTQUALITYNAME"
+msgid "Masterpiece"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.NAME"
+msgid "<link=\"CANVASTALL\">Portrait Canvas</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.POORQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.POORQUALITYNAME"
+msgid "Crude Painting"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.AVERAGEQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.AVERAGEQUALITYNAME"
+msgid "Mediocre Painting"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.DESC"
+msgid "Once built, a Duplicant can paint a blank canvas to produce a decorative painting."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EFFECT"
+msgid "Moderately increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be painted by a Duplicant."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EXCELLENTQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EXCELLENTQUALITYNAME"
+msgid "Masterpiece"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.NAME"
+msgid "<link=\"CANVASWIDE\">Landscape Canvas</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.POORQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.POORQUALITYNAME"
 msgid "Crude Painting"
 msgstr ""
 
@@ -3085,7 +3155,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP"
-msgid "Awaiting a Plumber to clear this pipe"
+msgid "Awaiting a <link=\"PLUMBER\">Plumber</link> to clear this pipe"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC
@@ -3125,7 +3195,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT"
-msgid "Releases trapped critters back into the world.\n\nCan be used multiple times."
+msgid "Releases trapped <link=\"CRITTERS\">Critters</link> back into the world.\n\nCan be used multiple times."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME
@@ -3140,7 +3210,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT"
-msgid "Automatically dispenses food for hungry critters."
+msgid "Automatically dispenses food for hungry <link=\"CRITTERS\">Critters</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME
@@ -3155,12 +3225,27 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT"
-msgid "Captures a living critter for transport.\n\nSingle use."
+msgid "Captures a living <link=\"CRITTERS\">Critter</link> for transport.\n\nSingle use."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME"
 msgid "<link=\"CREATURETRAP\">Critter Trap</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.DESC"
+msgid "Crown moulding is used as purely decorative trim for ceilings."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.EFFECT"
+msgid "Used to decorate the ceilings of rooms.\n\nIncreases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.NAME"
+msgid "<link=\"CROWNMOULDING\">Crown Moulding</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC
@@ -3200,7 +3285,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.EFFECT"
-msgid "Directionally moves large volumes of liquid through a channel.\n\nCan be used as floor tile and rotated before construction."
+msgid "Directionally moves large volumes of <link=\"ELEMENTSLIQUID\">LIQUID</link> through a channel.\n\nCan be used as floor tile and rotated before construction."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.NAME
@@ -3270,7 +3355,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT"
-msgid "Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or <link=\"ELEMENTSGAS\">Gas</link> flow.\n\nSets Duplicant Access Permissions for area restriction.\n\nWild critters cannot pass through doors."
+msgid "Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or <link=\"ELEMENTSGAS\">Gas</link> flow.\n\nSets Duplicant Access Permissions for area restriction.\n\nWild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LEFT
@@ -3310,7 +3395,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT"
-msgid "Converts viable critter eggs into cooking ingredients.\n\nCracked Eggs cannot hatch.\n\nDuplicants will not crack eggs unless tasks are queued."
+msgid "Converts viable <link=\"CRITTERS\">Critter</link> eggs into cooking ingredients.\n\nCracked Eggs cannot hatch.\n\nDuplicants will not crack eggs unless tasks are queued."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME
@@ -3335,7 +3420,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT"
-msgid "Incubates critter eggs until ready to hatch.\n\nAssigned Duplicants must possess the <link=\"RANCHER\">Critter Wrangling</link> trait."
+msgid "Incubates <link=\"CRITTERS\">Critter</link> eggs until ready to hatch.\n\nAssigned Duplicants must possess the <link=\"RANCHER\">Critter Wrangling</link> trait."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.NAME
@@ -3365,7 +3450,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT"
-msgid "Provides refreshment for Duplicants on their breaks.\n\nIncreases Duplicant Morale."
+msgid "Provides refreshment for Duplicants on their breaks.\n\nIncreases Duplicant <link=\"MORALE\">Morale</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME
@@ -3380,7 +3465,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
-msgid "Prevents gas and liquid loss in space.\n\nBuilds an insulating backwall behind buildings."
+msgid "Prevents <link=\"ELEMENTSGAS\">Gas</link> and <link=\"ELEMENTSLIQUID\">Liquid</link> loss in space.\n\nBuilds an insulating backwall behind buildings."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME
@@ -3410,7 +3495,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
-msgid "Produces Micronutrient Fertilizer to increase <link=\"PLANTS\">Plant</link> growth rates.\n\nAssigned Duplicants must possess the <link=\"FARMER\">Crop Tending</link> trait.\n\nThis building is a necessary component of the Greenhouse room."
+msgid "Produces <link=\"FARMSTATIONTOOLS\">Micronutrient Fertilizer</link> to increase <link=\"PLANTS\">Plant</link> growth rates.\n\nAssigned Duplicants must possess the <link=\"FARMER\">Crop Tending</link> trait.\n\nThis building is a necessary component of the Greenhouse room."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME
@@ -3470,7 +3555,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT"
-msgid "Releases trapped fish back into the world.\n\nCan be used multiple times."
+msgid "Releases trapped <link=\"PACU\">Pacu</link> back into the world.\n\nCan be used multiple times."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.NAME
@@ -3485,7 +3570,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT"
-msgid "Automatically dispenses stored food into the area below.\n\nDispenses once per day."
+msgid "Automatically dispenses stored <link=\"CRITTERS\">Critter</link>food into the area below.\n\nDispenses once per day."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.NAME
@@ -3500,7 +3585,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT"
-msgid "Attracts and traps swimming fish.\n\nSingle use."
+msgid "Attracts and traps swimming <link=\"PACU\">Pacu</link>.\n\nSingle use."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.NAME
@@ -3550,12 +3635,57 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.EFFECT"
-msgid "Increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nHouses a single <link=\"PLANTS\">Plant</link> when sown with a <link=\"PLANTS\">Seed</link>."
+msgid "Houses a single <link=\"PLANTS\">Plant</link> when sown with a <link=\"PLANTS\">Seed</link>.\n\nIncreases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME"
 msgid "<link=\"FLOWERVASE\">Flower Pot</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.DESC"
+msgid "Hanging pots can add a bit of decor to a room, without interferring with buildings on the floor."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.EFFECT"
+msgid "Houses a single <link=\"PLANTS\">Plant</link> when sown with a <link=\"PLANTS\">Seed</link>.\n\nIncreases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be hung from a ceiling."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.NAME"
+msgid "<link=\"FLOWERVASEHANGING\">Hanging Pot</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.DESC"
+msgid "Aero pots can be hung from the ceiling and have extremely high decor values."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.EFFECT"
+msgid "Houses a single <link=\"PLANTS\">Plant</link> when sown with a <link=\"PLANTS\">Seed</link>.\n\nIncreases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be hung from a ceiling."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.NAME"
+msgid "<link=\"FLOWERVASEHANGINGFANCY\">Aero Pot</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.DESC"
+msgid "Placing a plant in a wall pot can add a spot of decor to otherwise bare walls."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.EFFECT"
+msgid "Houses a single <link=\"PLANTS\">Plant</link> when sown with a <link=\"PLANTS\">Seed</link>.\n\nIncreases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be hung from a wall."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME"
+msgid "<link=\"FLOWERVASEWALL\">Wall Pot</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC
@@ -3675,7 +3805,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
-msgid "Becomes <link=\"LOGIC\">Active</link> when the chosen <link=\"ELEMENTSLIQUID\">Gas</link> is detected."
+msgid "Becomes <link=\"LOGIC\">Active</link> when the chosen <link=\"ELEMENTSGAS\">Gas</link> is detected."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_DESC
@@ -3800,7 +3930,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.EFFECT"
-msgid "Draws in a small amount of <link=\"ELEMENTSGAS\">Gas</link> runs it through <link=\"GASPIPING\">Pipes</link>.\n\nMust be immersed in gas."
+msgid "Draws in a small amount of <link=\"ELEMENTSGAS\">Gas</link> runs it through <link=\"GASPIPING\">Pipes</link>.\n\nMust be immersed in <link=\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.NAME
@@ -3830,7 +3960,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT"
-msgid "Draws in <link=\"ELEMENTSGAS\">Gas</link> runs it through <link=\"GASPIPING\">Pipes</link>.\n\nMust be immersed in gas."
+msgid "Draws in <link=\"ELEMENTSGAS\">Gas</link> runs it through <link=\"GASPIPING\">Pipes</link>.\n\nMust be immersed in <link=\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.NAME
@@ -3905,7 +4035,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT"
-msgid "Converts <link=\"CARBON\">Carbon</link> into electrical <link=\"POWER\">Power</link>.\n\nProduces <link=\"CARBON DIOXIDE\">Carbon Dioxide</link>."
+msgid "Converts <link=\"CARBON\">Carbon</link> into electrical <link=\"POWER\">Power</link>.\n\nProduces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.NAME
@@ -3985,7 +4115,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.EFFECT"
-msgid "Provides a resting place for deceased Duplicants.\n\nLiving Duplicants will automatically place an unburied corpse inside."
+msgid "Provides a final resting place for deceased Duplicants.\n\nLiving Duplicants will automatically place an unburied corpse inside."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.NAME
@@ -4035,7 +4165,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.EFFECT"
-msgid "Carries more <link=\"POWER\">Wattage</link> than regular Wire without overloading.\n\nCan be run through wall and floor tile."
+msgid "Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE\">Wire</link> without overloading.\n\nCan be run through wall and floor tile."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME
@@ -4080,7 +4210,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.EFFECT"
-msgid "Grows one <link=\"PLANTS\">Plant</link> from a <link=\"PLANTS\">Seed</link>.\n\nCan be used as floor tile and rotated before construction.\n\nMust be irrigated through liquid piping."
+msgid "Grows one <link=\"PLANTS\">Plant</link> from a <link=\"PLANTS\">Seed</link>.\n\nCan be used as floor tile and rotated before construction.\n\nMust be irrigated through <link=\"LIQUIDPIPING\">Liquid Piping</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.NAME
@@ -4095,12 +4225,12 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC"
-msgid "Ice sculptures will melt over time if not kept sufficiently chilled."
+msgid "Prone to melting."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EFFECT"
-msgid "Increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
+msgid "Majorly increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.NAME
@@ -4185,7 +4315,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.EFFECT"
-msgid "Displays any single object, doubling its <link=\"DECOR\">Decor</link> value.\n\nObjects with negative decor will gain some positive decor when displayed."
+msgid "Displays a single object, doubling its <link=\"DECOR\">Decor</link> value.\n\nObjects with negative decor will gain some positive decor when displayed."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.NAME
@@ -4200,7 +4330,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT"
-msgid "Stores and refuels <link=\"JETSUIT\">Jet Suits</link> with <link=\"OXYGEN\">Oxygen</link> and <link=\"PETROLEUM\">Petroleum</link>.\n\nBuild next to a Jet Suit Checkpoint to make Duplicants change into suits when passing by."
+msgid "Stores and refuels <link=\"JETSUIT\">Jet Suits</link> with <link=\"OXYGEN\">Oxygen</link> and <link=\"PETROLEUM\">Petroleum</link>.\n\nBuild next to a <link=\"JETSUITMARKER\">Jet Suit Checkpoint</link> to make Duplicants change into suits when passing by."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.NAME
@@ -4215,7 +4345,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT"
-msgid "Marks a threshold where Duplicants must change into or out of <link=\"JETSUIT\">Jet Suits</link>.\n\nMust be built next to a Jet Suit Dock.\n\nCan be rotated before construction."
+msgid "Marks a threshold where Duplicants must change into or out of <link=\"JETSUIT\">Jet Suits</link>.\n\nMust be built next to a <link=\"JETSUITLOCKER\">Jet Suit Dock</link>\n\nCan be rotated before construction."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.NAME
@@ -4530,7 +4660,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDMINIPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDMINIPUMP.EFFECT"
-msgid "Draws in a small amount of <link=\"ELEMENTSLIQUID\">Liquid</link> and runs it through <link=\"LIQUIDPIPING\">Pipes</link>.\n\nMust be submerged in liquid."
+msgid "Draws in a small amount of <link=\"ELEMENTSLIQUID\">Liquid</link> and runs it through <link=\"LIQUIDPIPING\">Pipes</link>.\n\nMust be submerged in <link=\"ELEMENTSLIQUID\">Liquid</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDMINIPUMP.NAME
@@ -4545,7 +4675,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.EFFECT"
-msgid "Draws in <link=\"ELEMENTSLIQUID\">Liquid</link> and runs it through <link=\"LIQUIDPIPING\">Pipes</link>.\n\nMust be submerged in liquid."
+msgid "Draws in <link=\"ELEMENTSLIQUID\">Liquid</link> and runs it through <link=\"LIQUIDPIPING\">Pipes</link>.\n\nMust be submerged in <link=\"ELEMENTSLIQUID\">Liquid</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.NAME
@@ -4560,7 +4690,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMPINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMPINGSTATION.EFFECT"
-msgid "Manually pumps <link=\"ELEMENTSLIQUID\">Liquid</link> into bottles for transport.\n\nDuplicants can only carry bottled liquids."
+msgid "Manually pumps <link=\"ELEMENTSLIQUID\">Liquid</link> into bottles for transport.\n\nDuplicants can only carry liquids that are bottled."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMPINGSTATION.NAME
@@ -4840,7 +4970,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT"
-msgid "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> when Gas Pressure enters the chosen range."
+msgid "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</link> when <link=\"ELEMENTSGAS\">Gas</link> pressure enters the chosen range."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_DESC
@@ -4980,7 +5110,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MACHINESHOP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MACHINESHOP.EFFECT"
-msgid "Allows the assigned Engineer to improve building production efficiency.\n\nThis building is a necessary component of the Machine Shop room."
+msgid "Allows the assigned <link=\"MACHINETECHNICIAN\">Engineer</link> to improve building production efficiency.\n\nThis building is a necessary component of the Machine Shop room."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MACHINESHOP.NAME
@@ -5010,12 +5140,37 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.EFFECT"
-msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nSets Duplicant Access Permissions for area restriction.\n\nWild critters cannot pass through doors."
+msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nSets Duplicant Access Permissions for area restriction.\n\nWild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.NAME"
 msgid "<link=\"MANUALPRESSUREDOOR\">Manual Airlock</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME"
+msgid "Genius Marble Sculpture"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.DESC"
+msgid "Duplicants with high art skill will produce better, more decorative sculptures."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.EFFECT"
+msgid "Majorly increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.NAME"
+msgid "<link=\"MARBLESCULPTURE\">Marble Block</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.POORQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.POORQUALITYNAME"
+msgid "\"Abstract\" Marble Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.ACTIVATE_TOOLTIP
@@ -5123,6 +5278,31 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.METALREFINERY.RECIPE_DESCRIPTION"
 msgid "Extracts pure {0} from {1}."
 msgstr ""
 
+#. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME"
+msgid "Genius Metal Sculpture"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.DESC"
+msgid "Duplicants with high art skill will produce better, more decorative sculptures."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.EFFECT"
+msgid "Majorly increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.NAME"
+msgid "<link=\"METALSCULPTURE\">Metal Block</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.POORQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.POORQUALITYNAME"
+msgid "\"Abstract\" Metal Sculpture"
+msgstr ""
+
 #. STRINGS.BUILDINGS.PREFABS.METALTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALTILE.DESC"
 msgid "Heat travels much more quickly through metal tile than other types of flooring."
@@ -5185,17 +5365,17 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MOULDINGTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MOULDINGTILE.DESC"
-msgid "Crown Moulding Desc"
+msgid "Trimming is used as purely decorative lining for walls and structures."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MOULDINGTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MOULDINGTILE.EFFECT"
-msgid "Crown Moulding Effect"
+msgid "Used to build the walls and floors of rooms.\n\nIncreases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MOULDINGTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MOULDINGTILE.NAME"
-msgid "<link=\"MOUDLINGTILE\">Crown Moulding Tile</link>"
+msgid "<link=\"MOUDLINGTILE\">Trimming Tile</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.OILREFINERY.DESC
@@ -5220,7 +5400,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.OILWELLCAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OILWELLCAP.EFFECT"
-msgid "Extracts <link=\"CRUDEOIL\">Crude Oil</link> using clean <link=\"WATER\">Water</link>.\n\nMust be built atop an Oil Reservoir."
+msgid "Extracts <link=\"CRUDEOIL\">Crude Oil</link> using clean <link=\"WATER\">Water</link>.\n\nMust be built atop an <link=\"OILWELL\">Oil Reservoir</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.OILWELLCAP.NAME
@@ -5325,7 +5505,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT"
-msgid "Plays music for Duplicants to dance to on their breaks.\n\nIncreases Duplicant Morale."
+msgid "Plays music for Duplicants to dance to on their breaks.\n\nIncreases Duplicant <link=\"MORALE\">Morale</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME
@@ -5430,7 +5610,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT"
-msgid "Produces Microchip to increase the <link=\"POWER\">Power</link> output of generators.\n\nAssigned Duplicants must possess the <link=\"POWERTECHNICIAN\">Tune Up</link> trait.\n\nThis building is a necessary component of the Power Plant room."
+msgid "Produces <link=\"POWERSTATIONTOOLS\">Microchip</link> to increase the <link=\"POWER\">Power</link> output of generators.\n\nAssigned Duplicants must possess the <link=\"POWERTECHNICIAN\">Tune Up</link> trait.\n\nThis building is a necessary component of the Power Plant room."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME
@@ -5475,7 +5655,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.EFFECT"
-msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nSets Duplicant Access Permissions for area restriction.\n\nFunctions as a Manual Airlock when no <link=\"POWER\">Power</link> is available."
+msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nSets Duplicant Access Permissions for area restriction.\n\nFunctions as a <link=\"MANUALPRESSUREDOOR\">Manual Airlock</link> when no <link=\"POWER\">Power</link> is available."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.NAME
@@ -5490,7 +5670,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT"
-msgid "Automatically turns <link=\"POWER\">Power</link> on or off using ambient <link=\"PRESSURE\">Gas Pressure</link>.\n\nDoes not affect circuitry preceding the switch."
+msgid "Automatically turns <link=\"POWER\">Power</link> on or off using ambient <link=\"PRESSURE\">Gas</link> pressure.\n\nDoes not affect circuitry preceding the switch."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.NAME
@@ -5770,7 +5950,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.EFFECT"
-msgid "Allows the assigned Rancher to care for critters.\n\nAssigned Duplicants must possess the <link=\"RANCHER\">Critter Wrangling</link> trait.\n\nThis building is a necessary component of the Stable room."
+msgid "Allows the assigned <link=\"RANCHER\">Rancher</link> to care for <link=\"CRITTERS\">Critters</link>.\n\nAssigned Duplicants must possess the <link=\"RANCHER\">Critter Wrangling</link> trait.\n\nThis building is a necessary component of the Stable room."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.NAME
@@ -5905,12 +6085,12 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.EFFECT"
-msgid "Increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
+msgid "Moderately increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.NAME"
-msgid "<link=\"SCULPTURE\">Sculpting Block</link>"
+msgid "<link=\"SCULPTURE\">Large Sculpting Block</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.POORQUALITYNAME
@@ -5930,7 +6110,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.DESC"
-msgid "Shearing stations allow Dreckos to be safely sheared for useful raw materials."
+msgid "Shearing stations allow <link=\"DRECKO\">Dreckos</link> to be safely sheared for useful raw materials."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.EFFECT
@@ -5958,6 +6138,31 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SHOWER.NAME"
 msgid "<link=\"SHOWER\">Shower</link>"
 msgstr ""
 
+#. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC"
+msgid "Duplicants with high art skill will produce better, more decorative sculptures."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.EFFECT"
+msgid "Minorly increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.EXCELLENTQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.EXCELLENTQUALITYNAME"
+msgid "Genius Sculpture"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.NAME"
+msgid "<link=\"SMALLSCULPTURE\">Sculpting Block</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.POORQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.POORQUALITYNAME"
+msgid "\"Abstract\" Sculpture"
+msgstr ""
+
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANEL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANEL.DESC"
 msgid "Solar panels convert high intensity Sunlight into usable power."
@@ -5965,7 +6170,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANEL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANEL.EFFECT"
-msgid "Converts Sunlight into electrical <link=\"POWER\">Power</link>.\n\nMust be exposed to space."
+msgid "Converts <link=\"LIGHT\">Sunlight</link> into electrical <link=\"POWER\">Power</link>.\n\nMust be exposed to space."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANEL.NAME
@@ -6160,7 +6365,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT"
-msgid "Forges protective <link=\"JETSUIT\">Jet Suits</link> for Duplicants to wear.\n\nDuplicants will not fabricate items unless recipes are queued."
+msgid "Forges protective <link=\"EXOSUIT\">Exosuits</link> for Duplicants to wear.\n\nDuplicants will not fabricate items unless recipes are queued."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.NAME
@@ -6170,32 +6375,32 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.DESC"
-msgid "Docks can refill exosuits with air or empty them of waste, but can only charge one suit at a time."
+msgid "Docks can refill atmo suits with air or empty them of waste, but can only charge one suit at a time."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT"
-msgid "Stores and recharges <link=\"ATMOSUIT\">Atmo Suits</link>.\n\nBuild next to an Exosuit Checkpoint to make Duplicants change into suits when passing by."
+msgid "Stores and recharges <link=\"ATMOSUIT\">Atmo Suits</link>.\n\nBuild next to an <link=\"SUITMARKER\">Atmo Suit Checkpoint</link> to make Duplicants change into suits when passing by."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.NAME"
-msgid "<link=\"SUITLOCKER\">Exosuit Dock</link>"
+msgid "<link=\"SUITLOCKER\">Atmo Suit Dock</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUITMARKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITMARKER.DESC"
-msgid "A checkpoint must have an exosuit dock built on the opposite side its arrow faces."
+msgid "A checkpoint must have an atmo suit dock built on the opposite side its arrow faces."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUITMARKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITMARKER.EFFECT"
-msgid "Marks a threshold where Duplicants must change into or out of <link=\"ATMOSUIT\">Atmo Suits</link>.\n\nMust be built next to an Exosuit Dock.\n\nCan be rotated before construction."
+msgid "Marks a threshold where Duplicants must change into or out of <link=\"ATMOSUIT\">Atmo Suits</link>.\n\nMust be built next to an <link=\"SUITLOCKER\">Atmo Suit Dock</link>.\n\nCan be rotated before construction."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUITMARKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITMARKER.NAME"
-msgid "<link=\"SUITMARKER\">Exosuit Checkpoint</link>"
+msgid "<link=\"SUITMARKER\">Atmo Suit Checkpoint</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.DESC
@@ -6400,7 +6605,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.VENDINGMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.VENDINGMACHINE.DESC"
-msgid "A pristine <link=\"FIELDRATION\">Nutrient Bar</link> dispenser."
+msgid "A pristine <link=\"FIELDRATION\">Field Ration</link> dispenser."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.VENDINGMACHINE.NAME
@@ -6445,7 +6650,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WATERCOOLER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.EFFECT"
-msgid "Provides a gathering place for Duplicants during Downtime.\n\nImproves Duplicant Morale."
+msgid "Provides a gathering place for Duplicants during Downtime.\n\nImproves Duplicant <link=\"MORALE\">Morale</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WATERCOOLER.NAME
@@ -6505,7 +6710,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.EFFECT"
-msgid "Allows Heavi-Watt Wire to be run through wall and floor tile.\n\nFunctions as regular tile."
+msgid "Allows <link=\"HIGHWATTAGEWIRE\">Heavi-Watt Wire</link> to be run through wall and floor tile.\n\nFunctions as regular tile."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.NAME
@@ -6535,7 +6740,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.EFFECT"
-msgid "Carries more <link=\"POWER\">Wattage</link> than a regular Wire Bridge without overloading.\n\nRuns one wire section over another without joining them.\n\nCan be run through wall and floor tile."
+msgid "Carries more <link=\"POWER\">Wattage</link> than a regular <link=\"WIREBRIDGE\">Wire Bridge</link> without overloading.\n\nRuns one wire section over another without joining them.\n\nCan be run through wall and floor tile."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.NAME
@@ -6550,7 +6755,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT"
-msgid "Carries more <link=\"POWER\">Wattage</link> than a regular Heavi-Watt Joint Plate without overloading.\n\nAllows Heavi-Watt Wire to be run through wall and floor tile.\n\nCan be run through wall and floor tile."
+msgid "Carries more <link=\"POWER\">Wattage</link> than a regular <link=\"WIREBRIDGEHIGHWATTAGE\">Heavi-Watt Joint Plate</link> without overloading.\n\nAllows <link=\"HIGHWATTAGEWIRE\">Heavi-Watt Wire</link> to be run through wall and floor tile.\n\nCan be run through wall and floor tile."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.NAME
@@ -6565,7 +6770,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.EFFECT"
-msgid "Carries more <link=\"POWER\">Wattage</link> than regular Wire without overloading.\n\nCan be run through wall and floor tile."
+msgid "Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE\">WIRE</link> without overloading.\n\nCan be run through wall and floor tile."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.NAME
@@ -6998,6 +7203,21 @@ msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.TITLE"
 msgid "Bristle Blossom"
 msgstr ""
 
+#. STRINGS.CODEX.BUDDYBUD.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.BUDDYBUD.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.BUDDYBUD.SUBTITLE
+msgctxt "STRINGS.CODEX.BUDDYBUD.SUBTITLE"
+msgid "Decorative Plant"
+msgstr ""
+
+#. STRINGS.CODEX.BUDDYBUD.TITLE
+msgctxt "STRINGS.CODEX.BUDDYBUD.TITLE"
+msgid "Buddy Bud"
+msgstr ""
+
 #. STRINGS.CODEX.CASUALFRIDAY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.CASUALFRIDAY.BODY.CONTAINER1"
 msgid "<smallcaps><b>Casual Friday!</b>\nFrom: <b>Admin</b> <alpha=#AA><admin@gravitas.nova></color>\nTo: <b>All</b></smallcaps>\n------------------\n\n<indent=5%>To all employees;\n\nThe facility is pleased to announced that starting this week, all Fridays will now be Casual Fridays!\n\nPlease enjoy the clinically proven de-stressing benefits of casual attire by wearing your favorite shirt to the lab.\n\n<b>NOTE: Any personnel found on facility premises without regulation full body protection will be put on immediate notice.</b>\n\nThank-you and have fun!\n\n-Admin\nThe Gravitas Facility</indent>"
@@ -7285,7 +7505,7 @@ msgstr ""
 
 #. STRINGS.CODEX.GASGRASS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GASGRASS.BODY.CONTAINER1"
-msgid "Much remains a mystery about the biology of Gas Grass, a plant-like lifeform only recently recovered from missions into outer space.\n\nHowever, it appears to use ambient radiation from space as an energy source, outputting pure chlorine gas as a byproduct."
+msgid "Much remains a mystery about the biology of Gas Grass, a plant-like lifeform only recently recovered from missions into outer space.\n\nHowever, it appears to use ambient radiation from space as an energy source, growing rapidly when given a suitable <link=\"CHLORINE\">Chlorine</link>-laden environment."
 msgstr ""
 
 #. STRINGS.CODEX.GASGRASS.BODY.CONTAINER2
@@ -7633,6 +7853,21 @@ msgctxt "STRINGS.CODEX.HUSBANDRYNOTES.TITLE"
 msgid "Husbandry Notes"
 msgstr ""
 
+#. STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.JUMPINGJOYA.SUBTITLE
+msgctxt "STRINGS.CODEX.JUMPINGJOYA.SUBTITLE"
+msgid "Decorative Plant"
+msgstr ""
+
+#. STRINGS.CODEX.JUMPINGJOYA.TITLE
+msgctxt "STRINGS.CODEX.JUMPINGJOYA.TITLE"
+msgid "Jumping Joya"
+msgstr ""
+
 #. STRINGS.CODEX.LOCKS.NEURALVACILLATOR
 msgctxt "STRINGS.CODEX.LOCKS.NEURALVACILLATOR"
 msgid "Neural Vacillator"
@@ -7736,6 +7971,21 @@ msgstr ""
 #. STRINGS.CODEX.MEMORYIMPLANTATION.TITLE
 msgctxt "STRINGS.CODEX.MEMORYIMPLANTATION.TITLE"
 msgid "Memory Dysfunction Log"
+msgstr ""
+
+#. STRINGS.CODEX.MIRTHLEAF.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.MIRTHLEAF.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.MIRTHLEAF.SUBTITLE
+msgctxt "STRINGS.CODEX.MIRTHLEAF.SUBTITLE"
+msgid "Decorative Plant"
+msgstr ""
+
+#. STRINGS.CODEX.MIRTHLEAF.TITLE
+msgctxt "STRINGS.CODEX.MIRTHLEAF.TITLE"
+msgid "Mirth Leaf"
 msgstr ""
 
 #. STRINGS.CODEX.MOLE.BODY.CONTAINER1
@@ -8001,6 +8251,21 @@ msgstr ""
 #. STRINGS.CODEX.NEWSECURITY3.TITLE
 msgctxt "STRINGS.CODEX.NEWSECURITY3.TITLE"
 msgid "They Stole Our DNA"
+msgstr ""
+
+#. STRINGS.CODEX.NOTETOJODI.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.NOTETOJODI.BODY.CONTAINER1"
+msgid "Jodi,\n\nIf you read this... I'm sorry.\nIt was cruel, but it was the only way to save you.\n\nJackie"
+msgstr ""
+
+#. STRINGS.CODEX.NOTETOJODI.SUBTITLE
+msgctxt "STRINGS.CODEX.NOTETOJODI.SUBTITLE"
+msgid "ENCRYPTION LEVEL: NONE"
+msgstr ""
+
+#. STRINGS.CODEX.NOTETOJODI.TITLE
+msgctxt "STRINGS.CODEX.NOTETOJODI.TITLE"
+msgid "Strange Note"
 msgstr ""
 
 #. STRINGS.CODEX.PACU.BODY.CONTAINER1
@@ -8335,7 +8600,7 @@ msgstr ""
 
 #. STRINGS.CODEX.REVISITEDNUMBERS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.REVISITEDNUMBERS.BODY.CONTAINER1"
-msgid "[VOICE RECOGNITION INITIALIZED]\n[SUBJECTS IDENTIFIED: A001, B111]\n\n[LOG BEGINS]\n\nDirector: Unacceptable.\n\nJones: I'm just telling you the numbers, Director, I'm not responsible for them.\n\nDirector: In your earlier e-mail you claimed the issue would be solved by the Pod.\n\nJones: Yeah, the weight issue. And it was solved. The problem now is the insane amount of power that big thing eats every time it prints a colonist.\n\nDirector: So how do you suppose we meet these target numbers? Fossil fuels are exhausted, nuclear is outlawed, solar is next to impossible with this smog.\n\nJones: I dunno. That's why you've got researchers, I just crunch numbers. Although you should avoid fossil fuels and nuclear energy anyway. If you have to load the rocket up with a couple tons of fuel then we're back to square one on the weight problem. It's gotta be something clever.\n\nDirector: Thank you, Dr. Jones. You may go.\n\n[LOG ENDS]"
+msgid "[VOICE RECOGNITION INITIALIZED]\n[SUBJECTS IDENTIFIED: A001, A435]\n\n[LOG BEGINS]\n\nDirector: Unacceptable.\n\nJones: I'm just telling you the numbers, Director, I'm not responsible for them.\n\nDirector: In your earlier e-mail you claimed the issue would be solved by the Pod.\n\nJones: Yeah, the weight issue. And it was solved. The problem now is the insane amount of power that big thing eats every time it prints a colonist.\n\nDirector: So how do you suppose we meet these target numbers? Fossil fuels are exhausted, nuclear is outlawed, solar is next to impossible with this smog.\n\nJones: I dunno. That's why you've got researchers, I just crunch numbers. Although you should avoid fossil fuels and nuclear energy anyway. If you have to load the rocket up with a couple tons of fuel then we're back to square one on the weight problem. It's gotta be something clever.\n\nDirector: Thank you, Dr. Jones. You may go.\n\n[LOG ENDS]"
 msgstr ""
 
 #. STRINGS.CODEX.REVISITEDNUMBERS.SUBTITLE
@@ -9143,6 +9408,56 @@ msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.NAME"
 msgid "<link=\"BASICSINGLEHARVESTPLANT\">Mealwood</link>"
 msgstr ""
 
+#. STRINGS.CREATURES.SPECIES.BULBPLANT.DESC
+msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.DESC"
+msgid "Buddy Buds are leafy plants that have a positive effect on <link=\"MORALE\">Morale</link>, much like a friend."
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.BULBPLANT.DOMESTICATEDDESC
+msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.DOMESTICATEDDESC"
+msgid "This plant improves <link=\"DECOR\">Decor</link>."
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.BULBPLANT.GROWTH_BONUS
+msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.GROWTH_BONUS"
+msgid "Growth Bonus"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.BULBPLANT.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.NAME"
+msgid "<link=\"POTTEDBULB\">Buddy Bud</link>"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.BULBPLANT.WILT_PENALTY
+msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.WILT_PENALTY"
+msgid "Wilt Penalty"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.CACTUSPLANT.DESC
+msgctxt "STRINGS.CREATURES.SPECIES.CACTUSPLANT.DESC"
+msgid "Joyas are <link=\"DECOR\">Decorative</link> <link=\"PLANTS\">Plants</link> that are colloquially said to make gardeners \"jump for joy\"."
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.CACTUSPLANT.DOMESTICATEDDESC
+msgctxt "STRINGS.CREATURES.SPECIES.CACTUSPLANT.DOMESTICATEDDESC"
+msgid "This plant improves <link=\"DECOR\">Decor</link>."
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.CACTUSPLANT.GROWTH_BONUS
+msgctxt "STRINGS.CREATURES.SPECIES.CACTUSPLANT.GROWTH_BONUS"
+msgid "Growth Bonus"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.CACTUSPLANT.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.CACTUSPLANT.NAME"
+msgid "<link=\"POTTEDCACTUS\">Jumping Joya</link>"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.CACTUSPLANT.WILT_PENALTY
+msgctxt "STRINGS.CREATURES.SPECIES.CACTUSPLANT.WILT_PENALTY"
+msgid "Wilt Penalty"
+msgstr ""
+
 #. STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with <link=\"CHLORINEGAS\">Chlorine</link>."
@@ -9240,7 +9555,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.GASGRASS.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.DOMESTICATEDDESC"
-msgid "An alien grass variety that is eaten by Space Cows"
+msgid "An alien grass variety that is eaten by <link=\"MOO\">Gassy Moos</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.GASGRASS.NAME
@@ -9596,6 +9911,31 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.NAME"
 msgid "<link=\"JUNGLEGASPLANT\">Palmera Tree</link>"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.LEAFYPLANT.DESC
+msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.DESC"
+msgid "Mirth Leaves sport a calm green hue known for alleviating <link=\"STRESS\">Stress</link> and improving <link=\"MORALE\">Morale</link>."
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.LEAFYPLANT.DOMESTICATEDDESC
+msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.DOMESTICATEDDESC"
+msgid "This plant improves <link=\"DECOR\">Decor</link>."
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.LEAFYPLANT.GROWTH_BONUS
+msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.GROWTH_BONUS"
+msgid "Growth Bonus"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.LEAFYPLANT.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.NAME"
+msgid "<link=\"POTTEDLEAFY\">Mirth Leaf</link>"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.LEAFYPLANT.WILT_PENALTY
+msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.WILT_PENALTY"
+msgid "Wilt Penalty"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.DESC
@@ -10193,6 +10533,26 @@ msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.NAME"
 msgid "<link=\"BASICSINGLEHARVESTPLANT\">Mealwood Seed</link>"
 msgstr ""
 
+#. STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.DESC
+msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.DESC"
+msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"BULBPLANT\">Buddy Bud</link>.\n\nDigging up Buried Objects may uncover a Buddy Bud Seed."
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.NAME"
+msgid "<link=\"BULBPLANT\">Buddy Bud Seed</link>"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.DESC
+msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.DESC"
+msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"CACTUSPLANT\">Jumping Joya</link>.\n\nDigging up Buried Objects may uncover a Joy Seed."
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.NAME"
+msgid "<link=\"CACTUSPLANT\">Joya Seed</link>"
+msgstr ""
+
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"COLDBREATHER\">Wheezewort</link>.\n\nDigging up Buried Objects may uncover a Wort Seed."
@@ -10221,6 +10581,16 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.NAME"
 msgid "<link=\"GASGRASS\">Gas Grass Seed</link>"
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.DESC
+msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.DESC"
+msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"LEAFYPLANT\">Mirth Leaf</link>.\n\nDigging up Buried Objects may uncover a Mirth Leaf Seed."
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.NAME"
+msgid "<link=\"LEAFYPLANT\">Mirth Leaf Seed</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC
@@ -15480,7 +15850,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_VITAMINSUPPLEMENT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_VITAMINSUPPLEMENT.TOOLTIP"
-msgid "A health Supplement for improving <link=\"IMMUNE SYSTEM\">Immune System</link> strength."
+msgid "A health Supplement for improving <link=\"DISEASE\">Immune System</link> strength."
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.METABOLISM_CALORIE_MODIFIER.NAME
@@ -16943,6 +17313,16 @@ msgctxt "STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.NAME"
 msgid "<link=\"MACHINETECHNICIAN\">General Engineer</link>"
 msgstr ""
 
+#. STRINGS.DUPLICANTS.ROLES.MASTER_ARTIST.DESCRIPTION
+msgctxt "STRINGS.DUPLICANTS.ROLES.MASTER_ARTIST.DESCRIPTION"
+msgid "Becoming a master artist will vastly improve a Duplicant's creative abilities."
+msgstr ""
+
+#. STRINGS.DUPLICANTS.ROLES.MASTER_ARTIST.NAME
+msgctxt "STRINGS.DUPLICANTS.ROLES.MASTER_ARTIST.NAME"
+msgid "<link=\"MASTERARTIST\">Master Artist</link>"
+msgstr ""
+
 #. STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.DESCRIPTION"
 msgid "Promotion to the Courier position further increases a Duplicant's\nstrength and carrying capacity for even swifter deliveries."
@@ -17145,7 +17525,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP"
-msgid "Duplicants become stressed in areas with decor lower than their expectations\nOpen the Decor Overlay <color=#F44A47>[F8]</color> to view current decor values"
+msgid "Duplicants become stressed in areas with decor lower than their expectations\nOpen the Decor Overlay <color=#F44A47><b>[F8]</b></color> to view current decor values"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_TODAY
@@ -17945,7 +18325,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME"
-msgid "Exiting <link=\"ATMOSUIT\">Atmo Suit</link> area"
+msgid "Exiting <link=\"EXOSUIT\">Exosuit</link> area"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP
@@ -18070,7 +18450,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.TOOLTIP"
-msgid "This Duplicant does not have a Job Assignment\n------------------\nEnter the Jobs Panel <color=#F44A47>[J]</color> to view all available Jobs"
+msgid "This Duplicant does not have a Job Assignment\n------------------\nEnter the Jobs Panel <color=#F44A47><b>[J]</b></color> to view all available Jobs"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NAME
@@ -19465,7 +19845,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.ALGAE.DESC
 msgctxt "STRINGS.ELEMENTS.ALGAE.DESC"
-msgid "Algae is a cluster of non-motile, single-celled lifeforms.\n\nIt can be used to produce <link=\"OXYGEN\">Oxygen</link> when grown in Algae Terrariums."
+msgid "Algae is a cluster of non-motile, single-celled lifeforms.\n\nIt can be used to produce <link=\"OXYGEN\">Oxygen</link> when used in <link=\"MINERALOXIDIZER\">Oxygen Diffusers</link>."
 msgstr ""
 
 #. STRINGS.ELEMENTS.ALGAE.NAME
@@ -19630,7 +20010,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.COPPER.DESC
 msgctxt "STRINGS.ELEMENTS.COPPER.DESC"
-msgid "(Cu) Copper is a conductive <link=\"RAWMETAL\">Metal</link>.\n\nIt is suitable for building <link=\"POWER\">Power</link> systems."
+msgid "(Cu) Copper is a conductive <link=\"METAL\">Metal</link>.\n\nIt is suitable for building <link=\"POWER\">Power</link> systems."
 msgstr ""
 
 #. STRINGS.ELEMENTS.COPPER.NAME
@@ -19640,7 +20020,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.COPPERGAS.DESC
 msgctxt "STRINGS.ELEMENTS.COPPERGAS.DESC"
-msgid "(Cu) Copper is a conductive <link=\"RAWMETAL\">Metal</link> heated into a <link=\"ELEMENTSGAS\">Gas</link>."
+msgid "(Cu) Copper is a conductive <link=\"METAL\">Metal</link> heated into a <link=\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
 
 #. STRINGS.ELEMENTS.COPPERGAS.NAME
@@ -20925,7 +21305,7 @@ msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT"
-msgid "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in underwater environments.\n\nMust be refilled with <link=\"OXYGEN\">Oxygen</link> at an Exosuit Dock when depleted."
+msgid "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in underwater environments.\n\nMust be refilled with <link=\"OXYGEN\">Oxygen</link> at an Atmo Suit Dock when depleted."
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.NAME
@@ -20940,12 +21320,12 @@ msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC"
-msgid "Make sure your Duplicants can breathe easy, anytime, anywhere."
+msgid "Ensures my Duplicants can breathe easy, anytime, anywhere."
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT"
-msgid "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and low breathability environments.\n\nMust be refilled with oxygen at an Exosuit Dock when depleted."
+msgid "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and low breathability environments.\n\nMust be refilled with oxygen at an Atmo Suit Dock when depleted."
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.GENERICNAME
@@ -20990,7 +21370,7 @@ msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC"
-msgid "Turn your Duplicant into a walking beacon of charm and style."
+msgid "This transforms my Duplicant into a walking beacon of charm and style."
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.EFFECT
@@ -21015,7 +21395,7 @@ msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.DESC"
-msgid "Allow your Duplicants to take to the skies, for a time."
+msgid "Allows my Duplicants to take to the skies, for a time."
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.EFFECT
@@ -21095,12 +21475,12 @@ msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.DESC"
-msgid "Keep your Duplicants cool in case things heat up."
+msgid "Keeps my Duplicants cool in case things heat up."
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT"
-msgid "Provides insulation in regions with extreme <style=\"heat\">Temperatures</style>.\n\nMust be powered at an Exosuit Dock when depleted."
+msgid "Provides insulation in regions with extreme <style=\"heat\">Temperatures</style>.\n\nMust be powered at a Thermo Suit Dock when depleted."
 msgstr ""
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.NAME
@@ -21863,6 +22243,11 @@ msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CLEAR"
 msgid "Clear"
 msgstr ""
 
+#. STRINGS.INPUT_BINDINGS.ROOT.COPYBUILDING
+msgctxt "STRINGS.INPUT_BINDINGS.ROOT.COPYBUILDING"
+msgid "CopyBuilding"
+msgstr ""
+
 #. STRINGS.INPUT_BINDINGS.ROOT.CYCLESPEED
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CYCLESPEED"
 msgid "CycleSpeed"
@@ -22250,7 +22635,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.DRECKOEGG.DESC"
-msgid "An egg laid by a <link=\"DRECKO\">Drecko</link>\n\nIf incubated, it will hatch into a new <link=\"DRECKO\">Drecko</link>"
+msgid "An egg laid by a <link=\"DRECKO\">Drecko</link>.\n\nIf incubated, it will hatch into a new <link=\"DRECKO\">Drecklet</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.NAME
@@ -22260,7 +22645,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.DRECKOEGG.RECIPEDESC"
-msgid "An egg laid by a <link=\"DRECKO\">Drecko</link>"
+msgid "An egg laid by a <link=\"DRECKO\">Drecko</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.FIELDRATION.DESC
@@ -22290,7 +22675,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.DESC"
-msgid "A fried dish made with a fruiting <link=\"MUSHROOM\">Mushroom</link>.\n\nIt has a thick, savory flavor with subtle earthy undertones."
+msgid "A fried dish made with a fruiting <link=\"MUSHROOM\">Dusk Cap</link>.\n\nIt has a thick, savory flavor with subtle earthy undertones."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.NAME
@@ -22300,7 +22685,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC"
-msgid "A fried dish made with a fruiting <link=\"MUSHROOM\">Mushroom</link>."
+msgid "A fried dish made with a fruiting <link=\"MUSHROOM\">Dusk Cap</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.FRUITCAKE.DESC
@@ -22335,7 +22720,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.HATCHEGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.HATCHEGG.DESC"
-msgid "An egg laid by a <link=\"HATCH\">Hatch</link>\n\nIf incubated, it will hatch into a <link=\"HATCH\">Hatchling</link>"
+msgid "An egg laid by a <link=\"HATCH\">Hatch</link>.\n\nIf incubated, it will hatch into a <link=\"HATCH\">Hatchling</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.HATCHEGG.NAME
@@ -22345,12 +22730,12 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC"
-msgid "An egg laid by a <link=\"HATCH\">Hatch</link>"
+msgid "An egg laid by a <link=\"HATCH\">Hatch</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.DESC"
-msgid "An egg laid by a <link=\"LIGHTBUG\">Shine Bug</link>\n\nIf incubated, it will hatch into a <link=\"LIGHTBUG\">Shine Nymph</link>"
+msgid "An egg laid by a <link=\"LIGHTBUG\">Shine Bug</link>.\n\nIf incubated, it will hatch into a <link=\"LIGHTBUG\">Shine Nymph</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.NAME
@@ -22360,7 +22745,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC"
-msgid "An egg laid by a <link=\"LIGHTBUG\">Shine Bug</link>"
+msgid "An egg laid by a <link=\"LIGHTBUG\">Shine Bug</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.MEAT.DESC
@@ -22400,7 +22785,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.DESC"
-msgid "An egg laid by a <link=\"OILFLOATER\">Slickster</link>\n\nIf incubated, it will hatch into a <link=\"OILFLOATER\">Slickster Larva</link>"
+msgid "An egg laid by a <link=\"OILFLOATER\">Slickster</link>.\n\nIf incubated, it will hatch into a <link=\"OILFLOATER\">Slickster Larva</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME
@@ -22410,7 +22795,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC"
-msgid "An egg laid by a <link=\"OILFLOATER\">Slickster</link>"
+msgid "An egg laid by a <link=\"OILFLOATER\">Slickster</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.PICKLEDMEAL.DESC
@@ -22440,7 +22825,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.PUFTEGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PUFTEGG.DESC"
-msgid "An egg laid by a <link=\"PUFT\">Puft</link>\n\nIf incubated, it will hatch into a <link=\"PUFT\">Puftlet</link>"
+msgid "An egg laid by a <link=\"PUFT\">Puft</link>.\n\nIf incubated, it will hatch into a <link=\"PUFT\">Puftlet</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.PUFTEGG.NAME
@@ -22450,7 +22835,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.PUFTEGG.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.PUFTEGG.RECIPEDESC"
-msgid "An egg laid by a <link=\"PUFT\">Puft</link>"
+msgid "An egg laid by a <link=\"PUFT\">Puft</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.RAWEGG.DESC
@@ -22680,7 +23065,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.HERBALREMEDY.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.HERBALREMEDY.RECIPEDESC"
-msgid "Cures <link=\"DISEASES\">Diarrhea</link>."
+msgid "Cures <link=\"DISEASE\">Diarrhea</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.MUSCARINICANTAGONIST.DESC
@@ -22725,7 +23110,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.DESC
 msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.DESC"
-msgid "A health Supplement for improving <link=\"IMMUNE SYSTEM\">Immune System</link> strength."
+msgid "A health Supplement for improving <link=\"DISEASE\">Immune System</link> strength."
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.NAME
@@ -22735,7 +23120,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.RECIPEDESC"
-msgid "Improves <link=\"IMMUNE SYSTEM\">Immune System</link> strength."
+msgid "Improves <link=\"DISEASE\">Immune System</link> strength."
 msgstr ""
 
 #. STRINGS.LORE.BUILDINGS.Desk.ENTRY
@@ -23640,22 +24025,22 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.SUIT_DROPPED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUIT_DROPPED.TOOLTIP"
-msgid "An exosuit was dropped because there were no empty Exosuit Docks available"
+msgid "An exosuit was dropped because there were no empty docks available"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY"
-msgid "<link=\"EXOSUIT\">Exosuits</link> can be equipped to protect my Duplicants from environmental hazards like extreme <link=\"HEAT\">Heat</link>, airborne <link=\"DISEASE\">Germs</link>, or unbreathable <link=\"ELEMENTSGAS\">Gas</link>. In order to utilize these suits, I'll need to hook up an Exosuit Dock to a Suit Checkpoint, then store one of the suits inside.\n\nDuplicants will equip an exosuit when they walk past the Checkpoint in the chosen direction, and will unequip their suit when walking back the opposite way."
+msgid "<link=\"ATMOSUIT\">Atmo Suits</link> can be equipped to protect my Duplicants from environmental hazards like extreme <link=\"HEAT\">Heat</link>, airborne <link=\"DISEASE\">Germs</link>, or unbreathable <link=\"ELEMENTSGAS\">Gas</link>. In order to utilize these suits, I'll need to hook up an Atmo Suit Dock to an Atmo Suit Checkpoint, then store one of the suits inside.\n\nDuplicants will equip a suit when they walk past the checkpoint in the chosen direction, and will unequip their suit when walking back the opposite way."
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.NAME"
-msgid "Tutorial: Exosuits"
+msgid "Tutorial: Atmo Suits"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.TOOLTIP"
-msgid "Notes on using exosuits"
+msgid "Notes on using atmo suits"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY
@@ -24388,6 +24773,11 @@ msgctxt "STRINGS.MISC.TAGS.BUILDING"
 msgid "Build Dig-Delivery"
 msgstr ""
 
+#. STRINGS.MISC.TAGS.BUILDINGFIBER
+msgctxt "STRINGS.MISC.TAGS.BUILDINGFIBER"
+msgid "Fiber"
+msgstr ""
+
 #. STRINGS.MISC.TAGS.BURNS
 msgctxt "STRINGS.MISC.TAGS.BURNS"
 msgid "Flammable"
@@ -24595,7 +24985,7 @@ msgstr ""
 
 #. STRINGS.MISC.TAGS.METAL
 msgctxt "STRINGS.MISC.TAGS.METAL"
-msgid "Raw Metal"
+msgid "Metal Ore"
 msgstr ""
 
 #. STRINGS.MISC.TAGS.MIXTURE
@@ -24663,9 +25053,14 @@ msgctxt "STRINGS.MISC.TAGS.PRECIOUSMETAL"
 msgid "Precious Metal"
 msgstr ""
 
+#. STRINGS.MISC.TAGS.PRECIOUSROCK
+msgctxt "STRINGS.MISC.TAGS.PRECIOUSROCK"
+msgid "Precious Rock"
+msgstr ""
+
 #. STRINGS.MISC.TAGS.RAREMATERIALS
 msgctxt "STRINGS.MISC.TAGS.RAREMATERIALS"
-msgid "Rare Material"
+msgid "Rare Resource"
 msgstr ""
 
 #. STRINGS.MISC.TAGS.RAW
@@ -24675,7 +25070,7 @@ msgstr ""
 
 #. STRINGS.MISC.TAGS.RAWPRECIOUSMETAL
 msgctxt "STRINGS.MISC.TAGS.RAWPRECIOUSMETAL"
-msgid "Raw Precious Metal"
+msgid "Precious Metal Ore"
 msgstr ""
 
 #. STRINGS.MISC.TAGS.REFINEDMETAL
@@ -26493,6 +26888,456 @@ msgctxt "STRINGS.NAMEGEN.GRAVE.PETITAPHS.GOOD_GIRL"
 msgid "They were the goodest girl."
 msgstr ""
 
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.ADAPTABLE
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.ADAPTABLE"
+msgid "Adaptable"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.ARDENT
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.ARDENT"
+msgid "Ardent"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.BRAVE
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.BRAVE"
+msgid "Brave"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.CURIOUS
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.CURIOUS"
+msgid "Curious"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.DARING
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.DARING"
+msgid "Daring"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.DAZZLING
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.DAZZLING"
+msgid "Dazzling"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.DEFENSIVE
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.DEFENSIVE"
+msgid "Defensive"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.EJECTED
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.EJECTED"
+msgid "Ejected"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.EXPERIMENTAL
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.EXPERIMENTAL"
+msgid "Experimental"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.EXPLORATORY
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.EXPLORATORY"
+msgid "Exploratory"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.GENESIS
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.GENESIS"
+msgid "Genesis"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.INSPIRING
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.INSPIRING"
+msgid "Inspiring"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.INTERGALACTIC
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.INTERGALACTIC"
+msgid "Intergalactic"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.INTERSTELLAR
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.INTERSTELLAR"
+msgid "Interstellar"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.LOGISTICAL
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.LOGISTICAL"
+msgid "Logistical"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.NEON
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.NEON"
+msgid "Neon"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.OPERATIONAL
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.OPERATIONAL"
+msgid "Operational"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.ORBITAL
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.ORBITAL"
+msgid "Orbital"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.PEACE
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.PEACE"
+msgid "Peace"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.PROGRESS
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.PROGRESS"
+msgid "Progress"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.RECON
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.RECON"
+msgid "Recon"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.SCIENTIFIC
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.SCIENTIFIC"
+msgid "Scientific"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.SURVERY
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.SURVERY"
+msgid "Survey"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.WANDERING
+msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.WANDERING"
+msgid "Wandering"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.FMT_ADJECTIVE_NOUN
+msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_ADJECTIVE_NOUN"
+msgid "{Adjective} {Noun}"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.FMT_ADJECTIVE_NOUN_SUFFIX
+msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_ADJECTIVE_NOUN_SUFFIX"
+msgid "{Adjective} {Noun} {Suffix}"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.FMT_NOUN
+msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_NOUN"
+msgid "{Noun}"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.FMT_NOUN_SUFFIX
+msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_NOUN_SUFFIX"
+msgid "{Noun} {Suffix}"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_ADJECTIVE_NOUN
+msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_ADJECTIVE_NOUN"
+msgid "{Prefix} {Adjective} {Noun}"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_ADJECTIVE_NOUN_SUFFIX
+msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_ADJECTIVE_NOUN_SUFFIX"
+msgid "{Prefix} {Adjective} {Noun} {Suffix}"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_NOUN
+msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_NOUN"
+msgid "{Prefix} {Noun}"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_NOUN_SUFFIX
+msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_NOUN_SUFFIX"
+msgid "{Prefix} {Noun} {Suffix}"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.ADEOS
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ADEOS"
+msgid "Adeos"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.APOLLO
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.APOLLO"
+msgid "Apollo"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.ARTEMIS
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ARTEMIS"
+msgid "Artemis"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.BEAUTY
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.BEAUTY"
+msgid "Beauty"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.CALIPSO
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.CALIPSO"
+msgid "Calipso"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.CALPANA
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.CALPANA"
+msgid "Calpana"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.EOS
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.EOS"
+msgid "Eos"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.EXPLORER
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.EXPLORER"
+msgid "Explorer"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.GEMINI
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.GEMINI"
+msgid "Gemini"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.HELIOS
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.HELIOS"
+msgid "Helios"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.HOPE
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.HOPE"
+msgid "Hope"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.JUPITER
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.JUPITER"
+msgid "Jupiter"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.KNOWLEDGE
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.KNOWLEDGE"
+msgid "Knowledge"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.MARS
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.MARS"
+msgid "Mars"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.MIR
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.MIR"
+msgid "Mir"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.NEPTUNE
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.NEPTUNE"
+msgid "Neptune"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.PLUTO
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.PLUTO"
+msgid "Pluto"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.PROTOTYPE
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.PROTOTYPE"
+msgid "Prototype"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.ROCKET
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ROCKET"
+msgid "Rocket"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.ROVER
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ROVER"
+msgid "Rover"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.SAT
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SAT"
+msgid "SAT"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.SATURN
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SATURN"
+msgid "Saturn"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.SELENE
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SELENE"
+msgid "Selene"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.SKYLAB
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SKYLAB"
+msgid "Skylab"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.SOL
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SOL"
+msgid "Sol"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.SPACESHIP
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SPACESHIP"
+msgid "Spaceship"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.SPACESTATION
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SPACESTATION"
+msgid "Space Station"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.SPUTNIK
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SPUTNIK"
+msgid "Sputnik"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.URANUS
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.URANUS"
+msgid "Uranus"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.VENESAT
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VENESAT"
+msgid "Venesat"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.VENUS
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VENUS"
+msgid "Venus"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.VESSEL
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VESSEL"
+msgid "Vessel"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.VGER
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VGER"
+msgid "V'ger"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.VIRGO
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VIRGO"
+msgid "Virgo"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.NOUN.WANDERER
+msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.WANDERER"
+msgid "Wanderer"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.PREFIX.OL
+msgctxt "STRINGS.NAMEGEN.ROCKET.PREFIX.OL"
+msgid "Ol'"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.PREFIX.SPIRITOF
+msgctxt "STRINGS.NAMEGEN.ROCKET.PREFIX.SPIRITOF"
+msgid "Spirit of"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.PREFIX.SS
+msgctxt "STRINGS.NAMEGEN.ROCKET.PREFIX.SS"
+msgid "S.S."
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.PREFIX.THE
+msgctxt "STRINGS.NAMEGEN.ROCKET.PREFIX.THE"
+msgid "The"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.I
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.I"
+msgid "I"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.II
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.II"
+msgid "II"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.III
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.III"
+msgid "III"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.IV
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.IV"
+msgid "IV"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.IX
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.IX"
+msgid "IX"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.L
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.L"
+msgid "L"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.LI
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.LI"
+msgid "LI"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.LV
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.LV"
+msgid "LV"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.V
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.V"
+msgid "V"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.VI
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.VI"
+msgid "VI"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.VII
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.VII"
+msgid "VII"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.X
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.X"
+msgid "X"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.XC
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.XC"
+msgid "XC"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.XI
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.XI"
+msgid "XI"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.XIV
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.XIV"
+msgid "XIV"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.XL
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.XL"
+msgid "XL"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.XLI
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.XLI"
+msgid "XLI"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.XV
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.XV"
+msgid "XV"
+msgstr ""
+
+#. STRINGS.NAMEGEN.ROCKET.SUFFIX.XVI
+msgctxt "STRINGS.NAMEGEN.ROCKET.SUFFIX.XVI"
+msgid "XVI"
+msgstr ""
+
 #. STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION
 msgctxt "STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION"
 msgid "Missing Research Station"
@@ -26500,7 +27345,7 @@ msgstr ""
 
 #. STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION_TOOLTIP
 msgctxt "STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION_TOOLTIP"
-msgid "The selected research focus requires a {0} to perform\n\nOpen the Stations Tab <color=#F44A47>[=]</color> of the Build Menu to construct one"
+msgid "The selected research focus requires a {0} to perform\n\nOpen the Stations Tab <color=#F44A47><b>[=]</b></color> of the Build Menu to construct one"
 msgstr ""
 
 #. STRINGS.RESEARCH.MESSAGING.NO_RESEARCHER_ROLE
@@ -26510,7 +27355,7 @@ msgstr ""
 
 #. STRINGS.RESEARCH.MESSAGING.NO_RESEARCHER_ROLE_TOOLTIP
 msgctxt "STRINGS.RESEARCH.MESSAGING.NO_RESEARCHER_ROLE_TOOLTIP"
-msgid "The selected research focus requires an advanced type of research to complete\n\nAssign a Duplicant to the Research Assistant job using the Jobs Panel <color=#F44A47>[J]</color> to enable this errand"
+msgid "The selected research focus requires an advanced type of research to complete\n\nAssign a Duplicant to the Research Assistant job using the Jobs Panel <color=#F44A47><b>[J]</b></color> to enable this errand"
 msgstr ""
 
 #. STRINGS.RESEARCH.MESSAGING.NORESEARCHSELECTED
@@ -26586,6 +27431,16 @@ msgstr ""
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.NAME"
 msgid "Exosuit Overlay"
+msgstr ""
+
+#. STRINGS.RESEARCH.TECHS.ACOUSTICS.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.ACOUSTICS.DESC"
+msgid "Precise control of the audio spectrum allows Duplicants to get funky."
+msgstr ""
+
+#. STRINGS.RESEARCH.TECHS.ACOUSTICS.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.ACOUSTICS.NAME"
+msgid "<link=\"ACOUSTICS\">Acoustics</link>"
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.DESC
@@ -26710,12 +27565,12 @@ msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.CLOTHING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CLOTHING.DESC"
-msgid "Produce leisurely luxury items for Duplicants."
+msgid "Allow Duplicants to explore their softer side."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.CLOTHING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CLOTHING.NAME"
-msgid "<link=\"CLOTHING\">Self Expression</link>"
+msgid "<link=\"CLOTHING\">Textile Production</link>"
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.COMBUSTION.DESC
@@ -26796,6 +27651,16 @@ msgstr ""
 #. STRINGS.RESEARCH.TECHS.FARMINGTECH.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.FARMINGTECH.NAME"
 msgid "<link=\"FARMINGTECH\">Basic Farming</link>"
+msgstr ""
+
+#. STRINGS.RESEARCH.TECHS.FINEART.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.FINEART.DESC"
+msgid "Broader options for artistic <link=\"DECOR\">Decor</link> improvements."
+msgstr ""
+
+#. STRINGS.RESEARCH.TECHS.FINEART.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.FINEART.NAME"
+msgid "<link=\"FINEART\">Fine Art</link>"
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.FINEDINING.DESC
@@ -27090,12 +27955,12 @@ msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.DESC"
-msgid "The ultimate solution to ugly things? Make them transparent."
+msgid "Methods for working with high quality art materials."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME"
-msgid "<link=\"REFRACTIVEDECOR\">Refractive Decor</link>"
+msgid "<link=\"REFRACTIVEDECOR\">Advanced Chiselwork</link>"
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.RENEWABLEENERGY.DESC
@@ -28540,7 +29405,7 @@ msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_WRANGLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_WRANGLE"
-msgid "This critter can be captured by a Rancher\n------------------\nMark critters for capture using the Wrangle Tool <color=#F44A47>(N)</color>"
+msgid "This critter can be captured by a Rancher\n------------------\nMark critters for capture using the Wrangle Tool <color=#F44A47><b>[N]</b></color>"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT
@@ -29195,7 +30060,7 @@ msgstr ""
 
 #. STRINGS.UI.COLONYLOSTSCREEN.RESTARTPROMPT
 msgctxt "STRINGS.UI.COLONYLOSTSCREEN.RESTARTPROMPT"
-msgid "Press <color=#F44A47>[ESC]</color> to return to a previous colony, or begin a new one."
+msgid "Press <color=#F44A47><b>[ESC]</b></color> to return to a previous colony, or begin a new one."
 msgstr ""
 
 #. STRINGS.UI.CONFIRMDIALOG.CANCEL
@@ -29291,6 +30156,16 @@ msgstr ""
 #. STRINGS.UI.COPIED_SETTINGS
 msgctxt "STRINGS.UI.COPIED_SETTINGS"
 msgid "Settings Applied"
+msgstr ""
+
+#. STRINGS.UI.COPY_BUILDING
+msgctxt "STRINGS.UI.COPY_BUILDING"
+msgid "Copy"
+msgstr ""
+
+#. STRINGS.UI.COPY_BUILDING_TOOLTIP
+msgctxt "STRINGS.UI.COPY_BUILDING_TOOLTIP"
+msgid "Create new build orders for the selected building."
 msgstr ""
 
 #. STRINGS.UI.CRAFT
@@ -30630,17 +31505,17 @@ msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME"
-msgid "<link=\"POLLUTEDOXYGEN\">Flatulence</link> Generation:"
+msgid "<link=\"CONTAMINATEDOXYGEN\">Flatulence</link> Generation:"
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-msgid "My colony consumed {0} of Polluted Oxygen over the course of the day"
+msgid "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> over the course of the day"
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP"
-msgid "My colony generated {0} of Polluted Oxygen over the course of the day"
+msgid "My colony generated {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> over the course of the day"
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
@@ -32435,7 +33310,7 @@ msgstr ""
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.INSULATED.TOOLTIP
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.INSULATED.TOOLTIP"
-msgid "Insulation drastically reduces thermal conductivity"
+msgid "Proper insulation drastically reduces thermal conductivity"
 msgstr ""
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.LIFECYCLETITLE
@@ -32670,12 +33545,12 @@ msgstr ""
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_CEILING
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_CEILING"
-msgid "This seed must be planted in a downward facing plot\n\nPress <color=#F44A47>[O]</color> while building farm plots to rotate them"
+msgid "This seed must be planted in a downward facing plot\n\nPress <color=#F44A47><b>[O]</b></color> while building farm plots to rotate them"
 msgstr ""
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_WALL
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_WALL"
-msgid "This seed must be planted in a side facing plot\n\nPress <color=#F44A47>[O]</color> while building plots to rotate them"
+msgid "This seed must be planted in a side facing plot\n\nPress <color=#F44A47><b>[O]</b></color> while building plots to rotate them"
 msgstr ""
 
 #. STRINGS.UI.GENESHUFFLERMESSAGE.BODY_FAILURE
@@ -32770,7 +33645,7 @@ msgstr ""
 
 #. STRINGS.UI.INCUBATE_CONTINUOUS_TOOLTIP
 msgctxt "STRINGS.UI.INCUBATE_CONTINUOUS_TOOLTIP"
-msgid "If checked the building will continue to incubate eggs of the selected type"
+msgid "When checked, this building will continously incubate eggs of the selected type"
 msgstr ""
 
 #. STRINGS.UI.JOBS
@@ -33676,6 +34551,11 @@ msgstr ""
 #. STRINGS.UI.OVERLAYS.DECOR.LOWDECOR
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.LOWDECOR"
 msgid "Negative Decor"
+msgstr ""
+
+#. STRINGS.UI.OVERLAYS.DECOR.MAXIMUM_DECOR
+msgctxt "STRINGS.UI.OVERLAYS.DECOR.MAXIMUM_DECOR"
+msgid "{0}{1} (Maximum Decor)"
 msgstr ""
 
 #. STRINGS.UI.OVERLAYS.DECOR.NAME
@@ -35300,7 +36180,22 @@ msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION"
-msgid "Trait: Can work <link=\"CANVAS\">Blank Canvas</link> and <link=\"SCULPTURE\">Sculpting Block</link>"
+msgid "Trait: Can produce artwork using <link=\"CANVAS\">Blank Canvas</link> and <link=\"SCULPTURE\">Large Sculpting Block</link>"
+msgstr ""
+
+#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_GREAT.DESCRIPTION
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_GREAT.DESCRIPTION"
+msgid "Trait: Master artwork quality"
+msgstr ""
+
+#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_OKAY.DESCRIPTION
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_OKAY.DESCRIPTION"
+msgid "Trait: Medicocre artwork quality"
+msgstr ""
+
+#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_UGLY.DESCRIPTION
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_UGLY.DESCRIPTION"
+msgid "Trait: Crude artwork quality"
 msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION
@@ -36905,7 +37800,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.ATTACK.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.ATTACK.TOOLACTION"
-msgid "DRAG TO ATTACK"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.ATTACK.TOOLNAME
@@ -36925,7 +37820,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.BUILD.TOOLACTION_DRAG
 msgctxt "STRINGS.UI.TOOLS.BUILD.TOOLACTION_DRAG"
-msgid "DRAG TO BUILD"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.BUILD.TOOLNAME
@@ -36940,7 +37835,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.CANCEL.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.CANCEL.TOOLACTION"
-msgid "DRAG TO CANCEL ACTION"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.CANCEL.TOOLNAME
@@ -36960,7 +37855,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.TOOLACTION"
-msgid "DRAG TO TOGGLE WRANGLE"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLNAME
@@ -36985,7 +37880,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.COPYSETTINGS.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.COPYSETTINGS.TOOLACTION"
-msgid "DRAG TO PASTE SETTINGS"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.COPYSETTINGS.TOOLNAME
@@ -37000,7 +37895,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.DECONSTRUCT.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.DECONSTRUCT.TOOLACTION"
-msgid "DRAG TO DECONSTRUCT"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.DECONSTRUCT.TOOLNAME
@@ -37015,7 +37910,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.DIG.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.DIG.TOOLACTION"
-msgid "DRAG TO DIG"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.DIG.TOOLNAME
@@ -37030,7 +37925,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.DISINFECT.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.DISINFECT.TOOLACTION"
-msgid "DRAG TO DISINFECT"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.DISINFECT.TOOLNAME
@@ -37045,7 +37940,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION"
-msgid "DRAG TO REMOVE PIPE CONTENTS"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME
@@ -37155,7 +38050,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.HARVEST.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.HARVEST.TOOLACTION"
-msgid "DRAG TO TOGGLE HARVEST"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.HARVEST.TOOLNAME
@@ -37170,7 +38065,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLACTION"
-msgid "DRAG TO SWEEP"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLNAME
@@ -37195,7 +38090,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.MOP.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.MOP.TOOLACTION"
-msgid "DRAG TO MOP"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.MOP.TOOLNAME
@@ -37210,7 +38105,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLACTION"
-msgid "CLICK TO MOVE"
+msgid "CLICK"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME
@@ -37240,7 +38135,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLACTION"
-msgid "DRAG TO ADJUST PRIORITY"
+msgid "DRAG"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME
@@ -37518,6 +38413,11 @@ msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE"
 msgid "Must be built on the surface in space"
 msgstr ""
 
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WALL
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WALL"
+msgid "Must be built against a wall"
+msgstr ""
+
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
 msgid "Obstructed by wire"
@@ -37535,7 +38435,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY"
-msgid "Press <color=#F44A47>[{Key}]</color> to Rotate"
+msgid "Press <color=#F44A47><b>[{Key}]</b></color> to Rotate"
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS
@@ -37620,17 +38520,17 @@ msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_RESEARCH
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_RESEARCH"
-msgid "Build a Research Station to unlock\n------------------\nResearch buildings can be found in the Stations Tab <color=#F44A47>[0]</color> of the Build Menu"
+msgid "Build a Research Station to unlock\n------------------\nResearch buildings can be found in the Stations Tab <color=#F44A47><b>[0]</b></color> of the Build Menu"
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_ROLES_STATION
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_ROLES_STATION"
-msgid "Build a Jobs Board to unlock\n------------------\nThe Jobs Board can be found in the Stations Tab <color=#F44A47>[0]</color> of the Build Menu"
+msgid "Build a Jobs Board to unlock\n------------------\nThe Jobs Board can be found in the Stations Tab <color=#F44A47><b>[0]</b></color> of the Build Menu"
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_TELESCOPE
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_TELESCOPE"
-msgid "Build a <link=\"TELESCOPE\">Telescope</link> to unlock\n------------------\nThe <link=\"TELESCOPE\">Telescope</link> can be found in the Stations Tab <color=#F44A47>[0]</color> of the Build Menu"
+msgid "Build a <link=\"TELESCOPE\">Telescope</link> to unlock\n------------------\nThe <link=\"TELESCOPE\">Telescope</link> can be found in the Stations Tab <color=#F44A47><b>[0]</b></color> of the Build Menu"
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESEARCH
@@ -38260,7 +39160,7 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP"
-msgid "This sensor will send a 1 if in a room with more than the specified number of critters or eggs"
+msgid "This sensor will send an <link=\"LOGIC\">Active</link> signal if the number of critters and eggs in the room reaches the specified amount"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT
@@ -38458,6 +39358,11 @@ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.COST"
 msgid "<b>Ingredients:</b>\n"
 msgstr ""
 
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CURRENT_ORDER
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CURRENT_ORDER"
+msgid "Current order: {0}"
+msgstr ""
+
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.COOL_VEST
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.COOL_VEST"
 msgid "<link=\"COOLVEST\">Cool Vest</link> ({0})"
@@ -38503,6 +39408,16 @@ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.KG"
 msgid "- {0}: {1}\n"
 msgstr ""
 
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NEXT_ORDER
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NEXT_ORDER"
+msgid "Next order: {0}"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NO_WORKABLE_ORDER
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NO_WORKABLE_ORDER"
+msgid "No workable order"
+msgstr ""
+
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED"
 msgid "No discovered recipes"
@@ -38521,6 +39436,16 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.QUEUED_MISSING_INGREDIENTS_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.QUEUED_MISSING_INGREDIENTS_TOOLTIP"
 msgid "Missing {0} of {1}\n"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_DETAILS
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_DETAILS"
+msgid "Recipe Details"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_QUEUE
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_QUEUE"
+msgid "Production Order:"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPEPRODUCT
@@ -38555,7 +39480,7 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE"
-msgid "{0} Recipes"
+msgid "{0} Production Orders"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT
@@ -38918,6 +39843,11 @@ msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
 msgid "{0} to {1}"
 msgstr ""
 
+#. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_WITH_NEWLINES
+msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_WITH_NEWLINES"
+msgid "{0}\nto\n{1}"
+msgstr ""
+
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING
 msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING"
 msgid "Currently Researching"
@@ -39230,7 +40160,7 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.TIME_OF_DAY_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.TIME_OF_DAY_SIDE_SCREEN.TOOLTIP"
-msgid "This sensor will send a 1 after the Turn On time, and a 0 after the Turn Off time."
+msgid "This sensor will send an <link=\"LOGIC\">Active</link> signal after the selected Turn On time, and a <link=\"LOGIC\">Standby</link> signal after the selected Turn Off time"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.DURATION
@@ -39330,7 +40260,7 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ONLYALLOWTRANSPORTITEMSBUTTONTOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ONLYALLOWTRANSPORTITEMSBUTTONTOOLTIP"
-msgid "Only store objects marked Sweep <color=#F44A47>[K]</color> in this container"
+msgid "Only store objects marked Sweep <color=#F44A47><b>[K]</b></color> in this container"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE
@@ -40195,7 +41125,7 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP"
-msgid "Choose a technology from the Research Tree <color=#F44A47>[R]</color>"
+msgid "Choose a technology from the Research Tree <color=#F44A47><b>[R]</b></color>"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME
@@ -40205,7 +41135,7 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.TOOLTIP"
-msgid "Suited Duplicants may pass even if there is no room to store their suits\n------------------\nWhen Exosuit Docks are all full, Duplicants will unequip their suits and drop them on the floor"
+msgid "Suited Duplicants may pass even if there is no room to store their suits\n------------------\nWhen all available docks are full, Duplicants will unequip their suits and drop them on the floor"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.NAME
@@ -40215,7 +41145,7 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.TOOLTIP"
-msgid "Suited Duplicants may pass only if there is room in an Exosuit Dock to store their suit"
+msgid "Suited Duplicants may only pass if there is an available dock to store their suit"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME
