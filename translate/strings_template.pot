@@ -3173,6 +3173,21 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME"
 msgid "<link=\"COOKINGSTATION\">Electric Grill</link>"
 msgstr ""
 
+#. STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.DESC"
+msgid "Corner moulding is used as purely decorative trim for ceiling corners."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.EFFECT"
+msgid "Used to decorate the ceiling corners of rooms.\n\nIncreases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.NAME"
+msgid "<link=\"CORNERMOULDING\">Corner Moulding</link>"
+msgstr ""
+
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.DESC"
 msgid "Virtual planetariums allow the simulated exploration of locations discovered with telescopes."
@@ -4220,7 +4235,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-msgid "Genius Ice Sculpture"
+msgid "Average Ice Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC
@@ -4231,6 +4246,11 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EFFECT"
 msgid "Majorly increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EXCELLENTQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EXCELLENTQUALITYNAME"
+msgid "Genius Ice Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.NAME
@@ -5150,7 +5170,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME"
-msgid "Genius Marble Sculpture"
+msgid "Average Marble Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.DESC
@@ -5161,6 +5181,11 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.EFFECT"
 msgid "Majorly increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.EXCELLENTQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.EXCELLENTQUALITYNAME"
+msgid "Genius Marble Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.NAME
@@ -5280,7 +5305,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME"
-msgid "Genius Metal Sculpture"
+msgid "Averabe Metal Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.DESC
@@ -5291,6 +5316,11 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.EFFECT"
 msgid "Majorly increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.EXCELLENTQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.EXCELLENTQUALITYNAME"
+msgid "Genius Metal Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.NAME
@@ -6075,7 +6105,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME"
-msgid "Genius Sculpture"
+msgid "Average Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.DESC
@@ -6086,6 +6116,11 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.EFFECT"
 msgid "Moderately increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE\">Morale</link>.\n\nMust be sculpted by a Duplicant."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.SCULPTURE.EXCELLENTQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.EXCELLENTQUALITYNAME"
+msgid "Genius Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.NAME
@@ -6136,6 +6171,11 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.SHOWER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHOWER.NAME"
 msgid "<link=\"SHOWER\">Shower</link>"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME"
+msgid "Average Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC
@@ -8910,12 +8950,42 @@ msgstr ""
 
 #. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER1"
-msgid "<size=10><smallcaps><b>Subject: A Refresher</b>\nFrom: <b>[REDACTED]</b>\nTo: <b>[REDACTED]</b></smallcaps></size>"
+msgid "<indent=5%><i>Hello</i> Mr. Kraus!\n\nI was just e-mailing you after our little chat today to pass along something you might like to read - I think you'll find it super useful in your research!\n\n</indent>"
 msgstr ""
 
 #. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER2"
-msgid "<i>Hello</i> Mr. Kraus! I was just e-mailing you after our little chat today to pass along something you might like to read - I think you'll find it super useful in your research!\n\n<b>FIRST LAW</b></indent>\n<indent=10%>Energy can neither be created or destroyed, only change forms.</indent>\n\n<indent=5%><b>SECOND LAW</b></indent>\n<indent=10%>Entropy in an isolated system that is not in equilibrium tends to increase over time, approaching the maximum value at equilibrium.</indent>\n\n<indent=5%><b>THIRD LAW</b></indent>\n<indent=10%>Entropy in a system approaches a constant minimum as temperature approaches absolute zero.</indent>\n\n<indent=5%><b>ZEROTH LAW</b></indent>\n<indent=10%>If two thermodynamic systems are in thermal equilibrium with a third, then they are in thermal equilibrium with each other.</indent>\n\nIf this is too complicated for you, you can come by to chat. I be <i>thrilled</i> to answer your questions.\n\n;)\n[REDACTED]]\nInformation and Statistics Department\nThe Gravitas Facility"
+msgid "<indent=10%><b>FIRST LAW</b></indent>\n<indent=15%>Energy can neither be created or destroyed, only change forms.</indent>"
+msgstr ""
+
+#. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER3
+msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER3"
+msgid "<indent=10%><b>SECOND LAW</b></indent>\n<indent=15%>Entropy in an isolated system that is not in equilibrium tends to increase over time, approaching the maximum value at equilibrium.</indent>"
+msgstr ""
+
+#. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER4
+msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER4"
+msgid "<indent=10%><b>THIRD LAW</b></indent>\n<indent=15%>Entropy in a system approaches a constant minimum as temperature approaches absolute zero.</indent>"
+msgstr ""
+
+#. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER5
+msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER5"
+msgid "<indent=10%><b>ZEROTH LAW</b></indent>\n<indent=15%>If two thermodynamic systems are in thermal equilibrium with a third, then they are in thermal equilibrium with each other.</indent>"
+msgstr ""
+
+#. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER6
+msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER6"
+msgid "<indent=5%>\nIf this is too complicated for you, you can come by to chat. I'd be <i>thrilled</i> to answer your questions. ;)</indent>"
+msgstr ""
+
+#. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.EMAILHEADER1
+msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.EMAILHEADER1"
+msgid "<smallcaps>To: <b>Mr. Kraus</b><alpha=#AA><size=12> <okraus@gravitas.nova></size></color>\nFrom: <b>Dr. Jones</b><alpha=#AA><size=12> <ejones@gravitas.nova></size></color></smallcaps>\n------------------\n"
+msgstr ""
+
+#. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.SIGNATURE1
+msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.SIGNATURE1"
+msgid "\nXOXO,\nDr. Jones\n<size=11>Information and Statistics Department\nThe Gravitas Facility</size>\n------------------\n"
 msgstr ""
 
 #. STRINGS.CODEX.THERMODYNAMICLAWS.SUBTITLE
@@ -10855,7 +10925,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.STATS.ROT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.ROT.TOOLTIP"
-msgid "Freshness\n------------------\nFood items become stale at fifty percent freshness, and rot at zero percent"
+msgid "Food items become stale at fifty percent freshness, and rot at zero percent"
 msgstr ""
 
 #. STRINGS.CREATURES.STATS.SCALEGROWTH.NAME
@@ -10865,7 +10935,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP"
-msgid "Scale Growth\n------------------\nThe amount of time required for this critter to regrow its scales"
+msgid "The amount of time required for this critter to regrow its scales"
 msgstr ""
 
 #. STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.NAME
@@ -18605,12 +18675,12 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_TOOLTIP"
-msgid "These Duplicants' <color=#833A5FFF>CONSUMABLES</color> [F] permissions prevent them from eating any of the <link=\"FOOD\">Food</link> within their reach:"
+msgid "These Duplicants' <color=#833A5FFF>CONSUMABLES</color> <color=#F44A47><b>[F]</b></color> permissions prevent them from eating any of the <link=\"FOOD\">Food</link> within their reach:"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.TOOLTIP"
-msgid "This Duplicant is not allowed to eat any of the <link=\"FOOD\">Food</link> in their reach\n------------------\nEnter the <color=#833A5FFF>CONSUMABLES</color> [F] to adjust their food permissions"
+msgid "This Duplicant is not allowed to eat any of the <link=\"FOOD\">Food</link> in their reach\n------------------\nEnter the <color=#833A5FFF>CONSUMABLES</color> <color=#F44A47><b>[F]</b></color> to adjust their food permissions"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSUNREACHABLE.NAME
@@ -23795,7 +23865,7 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDENERGYSOURCE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDENERGYSOURCE.TOOLTIP"
-msgid "<link=\"POWER\">Power</link> is required to operate electrical buildings\n------------------\n<link=\"MANUALGENERATOR\">Manual Generators</link> and <link=\"WIRE\">Wire</link> can be built from the <link=\"MISC\">POWER TAB</link> <color=#F44A47><b>[2]</b></color>"
+msgid "<link=\"POWER\">Power</link> is required to operate electrical buildings\n------------------\n<link=\"MANUALGENERATOR\">Manual Generators</link> and <link=\"WIRE\">Wire</link> can be built from the <link=\"MISC\">POWER TAB</link> <color=#F44A47><b>[3]</b></color>"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.NAME
@@ -25140,7 +25210,7 @@ msgstr ""
 
 #. STRINGS.MISC.TAGS.UNBREATHABLE
 msgctxt "STRINGS.MISC.TAGS.UNBREATHABLE"
-msgid "Unbreathable"
+msgid "Unbreathable Gas"
 msgstr ""
 
 #. STRINGS.MISC.TAGS.UNSTABLE
@@ -27345,7 +27415,7 @@ msgstr ""
 
 #. STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION_TOOLTIP
 msgctxt "STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION_TOOLTIP"
-msgid "The selected research focus requires a {0} to perform\n\nOpen the Stations Tab <color=#F44A47><b>[=]</b></color> of the Build Menu to construct one"
+msgid "The selected research focus requires a {0} to perform\n\nOpen the Stations Tab <color=#F44A47><b>[0]</b></color> of the Build Menu to construct one"
 msgstr ""
 
 #. STRINGS.RESEARCH.MESSAGING.NO_RESEARCHER_ROLE
@@ -32765,7 +32835,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
-msgid "<b>Welcome to the Space Industry Upgrade!!</b>\n\n{0}"
+msgid "<b>Welcome to the Quality of Life Upgrade Mk I!!</b>\n\n{0}"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.OK_BUTTON
@@ -32775,12 +32845,12 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
-msgid "<b>Update Features:</b>\n\n• Expanded Starmap locations with new rare resources to recover\n• New surface creature, the Shove Vole\n• New Molecular Forge for crafting industrial materials from rare space resources\n• Increased automation, new buildings, research and more\n\nPlease view the full patch notes for further details!"
+msgid "<b>Update Features:</b>\n\n• New Decor items and updated Artist job roles for more decor possibilities\n• Redesigned recipe queue controls for improved item fabrication automation\n• Many, many bug fixes, optimizations, polish passes, updated animations and more!\n\nPlease view the full patch notes for further details!"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-msgid "SPACE INDUSTRY UPGRADE"
+msgid "QUALITY OF LIFE UPGRADE MK I"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
@@ -36190,7 +36260,7 @@ msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_OKAY.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_OKAY.DESCRIPTION"
-msgid "Trait: Medicocre artwork quality"
+msgid "Trait: Mediocre artwork quality"
 msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_UGLY.DESCRIPTION
@@ -37745,7 +37815,7 @@ msgstr ""
 
 #. STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_EATEN_TODAY
 msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_EATEN_TODAY"
-msgid "Sort by eaten today"
+msgid "Sort by number of calories consumed today"
 msgstr ""
 
 #. STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_EXPECTATIONS
@@ -37765,7 +37835,7 @@ msgstr ""
 
 #. STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_IMMUNEPOINTS
 msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_IMMUNEPOINTS"
-msgid "Sort by immune points"
+msgid "Sort by immunity strength"
 msgstr ""
 
 #. STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_NAME
@@ -38343,6 +38413,11 @@ msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CEILING"
 msgid "Must be built on the ceiling"
 msgstr ""
 
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CORNER
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CORNER"
+msgid "Must be built in a corner"
+msgstr ""
+
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR"
 msgid "Must be built on solid ground"
@@ -38353,9 +38428,14 @@ msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR_OR_ATTACHPOINT"
 msgid "Must be built on solid ground or overlapping an {0}"
 msgstr ""
 
-#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OBSTRUCTED
-msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OBSTRUCTED"
-msgid "Gas ports are obstructed"
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OVERLAP
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OVERLAP"
+msgid "Gas ports cannot overlap"
+msgstr ""
+
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_HIGHWATT_NOT_IN_TILE
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_HIGHWATT_NOT_IN_TILE"
+msgid "Heavi-Watt power connectors cannot be built inside tile"
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INSIDEGROUND
@@ -38368,14 +38448,14 @@ msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INVALID_CELL"
 msgid "Invalid Cell"
 msgstr ""
 
-#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OBSTRUCTED
-msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OBSTRUCTED"
-msgid "Liquid ports are obstructed"
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OVERLAP
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OVERLAP"
+msgid "Liquid ports cannot overlap"
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LOGIC_PORTS_OBSTRUCTED
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LOGIC_PORTS_OBSTRUCTED"
-msgid "Automation ports are obstructed"
+msgid "Automation ports cannot overlap"
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES
@@ -38393,19 +38473,9 @@ msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_PLATE_OBSTRUCTION"
 msgid "Obstructed by Tempshift Plate"
 msgstr ""
 
-#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_POWER_INPUT_OBSTRUCTED
-msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_POWER_INPUT_OBSTRUCTED"
-msgid "Power input obstructed"
-msgstr ""
-
-#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_POWER_OUTPUT_OBSTRUCTED
-msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_POWER_OUTPUT_OBSTRUCTED"
-msgid "Power output obstructed"
-msgstr ""
-
-#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED
-msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED"
-msgid "Solid ports are obstructed"
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OVERLAP
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OVERLAP"
+msgid "Solid ports cannot overlap"
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE
@@ -38420,12 +38490,12 @@ msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
-msgid "Obstructed by wire"
+msgid "Obstructed by Heavi-Watt Wire"
 msgstr ""
 
-#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRECONNECTORS_OBSTRUCTED
-msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRECONNECTORS_OBSTRUCTED"
-msgid "Wire connectors are obstructed"
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRECONNECTORS_OVERLAP
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRECONNECTORS_OVERLAP"
+msgid "Power connectors cannot overlap"
 msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM
