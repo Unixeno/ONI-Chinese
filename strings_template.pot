@@ -110,7 +110,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP"
-msgid "Compost must be flipped periodically to produce fertilizer"
+msgid "Compost must be flipped periodically to produce <link=\"DIRT\">Dirt</link>"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.NAME
@@ -915,7 +915,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
-msgid "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of <link=\"DIRTYWATER\">Polluted Water</link>\n------------------\n<link=\"BOTTLEEMPTIER\">Bottle Emptier</link>s can be used to transport and dispose of <link=\"DIRTYWATER\">Polluted Water</link> in designated areas"
+msgid "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of <link=\"DIRTYWATER\">Contaminated Water</link>\n------------------\n<link=\"BOTTLEEMPTIER\">Bottle Emptiers</link> can be used to transport and dispose of <link=\"DIRTYWATER\">Contaminated Water</link> in designated areas"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.HASGANTRY.NAME
@@ -925,7 +925,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.HASGANTRY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HASGANTRY.TOOLTIP"
-msgid "A <link=\"GANTRY\">Gantry</link> must be built below a <link=\"COMMANDMODULE\">Command Capsule</link> for an astronaut to access it"
+msgid "Duplicants may now enter this section of the rocket"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME
@@ -986,6 +986,26 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.TOOLTIP"
 msgid "Cannot construct building in this location"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME"
+msgid "Invalid Port Overlap"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_NAME"
+msgid "Building has overlapping ports"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_TOOLTIP"
+msgid "These buildings must be rebuilt with non-overlapping ports:"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.TOOLTIP"
+msgid "Ports on this building overlap those on another building. This building must be rebuilt in a valid location."
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.NAME
@@ -1185,7 +1205,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.NAME"
-msgid "Missing Foundation"
+msgid "Missing Tile"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.TOOLTIP
@@ -1200,7 +1220,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP"
-msgid "A <link=\"GANTRY\">Gantry</link> must be built below a <link=\"COMMANDMODULE\">Command Capsule</link> for an astronaut to access it"
+msgid "A <link=\"GANTRY\">Gantry</link> must be built below <link=\"COMMANDMODULE\">Command Capsules</link> and <link=\"TOURISTMODULE\">Sight-Seeing Modules</link> for Duplicants access"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME
@@ -1335,7 +1355,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
-msgid "Material cannot be fed onto this Conveyor Rail system for transport\n------------------\nEnter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build Menu to build and connect a Conveyor Loader"
+msgid "Material cannot be fed onto this Conveyor system for transport\n------------------\nEnter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build Menu to build and connect a Conveyor Loader"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.NAME
@@ -1345,7 +1365,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
-msgid "Material cannot be offloaded from this Conveyor system and will backup the rails\n------------------\nEnter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build Menu to build and connect a Conveyor Receptacle"
+msgid "Material cannot be offloaded from this Conveyor system and will backup the rails\n------------------\nEnter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build Menu to build and connect a <link=\"SOLIDCONDUITOUTBOX\">Conveyor Receptacle</link>"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME
@@ -1415,7 +1435,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME"
-msgid "<link=\"SUPER COMPUTER\">Research Center</link> idle"
+msgid "<link=\"ADVANCEDRESEARCHCENTER\">Research Center</link> idle"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_TOOLTIP
@@ -1935,7 +1955,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP"
-msgid "This Conveyor Rail cannot carry anymore material\n------------------\nRemove material from the Conveyor Receptacle to free space for more objects"
+msgid "This Conveyor Rail cannot carry anymore material\n------------------\nRemove material from the <link=\"SOLIDCONDUITOUTBOX\">Conveyor Receptacle</link> to free space for more objects"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.NAME
@@ -2600,7 +2620,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
-msgid "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies.\n\nAssigned Duplicants must possess the <link=\"RESEARCHER\">Super Computer Researching</link> trait."
+msgid "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies.\n\nAssigned Duplicants must possess the <link=\"JUNIORRESEARCHER\">Super Computer Researching</link> trait."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME
@@ -2880,7 +2900,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.EFFECT"
-msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nSets Duplicant Access Permissions for area restriction.\n\nCan withstand extremely high pressures and impacts."
+msgid "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</link> flow, maintaining pressure between areas.\n\nCan withstand extremely high pressures and impacts."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.NAME
@@ -3315,7 +3335,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT"
-msgid "Separates any <link=\"DIRTYWATER\">Polluted Water</link> piped through it into <link=\"STEAM\">Steam</link> and <link=\"TOXICSAND\">Polluted Dirt</link>"
+msgid "Separates any <link=\"DIRTYWATER\">Contaminated Water</link> piped through it into <link=\"STEAM\">Steam</link> and <link=\"TOXICSAND\">Polluted Dirt</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME
@@ -3500,7 +3520,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
-msgid "<link=\"\">Window</link>"
+msgid "<link=\"FACILITYBACKWALLWINDOW\">Window</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
@@ -4050,7 +4070,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT"
-msgid "Converts <link=\"CARBON\">Carbon</link> into electrical <link=\"POWER\">Power</link>.\n\nProduces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>."
+msgid "Converts <link=\"CARBON\">Coal</link> into electrical <link=\"POWER\">Power</link>.\n\nProduces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.NAME
@@ -4180,7 +4200,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.EFFECT"
-msgid "Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE\">Wire</link> without overloading.\n\nCan be run through wall and floor tile."
+msgid "Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE\">Wire</link> without overloading.\n\nCannot be run through wall and floor tile."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME
@@ -4195,7 +4215,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.EFFECT"
-msgid "Burns <link=\"HYDROGEN\">Hydrogen</link> to propel rockets for space exploration.\n\nThe engine of a rocket must be built first before more rocket modules may be added."
+msgid "Burns <link=\"LIQUIDHYDROGEN\">Liquid Hydrogen</link> to propel rockets for space exploration.\n\nThe engine of a rocket must be built first before more rocket modules may be added."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.NAME
@@ -4235,7 +4255,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-msgid "Average Ice Sculpture"
+msgid "Mediocre Ice Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC
@@ -4935,7 +4955,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT"
-msgid "Becomes <link=\"LOGIC\">Active</link> when the <link=\"SET\">Logic</link> port (S) is <link=\"LOGIC\">Active</link>.\n\nGoes to <link=\"LOGIC\">Standby</link> if the reset port (R) becomes <link=\"LOGIC\">Active</link>."
+msgid "Becomes <link=\"LOGIC\">Active</link> when the <link=\"LOGIC\">Set</link> port (S) is <link=\"LOGIC\">Active</link>.\n\nGoes to <link=\"LOGIC\">Standby</link> if the reset port (R) becomes <link=\"LOGIC\">Active</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.NAME
@@ -5170,7 +5190,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME"
-msgid "Average Marble Sculpture"
+msgid "Mediocre Marble Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.DESC
@@ -5305,7 +5325,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME"
-msgid "Averabe Metal Sculpture"
+msgid "Mediocre Metal Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.DESC
@@ -5460,7 +5480,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT"
-msgid "Gives Duplicants a place to relieve themselves.\n\nRequires no <link=\"GASPIPING\">Piping</link>.\n\nMust be periodically emptied of <link=\"TOXICSAND\">Polluted Dirt</link>."
+msgid "Gives Duplicants a place to relieve themselves.\n\nRequires no <link=\"LIQUIDPIPING\">Piping</link>.\n\nMust be periodically emptied of <link=\"TOXICSAND\">Polluted Dirt</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME
@@ -5700,7 +5720,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT"
-msgid "Automatically turns <link=\"POWER\">Power</link> on or off using ambient <link=\"PRESSURE\">Gas</link> pressure.\n\nDoes not affect circuitry preceding the switch."
+msgid "Automatically turns <link=\"POWER\">Power</link> on or off using ambient <link=\"PRESSURE\">Gas Pressure</link> .\n\nDoes not affect circuitry preceding the switch."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.NAME
@@ -6105,7 +6125,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME"
-msgid "Average Sculpture"
+msgid "Mediocre Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.DESC
@@ -6175,7 +6195,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME"
-msgid "Average Sculpture"
+msgid "Mediocre Sculpture"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC
@@ -6510,7 +6530,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
-msgid "Maps Starmap destinations and produces <link=\"RESEARCH\">Interstellar Research</link>.\n\nAssigned Duplicants must possess the <link=\"RESEARCHER\">Geographical Analysis</link> trait.\n\nBuilding must be exposed to space to function."
+msgid "Maps Starmap destinations and produces <link=\"RESEARCHDATABANK\">Databanks</link>.\n\nAssigned Duplicants must possess the <link=\"RESEARCHER\">Geographical Analysis</link> trait.\n\nBuilding must be exposed to space to function."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME
@@ -6810,7 +6830,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.EFFECT"
-msgid "Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE\">WIRE</link> without overloading.\n\nCan be run through wall and floor tile."
+msgid "Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE\">WIRE</link> without overloading.\n\nCannot be run through wall and floor tile."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.NAME
@@ -9660,7 +9680,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.DESC"
-msgid "A highly pressurized vent that periodically erupts with boiling <link=\"DIRTYWATER\">Polluted Water</link>."
+msgid "A highly pressurized vent that periodically erupts with boiling <link=\"DIRTYWATER\">Contaminated Water</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME
@@ -9710,7 +9730,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC"
-msgid "A highly pressurized geyser that periodically erupts with hot <link=\"WATER\">Water</link>."
+msgid "A highly pressurized geyser that periodically erupts with hot <link=\"STEAM\">Steam</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME
@@ -10230,7 +10250,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC"
-msgid "Dusk Caps produce <link=\"MUSHROOM\">Mushroom</link>, fungal growths that can be harvested for <link=\"FOOD\">Food</link>."
+msgid "Dusk Caps produce <link=\"MUSHROOM\">Mushrooms</link>, fungal growths that can be harvested for <link=\"FOOD\">Food</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DOMESTICATEDDESC
@@ -10360,7 +10380,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PACU.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.DESC"
-msgid "Pacus are aquatic creatures that cannot live outside of <link=\"WATER\">Water</link> or <link=\"DIRTYWATER\">Polluted Water</link>.\n\nEvery organism in the known universe finds the Pacu extremely delicious."
+msgid "Pacus are aquatic creatures that cannot live outside of <link=\"WATER\">Water</link> or <link=\"DIRTYWATER\">Contaminated Water</link>.\n\nEvery organism in the known universe finds the Pacu extremely delicious."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PACU.EGG_NAME
@@ -10545,7 +10565,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC"
-msgid "Squeaky Pufts are non-aggressive critters that excrete lumps of <link=\"BLEACHSTONE\">Bleach Stone</link> with each breath."
+msgid "Squeaky Pufts are non-aggressive critters that excrete lumps of <link=\"BLEACHSTONE\">Bleachstone</link> with each breath."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.EGG_NAME
@@ -20225,7 +20245,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.FERTILIZER.DESC
 msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
-msgid "Fertilizer is a processed mixture of biological nutrients.\n\nIt aids in the growth of certain <link=\"PLANTS\">plant</link>."
+msgid "Fertilizer is a processed mixture of biological nutrients.\n\nIt aids in the growth of certain <link=\"PLANTS\">Plants</link>."
 msgstr ""
 
 #. STRINGS.ELEMENTS.FERTILIZER.NAME
@@ -20880,7 +20900,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.PONDSCUM.DESC
 msgctxt "STRINGS.ELEMENTS.PONDSCUM.DESC"
-msgid "Pondscum is a soft, naturally occurring composite of biological nutrients.\n\nIt may be processed into <link=\"FERTILIZER\">Fertilizer</link> and aids in the growth of certain <link=\"PLANTS\">plant</link>."
+msgid "Pondscum is a soft, naturally occurring composite of biological nutrients.\n\nIt may be processed into <link=\"FERTILIZER\">Fertilizer</link> and aids in the growth of certain <link=\"PLANTS\">Plants</link>."
 msgstr ""
 
 #. STRINGS.ELEMENTS.PONDSCUM.NAME
@@ -20960,7 +20980,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.SANDSTONE.DESC
 msgctxt "STRINGS.ELEMENTS.SANDSTONE.DESC"
-msgid "Sandstone is a composite of relatively soft sedimentary rock.\n\nIt is useful as a Construction Material."
+msgid "Sandstone is a composite of relatively soft sedimentary rock.\n\nIt is useful as a construction material."
 msgstr ""
 
 #. STRINGS.ELEMENTS.SANDSTONE.NAME
@@ -20970,7 +20990,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC
 msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC"
-msgid "Sedimentary Rock is a hardened composite of sediment layers.\n\nIt is useful as a Construction Material."
+msgid "Sedimentary Rock is a hardened composite of sediment layers.\n\nIt is useful as a construction material."
 msgstr ""
 
 #. STRINGS.ELEMENTS.SEDIMENTARYROCK.NAME
@@ -24245,7 +24265,7 @@ msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP"
-msgid "This <link=\"BLEACHSTONE\">Bleach Stone</link> deposit is not exposed to air and cannot emit <link=\"CHLORINE\">Chlorine</link>"
+msgid "This <link=\"BLEACHSTONE\">Bleachstone</link> deposit is not exposed to air and cannot emit <link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.NAME
@@ -24255,7 +24275,7 @@ msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP"
-msgid "Environmental air pressure is too high for this <link=\"BLEACHSTONE\">Bleach Stone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
+msgid "Environmental air pressure is too high for this <link=\"BLEACHSTONE\">Bleachstone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.NAME
@@ -24265,7 +24285,7 @@ msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP"
-msgid "This <link=\"BLEACHSTONE\">Bleach Stone</link> deposit has no room to emit <link=\"CHLORINE\">Chlorine</link>"
+msgid "This <link=\"BLEACHSTONE\">Bleachstone</link> deposit has no room to emit <link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.NAME
@@ -24285,7 +24305,7 @@ msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
-msgid "Environmental air pressure is too high for this <link=\"BLEACHSTONE\">Bleach Stone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
+msgid "Environmental air pressure is too high for this <link=\"BLEACHSTONE\">Bleachstone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME
@@ -31590,7 +31610,7 @@ msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
-msgid "<link=\"POLLUTED OXYGEN\">Sublimation</link>:"
+msgid "<link=\"CONTAMINATEDOXYGEN\">Sublimation</link>:"
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
@@ -31605,7 +31625,7 @@ msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
-msgid "<link=\"POLLUTED OXYGEN\">Toilet Emissions: </link>"
+msgid "<link=\"CONTAMINATEDOXYGEN\">Toilet Emissions: </link>"
 msgstr ""
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
@@ -35135,7 +35155,7 @@ msgstr ""
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
-msgid "Connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">Liquid Pipe</link>"
+msgid "Connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgstr ""
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER
@@ -35145,7 +35165,7 @@ msgstr ""
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
-msgid "Not connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">Liquid Pipe</link>"
+msgid "Not connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgstr ""
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED

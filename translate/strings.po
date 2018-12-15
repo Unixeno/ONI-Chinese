@@ -134,8 +134,9 @@ msgstr "需要翻搅"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP"
-msgid "Compost must be flipped periodically to produce fertilizer"
-msgstr "堆肥必须定期翻搅来产生肥料"
+msgid ""
+"Compost must be flipped periodically to produce <link=\"DIRT\">Dirt</link>"
+msgstr "堆肥必须定期翻搅来产生<link=\"DIRT\">泥土</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.NAME"
@@ -1039,13 +1040,22 @@ msgid "Requires Emptying"
 msgstr "需要清空"
 
 #. STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
+#| msgid ""
+#| "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of "
+#| "<link=\"DIRTYWATER\">Polluted Water</link>\n"
+#| "------------------\n"
+#| "<link=\"BOTTLEEMPTIER\">Bottle Emptier</link>s can be used to transport "
+#| "and dispose of <link=\"DIRTYWATER\">Polluted Water</link> in designated "
+#| "areas"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
 msgid ""
 "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of "
-"<link=\"DIRTYWATER\">Polluted Water</link>\n"
+"<link=\"DIRTYWATER\">Contaminated Water</link>\n"
 "------------------\n"
-"<link=\"BOTTLEEMPTIER\">Bottle Emptier</link>s can be used to transport and "
-"dispose of <link=\"DIRTYWATER\">Polluted Water</link> in designated areas"
+"<link=\"BOTTLEEMPTIER\">Bottle Emptiers</link> can be used to transport and "
+"dispose of <link=\"DIRTYWATER\">Contaminated Water</link> in designated areas"
 msgstr ""
 "这个<link=\"ALGAEHABITAT\">藻类蒸馏器</link>里面的<link=\"DIRTYWATER\">污染水"
 "</link>需要清空。\n"
@@ -1060,12 +1070,8 @@ msgstr "已建造台架"
 
 #. STRINGS.BUILDING.STATUSITEMS.HASGANTRY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HASGANTRY.TOOLTIP"
-msgid ""
-"A <link=\"GANTRY\">Gantry</link> must be built below a <link=\"COMMANDMODULE"
-"\">Command Capsule</link> for an astronaut to access it"
-msgstr ""
-"必须在<link=\"COMMANDMODULE\">指令舱</link>下方修建一个<link=\"GANTRY\">台架"
-"</link>，以便宇航员访问它"
+msgid "Duplicants may now enter this section of the rocket"
+msgstr "复制人现在可以进入火箭了"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME"
@@ -1140,6 +1146,28 @@ msgstr "无效的建造地点"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.TOOLTIP"
 msgid "Cannot construct building in this location"
 msgstr "无法在这个位置建造建筑"
+
+#. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME"
+msgid "Invalid Port Overlap"
+msgstr "无效的端口重叠"
+
+#. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_NAME"
+msgid "Building has overlapping ports"
+msgstr "建筑物具有重叠的端口"
+
+#. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NOTIFICATION_TOOLTIP"
+msgid "These buildings must be rebuilt with non-overlapping ports:"
+msgstr "这些建筑物必须使用不重叠的端口重建："
+
+#. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.TOOLTIP"
+msgid ""
+"Ports on this building overlap those on another building. This building must "
+"be rebuilt in a valid location."
+msgstr "此建筑上的端口与另一个建筑的端口重叠。此建筑必须在有效的位置上重建。"
 
 #. STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.JOULESAVAILABLE.NAME"
@@ -1359,8 +1387,8 @@ msgstr "此建筑正在崩塌"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.NAME"
-msgid "Missing Foundation"
-msgstr "缺少地基"
+msgid "Missing Tile"
+msgstr "缺少砖块"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.TOOLTIP"
@@ -1383,11 +1411,12 @@ msgstr "缺少台架"
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP"
 msgid ""
-"A <link=\"GANTRY\">Gantry</link> must be built below a <link=\"COMMANDMODULE"
-"\">Command Capsule</link> for an astronaut to access it"
+"A <link=\"GANTRY\">Gantry</link> must be built below <link=\"COMMANDMODULE"
+"\">Command Capsules</link> and <link=\"TOURISTMODULE\">Sight-Seeing Modules</"
+"link> for Duplicants access"
 msgstr ""
-"必须在<link=\"COMMANDMODULE\">指令舱</link>下方修建一个<link=\"GANTRY\">台架"
-"</link>，以便宇航员访问它"
+"<link=\"COMMANDMODULE\">指令舱</link>和<link=\"TOURISTMODULE\">观光模块</"
+"link>下方必须修建一个<link=\"GANTRY\">台架</link>，这样宇航员才能进入它们"
 
 #. STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME"
@@ -1538,9 +1567,16 @@ msgid "No Conveyor Loader"
 msgstr "无传送装载器"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
+#| msgid ""
+#| "Material cannot be fed onto this Conveyor Rail system for transport\n"
+#| "------------------\n"
+#| "Enter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build "
+#| "Menu to build and connect a Conveyor Loader"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
 msgid ""
-"Material cannot be fed onto this Conveyor Rail system for transport\n"
+"Material cannot be fed onto this Conveyor system for transport\n"
 "------------------\n"
 "Enter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build Menu "
 "to build and connect a Conveyor Loader"
@@ -1556,13 +1592,22 @@ msgid "No Conveyor Receptacle"
 msgstr "无传送卸载器"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
+#| msgid ""
+#| "Material cannot be offloaded from this Conveyor system and will backup "
+#| "the rails\n"
+#| "------------------\n"
+#| "Enter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build "
+#| "Menu to build and connect a Conveyor Receptacle"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
 msgid ""
 "Material cannot be offloaded from this Conveyor system and will backup the "
 "rails\n"
 "------------------\n"
 "Enter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build Menu "
-"to build and connect a Conveyor Receptacle"
+"to build and connect a <link=\"SOLIDCONDUITOUTBOX\">Conveyor Receptacle</"
+"link>"
 msgstr ""
 "无法将材料从此传送系统上卸载，将返回传送轨\n"
 "------------------\n"
@@ -1658,8 +1703,8 @@ msgstr "研究不适用"
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME"
-msgid "<link=\"SUPER COMPUTER\">Research Center</link> idle"
-msgstr "<link=\"SUPER COMPUTER\">研究中心</link>闲置"
+msgid "<link=\"ADVANCEDRESEARCHCENTER\">Research Center</link> idle"
+msgstr "<link=\"ADVANCEDRESEARCHCENTER\">研究中心</link>闲置"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_TOOLTIP
 msgctxt ""
@@ -2276,11 +2321,19 @@ msgid "Conveyor Rail Backup"
 msgstr "传送轨备份"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP"
+#| msgid ""
+#| "This Conveyor Rail cannot carry anymore material\n"
+#| "------------------\n"
+#| "Remove material from the Conveyor Receptacle to free space for more "
+#| "objects"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP"
 msgid ""
 "This Conveyor Rail cannot carry anymore material\n"
 "------------------\n"
-"Remove material from the Conveyor Receptacle to free space for more objects"
+"Remove material from the <link=\"SOLIDCONDUITOUTBOX\">Conveyor Receptacle</"
+"link> to free space for more objects"
 msgstr ""
 "这条传送轨无法承载更多材料了\n"
 "------------------\n"
@@ -3042,12 +3095,13 @@ msgid ""
 "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new "
 "technologies.\n"
 "\n"
-"Assigned Duplicants must possess the <link=\"RESEARCHER\">Super Computer "
-"Researching</link> trait."
+"Assigned Duplicants must possess the <link=\"JUNIORRESEARCHER\">Super "
+"Computer Researching</link> trait."
 msgstr ""
 "进行<link=\"RESEARCH\">高级研究</link>以解锁新技术。\n"
-"分配的复制人必须拥有<link=\"RESEARCHER\">超级计算机研究</link>特征才可以开展"
-"研究。"
+"\n"
+"分配的复制人必须拥有<link=\"JUNIORRESEARCHER\">超级计算机研究</link>特征才可"
+"以开展研究。"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME"
@@ -3424,14 +3478,10 @@ msgid ""
 "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</"
 "link> flow, maintaining pressure between areas.\n"
 "\n"
-"Sets Duplicant Access Permissions for area restriction.\n"
-"\n"
 "Can withstand extremely high pressures and impacts."
 msgstr ""
 "隔断<link=\"ELEMENTSLIQUID\">液体</link>和<link=\"ELEMENTSGAS\">气体</link>流"
 "动，保持区域之间的气压。\n"
-"\n"
-"若要进行区域限制，可以设置复制人访问权限。\n"
 "\n"
 "可以承受极高的压力和冲击。"
 
@@ -4041,12 +4091,12 @@ msgstr "热气腾腾。"
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT"
 msgid ""
-"Separates any <link=\"DIRTYWATER\">Polluted Water</link> piped through it "
-"into <link=\"STEAM\">Steam</link> and <link=\"TOXICSAND\">Polluted Dirt</"
-"link>"
+"Separates any <link=\"DIRTYWATER\">Contaminated Water</link> piped through "
+"it into <link=\"STEAM\">Steam</link> and <link=\"TOXICSAND\">Polluted Dirt</"
+"link>."
 msgstr ""
 "把送入的<link=\"DIRTYWATER\">污水</link>转化成<link=\"STEAM\">蒸气</link>和"
-"<link=\"TOXICSAND\">污染土</link>"
+"<link=\"TOXICSAND\">污染土</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME"
@@ -4288,8 +4338,8 @@ msgstr "一个又高又窄的窗户。"
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
-msgid "<link=\"\">Window</link>"
-msgstr "<link=\"\">窗户</link>"
+msgid "<link=\"FACILITYBACKWALLWINDOW\">Window</link>"
+msgstr "<link=\"FACILITYBACKWALLWINDOW\">窗户</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC"
@@ -5091,12 +5141,12 @@ msgstr "燃煤发电机能生产比人力发电机更多的电能，但会排放
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.EFFECT"
 msgid ""
-"Converts <link=\"CARBON\">Carbon</link> into electrical <link=\"POWER"
-"\">Power</link>.\n"
+"Converts <link=\"CARBON\">Coal</link> into electrical <link=\"POWER\">Power</"
+"link>.\n"
 "\n"
 "Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>."
 msgstr ""
-"将<link=\"CARBON\">煤</link>转化成<link=\"POWER\">电力</link>.\n"
+"将<link=\"CARBON\">煤</link>转化成<link=\"POWER\">电力</link>。\n"
 "\n"
 "产生<link=\"CARBONDIOXIDE\">二氧化碳</link>。"
 
@@ -5285,12 +5335,12 @@ msgid ""
 "Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE"
 "\">Wire</link> without overloading.\n"
 "\n"
-"Can be run through wall and floor tile."
+"Cannot be run through wall and floor tile."
 msgstr ""
 "比常规<link=\"WIRE\">电线</link>承载更高的<link=\"POWER\">功率</link>，而不会"
 "超载。\n"
 "\n"
-"可穿过墙壁和地砖。"
+"无法穿过墙壁和地砖。"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME"
@@ -5306,13 +5356,13 @@ msgstr "和蒸汽或石油发动机相比，氢发动机能把火箭送到更远
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.EFFECT"
 msgid ""
-"Burns <link=\"HYDROGEN\">Hydrogen</link> to propel rockets for space "
-"exploration.\n"
+"Burns <link=\"LIQUIDHYDROGEN\">Liquid Hydrogen</link> to propel rockets for "
+"space exploration.\n"
 "\n"
 "The engine of a rocket must be built first before more rocket modules may be "
 "added."
 msgstr ""
-"燃烧<link=\"HYDROGEN\">氢气</link>以推进火箭来进行太空探索。\n"
+"燃烧<link=\"LIQUIDHYDROGEN\">液氢</link>以推进火箭来进行太空探索。\n"
 "\n"
 "必须最先建造火箭发动机，才能将其他模块添加到它的上面。"
 
@@ -5370,7 +5420,7 @@ msgstr "<link=\"HYDROPONICFARM\">液培砖</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-msgid "Average Ice Sculpture"
+msgid "Mediocre Ice Sculpture"
 msgstr "普通的冰雕"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC
@@ -6418,13 +6468,13 @@ msgstr "一旦激活，内存开关能保持建筑物开启，直到重置端口
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT"
 msgid ""
-"Becomes <link=\"LOGIC\">Active</link> when the <link=\"SET\">Logic</link> "
+"Becomes <link=\"LOGIC\">Active</link> when the <link=\"LOGIC\">Set</link> "
 "port (S) is <link=\"LOGIC\">Active</link>.\n"
 "\n"
 "Goes to <link=\"LOGIC\">Standby</link> if the reset port (R) becomes <link="
 "\"LOGIC\">Active</link>."
 msgstr ""
-"当<link=\"SET\">逻辑</link>端口(S)<link=\"LOGIC\">激活</link>时，变为<link="
+"当<link=\"LOGIC\">逻辑</link>端口(S)<link=\"LOGIC\">激活</link>时，变为<link="
 "\"LOGIC\">激活</link>模式。\n"
 "\n"
 "当复位端口(R)<link=\"LOGIC\">激活</link>时，变为<link=\"LOGIC\">待命</link>模"
@@ -6771,7 +6821,7 @@ msgstr "<link=\"MANUALPRESSUREDOOR\">手动气闸</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME"
-msgid "Average Marble Sculpture"
+msgid "Mediocre Marble Sculpture"
 msgstr "普通的大理石雕塑"
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.DESC
@@ -6969,8 +7019,8 @@ msgstr "从{1}中提炼出纯的{0}。"
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME"
-msgid "Averabe Metal Sculpture"
-msgstr "一般的金属雕塑"
+msgid "Mediocre Metal Sculpture"
+msgstr "普通的金属雕塑"
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.DESC"
@@ -7199,15 +7249,15 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT"
 msgid ""
 "Gives Duplicants a place to relieve themselves.\n"
 "\n"
-"Requires no <link=\"GASPIPING\">Piping</link>.\n"
+"Requires no <link=\"LIQUIDPIPING\">Piping</link>.\n"
 "\n"
 "Must be periodically emptied of <link=\"TOXICSAND\">Polluted Dirt</link>."
 msgstr ""
-"给复制人提供排泄场所。\n"
+"为复制人提供一个“方便”的地方。\n"
 "\n"
-"不需要<link=\"GASPIPING\">管道系统</link>。\n"
+"不需要<link=\"LIQUIDPIPING\">液体管道</link>。\n"
 "\n"
-"必须定期清空<link=\"TOXICSAND\">污泥</link>。"
+"必须定期清空<link=\"TOXICSAND\">污染土</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME"
@@ -7536,7 +7586,7 @@ msgstr "气压开关在周围气压超过设定阈值时会断开。"
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT"
 msgid ""
 "Automatically turns <link=\"POWER\">Power</link> on or off using ambient "
-"<link=\"PRESSURE\">Gas</link> pressure.\n"
+"<link=\"PRESSURE\">Gas Pressure</link> .\n"
 "\n"
 "Does not affect circuitry preceding the switch."
 msgstr ""
@@ -8118,7 +8168,7 @@ msgstr "<link=\"ROLESTATION\">就业岗位台</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME"
-msgid "Average Sculpture"
+msgid "Mediocre Sculpture"
 msgstr "一般的雕塑"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.DESC
@@ -8213,7 +8263,7 @@ msgstr "<link=\"SHOWER\">淋浴间</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME"
-msgid "Average Sculpture"
+msgid "Mediocre Sculpture"
 msgstr "一般的雕塑"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC
@@ -8736,15 +8786,15 @@ msgstr "望远镜是学习星图和进行火箭任务所必需的。"
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
 msgid ""
-"Maps Starmap destinations and produces <link=\"RESEARCH\">Interstellar "
-"Research</link>.\n"
+"Maps Starmap destinations and produces <link=\"RESEARCHDATABANK\">Databanks</"
+"link>.\n"
 "\n"
 "Assigned Duplicants must possess the <link=\"RESEARCHER\">Geographical "
 "Analysis</link> trait.\n"
 "\n"
 "Building must be exposed to space to function."
 msgstr ""
-"映射星图中的目的地并生成<link =\"RESEARCH\">星际级研究</link>。\n"
+"映射星图中的目的地并生成<link =\"RESEARCHDATABANK\">数据盘</link>。\n"
 "\n"
 "必须分配具有<link =“RESEARCHER”>地理分析</link>特征的复制人。\n"
 "\n"
@@ -9205,12 +9255,12 @@ msgid ""
 "Carries more <link=\"POWER\">Wattage</link> than regular <link=\"WIRE"
 "\">WIRE</link> without overloading.\n"
 "\n"
-"Can be run through wall and floor tile."
+"Cannot be run through wall and floor tile."
 msgstr ""
 "比常规<link=\"WIRE\">电线</link>承载更高<link=\"POWER\">功率</link>，而不会出"
 "现电力过载的情况。\n"
 "\n"
-"可穿过墙壁和地板。"
+"不可穿过墙壁和地板。"
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.NAME"
@@ -14048,12 +14098,9 @@ msgid "ENCRYPTION LEVEL: THREE"
 msgstr "加密等级：三级"
 
 #. STRINGS.CODEX.TIMEMUSINGS.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYDESK.NAME"
-#| msgid "Director's Desk"
 msgctxt "STRINGS.CODEX.TIMEMUSINGS.TITLE"
 msgid "Director's Notes"
-msgstr "主管的桌子"
+msgstr "主管的日志"
 
 #. STRINGS.CODEX.TIMESARROWTHOUGHTS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.TIMESARROWTHOUGHTS.BODY.CONTAINER1"
@@ -14842,8 +14889,9 @@ msgstr ""
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.DESC"
 msgid ""
 "A highly pressurized vent that periodically erupts with boiling <link="
-"\"DIRTYWATER\">Polluted Water</link>."
-msgstr "内部压力很高的喷口，会定期沸腾的<link=\"DIRTYWATER\">污染水</link>。"
+"\"DIRTYWATER\">Contaminated Water</link>."
+msgstr ""
+"内部压力很高的喷口，会定期喷出沸腾的<link=\"DIRTYWATER\">污染水</link>。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME"
@@ -14904,9 +14952,9 @@ msgstr "<link=\"GEYSERGENERICHOTSTEAM\">水蒸气喷口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC"
 msgid ""
-"A highly pressurized geyser that periodically erupts with hot <link=\"WATER"
-"\">Water</link>."
-msgstr "内部压力很高的间歇泉，会定期喷发高温的<link=\"STEAM\">水</link>。"
+"A highly pressurized geyser that periodically erupts with hot <link=\"STEAM"
+"\">Steam</link>."
+msgstr "内部压力很高的间歇泉，会定期喷发高温的<link=\"STEAM\">水蒸汽</link>。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME"
@@ -15608,9 +15656,14 @@ msgid "<link=\"MOO\">Gassy Moo</link>"
 msgstr "<link=\"MOO\">胀气海牛</link>"
 
 #. STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC"
+#| msgid ""
+#| "Dusk Caps produce <link=\"MUSHROOM\">Mushroom</link>, fungal growths that "
+#| "can be harvested for <link=\"FOOD\">Food</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC"
 msgid ""
-"Dusk Caps produce <link=\"MUSHROOM\">Mushroom</link>, fungal growths that "
+"Dusk Caps produce <link=\"MUSHROOM\">Mushrooms</link>, fungal growths that "
 "can be harvested for <link=\"FOOD\">Food</link>."
 msgstr ""
 "暮光伞上会长出可作为<link=\"FOOD\">食物</link>的<link=\"MUSHROOM\">蘑菇</"
@@ -15792,10 +15845,17 @@ msgid "<link=\"PACU\">Pacu Fry</link>"
 msgstr "<link=\"PACU\">小只鲤宝宝</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.DESC
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.DESC"
+#| msgid ""
+#| "Pacus are aquatic creatures that cannot live outside of <link=\"WATER"
+#| "\">Water</link> or <link=\"DIRTYWATER\">Polluted Water</link>.\n"
+#| "\n"
+#| "Every organism in the known universe finds the Pacu extremely delicious."
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.DESC"
 msgid ""
 "Pacus are aquatic creatures that cannot live outside of <link=\"WATER"
-"\">Water</link> or <link=\"DIRTYWATER\">Polluted Water</link>.\n"
+"\">Water</link> or <link=\"DIRTYWATER\">Contaminated Water</link>.\n"
 "\n"
 "Every organism in the known universe finds the Pacu extremely delicious."
 msgstr ""
@@ -16044,10 +16104,15 @@ msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puftlet</link>"
 msgstr "<link=\"PUFTBLEACHSTONE\">尖叫阿噗宝宝</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC"
+#| msgid ""
+#| "Squeaky Pufts are non-aggressive critters that excrete lumps of <link="
+#| "\"BLEACHSTONE\">Bleach Stone</link> with each breath."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC"
 msgid ""
 "Squeaky Pufts are non-aggressive critters that excrete lumps of <link="
-"\"BLEACHSTONE\">Bleach Stone</link> with each breath."
+"\"BLEACHSTONE\">Bleachstone</link> with each breath."
 msgstr ""
 "尖叫阿噗是一种温和的动物，会在呼吸时排出一块<link=\"BLEACHSTONE\">漂白石</"
 "link>。"
@@ -24871,12 +24936,9 @@ msgid "This Duplicant is cleaning up a nasty spill"
 msgstr "这名复制人正在清理地上的污渍"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME"
-#| msgid "Exiting <link=\"ATMOSUIT\">Atmo Suit</link> area"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME"
 msgid "Exiting <link=\"EXOSUIT\">Exosuit</link> area"
-msgstr "离开<link=\"ATMOSUIT\">太空服</link>区域"
+msgstr "离开<link=\"EXOSUIT\">太空服</link>区域"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP
 #, fuzzy
@@ -25629,6 +25691,9 @@ msgid ""
 "------------------\n"
 "Improve this Duplicant's Morale before they eat all the colony's food stores"
 msgstr ""
+"这名复制人被饥饿支配了\n"
+"------------------\n"
+"在他把殖民地的食物都吃完之前最好增加他的士气"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_UGLY_CRIER.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_UGLY_CRIER.NAME"
@@ -25642,6 +25707,9 @@ msgid ""
 "------------------\n"
 "Improve this Duplicant's Morale before they have a good ugly cry"
 msgstr ""
+"虽然一直在失败，这个复制人仍坚持不懈的控制他的感情\n"
+"------------------\n"
+"在他哭出来之前最好增加他的士气"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_VOMITER.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_VOMITER.NAME"
@@ -25655,6 +25723,9 @@ msgid ""
 "------------------\n"
 "Improve this Duplicant's Morale before they start to stress vomit"
 msgstr ""
+"就像肚子里有之蝴蝶在飞一样\n"
+"\n"
+"在这位复制人吐出来之前最好增加他的士气"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NAME"
@@ -25698,6 +25769,10 @@ msgid ""
 "------------------\n"
 "These Duplicants made messes that require cleaning up:\n"
 msgstr ""
+"<link=\"MISC\">拖地工具</link> <color=#F44A47><b>[M]</b></color>可以用来清理"
+"复制人的随地大小便\n"
+"------------------\n"
+"这些复制人把家搞得一团糟，需要打扫一下了：\n"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSFULLYEMPTYINGBLADDER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSFULLYEMPTYINGBLADDER.TOOLTIP"
@@ -25708,6 +25783,10 @@ msgid ""
 "<link=\"OUTHOUSE\">Outhouses</link> can be built from the <link=\"MISC"
 "\">PLUMBING TAB</link> <color=#F44A47><b>[5]</b></color>"
 msgstr ""
+"好尴尬，这名可怜的复制人找不到<link=\"OUTHOUSE\">茅厕</link>了\n"
+"------------------\n"
+"<link=\"OUTHOUSE\">茅厕</link>可以在<link=\"MISC\">管道菜单</link> "
+"<color=#F44A47><b>[5]</b></color>里找到并建造"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.NAME"
@@ -25727,6 +25806,10 @@ msgid ""
 "------------------\n"
 "These Duplicants became so <link=\"STRESS\">Stressed</link> they threw up:"
 msgstr ""
+"<link=\"MISC\">拖地工具</link> <color=#F44A47><b>[M]</b></color>可以用来清理"
+"复制人的呕吐物\n"
+"------------------\n"
+"这些复制人<link=\"STRESS\">压力</link>太大了，以至于都吐出来了："
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.TOOLTIP"
@@ -25737,6 +25820,10 @@ msgid ""
 "Duplicant-related \"spills\" can be cleaned up using the <link=\"MISC\">MOP "
 "TOOL</link> <color=#F44A47><b>[M]</b></color>"
 msgstr ""
+"这名复制人正在满地板的“释放”<link=\"STRESS\">压力</link>\n"
+"------------------\n"
+"复制人的呕吐物可以使用<link=\"MISC\">拖地工具</link> <color=#F44A47><b>[M]</"
+"b></color>清除"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STUDYING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STUDYING.NAME"
@@ -25824,6 +25911,8 @@ msgid ""
 "These Duplicants cannot reach a functioning <link=\"OUTHOUSE\">Outhouse</"
 "link> or <link=\"FLUSHTOILET\">Lavatory</link>:"
 msgstr ""
+"这些复制人找不到一个能用的<link=\"OUTHOUSE\">茅厕</link>或者<link="
+"\"FLUSHTOILET\">抽水马桶</link>："
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.TOILETUNREACHABLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TOILETUNREACHABLE.TOOLTIP"
@@ -25831,6 +25920,8 @@ msgid ""
 "This Duplicant cannot reach a functioning <link=\"OUTHOUSE\">Outhouse</link> "
 "or <link=\"FLUSHTOILET\">Lavatory</link>"
 msgstr ""
+"这名复制人找不到一个能用的<link=\"OUTHOUSE\">茅厕</link>或者<link="
+"\"FLUSHTOILET\">抽水马桶</link>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.NAME"
@@ -26604,6 +26695,10 @@ msgid ""
 "It can be used to produce <link=\"OXYGEN\">Oxygen</link> when used in <link="
 "\"MINERALOXIDIZER\">Oxygen Diffusers</link>."
 msgstr ""
+"藻类是一群不能移动的单细胞生物。\n"
+"\n"
+"它可以通过<link=\"MINERALOXIDIZER\">藻类脱氧机</link>来制造<link=\"OXYGEN\">"
+"氧气</link>。"
 
 #. STRINGS.ELEMENTS.ALGAE.NAME
 msgctxt "STRINGS.ELEMENTS.ALGAE.NAME"
@@ -27064,11 +27159,17 @@ msgid "Properties: {0}"
 msgstr "属性：{0}"
 
 #. STRINGS.ELEMENTS.FERTILIZER.DESC
+#, fuzzy
+#| msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
+#| msgid ""
+#| "Fertilizer is a processed mixture of biological nutrients.\n"
+#| "\n"
+#| "It aids in the growth of certain <link=\"PLANTS\">plant</link>."
 msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
 msgid ""
 "Fertilizer is a processed mixture of biological nutrients.\n"
 "\n"
-"It aids in the growth of certain <link=\"PLANTS\">plant</link>."
+"It aids in the growth of certain <link=\"PLANTS\">Plants</link>."
 msgstr ""
 "肥料是一种经过处理的生物养分混合物。\n"
 "\n"
@@ -28008,12 +28109,20 @@ msgid "<link=\"POLYPROPYLENE\">Plastic</link>"
 msgstr "<link=\"POLYPROPYLENE\">塑料</link>"
 
 #. STRINGS.ELEMENTS.PONDSCUM.DESC
+#, fuzzy
+#| msgctxt "STRINGS.ELEMENTS.PONDSCUM.DESC"
+#| msgid ""
+#| "Pondscum is a soft, naturally occurring composite of biological "
+#| "nutrients.\n"
+#| "\n"
+#| "It may be processed into <link=\"FERTILIZER\">Fertilizer</link> and aids "
+#| "in the growth of certain <link=\"PLANTS\">plant</link>."
 msgctxt "STRINGS.ELEMENTS.PONDSCUM.DESC"
 msgid ""
 "Pondscum is a soft, naturally occurring composite of biological nutrients.\n"
 "\n"
 "It may be processed into <link=\"FERTILIZER\">Fertilizer</link> and aids in "
-"the growth of certain <link=\"PLANTS\">plant</link>."
+"the growth of certain <link=\"PLANTS\">Plants</link>."
 msgstr ""
 "绿藻是自然生成的生物营养素，质地柔软。\n"
 "\n"
@@ -28128,11 +28237,17 @@ msgid "<link=\"SANDCEMENT\">Sand Cement</link>"
 msgstr "<link=\"SANDCEMENT\">砂水泥</link>"
 
 #. STRINGS.ELEMENTS.SANDSTONE.DESC
+#, fuzzy
+#| msgctxt "STRINGS.ELEMENTS.SANDSTONE.DESC"
+#| msgid ""
+#| "Sandstone is a composite of relatively soft sedimentary rock.\n"
+#| "\n"
+#| "It is useful as a Construction Material."
 msgctxt "STRINGS.ELEMENTS.SANDSTONE.DESC"
 msgid ""
 "Sandstone is a composite of relatively soft sedimentary rock.\n"
 "\n"
-"It is useful as a Construction Material."
+"It is useful as a construction material."
 msgstr ""
 "砂岩是一种相对较软的沉积岩。\n"
 "\n"
@@ -28144,11 +28259,17 @@ msgid "<link=\"SANDSTONE\">Sandstone</link>"
 msgstr "<link=\"SANDSTONE\">砂岩</link>"
 
 #. STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC
+#, fuzzy
+#| msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC"
+#| msgid ""
+#| "Sedimentary Rock is a hardened composite of sediment layers.\n"
+#| "\n"
+#| "It is useful as a Construction Material."
 msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC"
 msgid ""
 "Sedimentary Rock is a hardened composite of sediment layers.\n"
 "\n"
-"It is useful as a Construction Material."
+"It is useful as a construction material."
 msgstr ""
 "沉积岩是沉积层的硬化复合物。\n"
 "\n"
@@ -32500,9 +32621,14 @@ msgid "Bleachstone blocked"
 msgstr "漂白石受阻"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP"
+#| msgid ""
+#| "This <link=\"BLEACHSTONE\">Bleach Stone</link> deposit is not exposed to "
+#| "air and cannot emit <link=\"CHLORINE\">Chlorine</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP"
 msgid ""
-"This <link=\"BLEACHSTONE\">Bleach Stone</link> deposit is not exposed to air "
+"This <link=\"BLEACHSTONE\">Bleachstone</link> deposit is not exposed to air "
 "and cannot emit <link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
 "这块<link=\"BLEACHSTONE\">漂白石</link>未与空气接触，无法排放<link=\"CHLORINE"
@@ -32514,10 +32640,15 @@ msgid "Inert"
 msgstr "惰性"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP"
+#| msgid ""
+#| "Environmental air pressure is too high for this <link=\"BLEACHSTONE"
+#| "\">Bleach Stone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP"
 msgid ""
-"Environmental air pressure is too high for this <link=\"BLEACHSTONE\">Bleach "
-"Stone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
+"Environmental air pressure is too high for this <link=\"BLEACHSTONE"
+"\">Bleachstone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
 "这块<link=\"BLEACHSTONE\">漂白色</link>储存在环境气压太高的地方，不会产生"
 "<link=\"CHLORINE\">氯气</link>"
@@ -32528,9 +32659,14 @@ msgid "{BlockedString}"
 msgstr "{BlockedString}"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP"
+#| msgid ""
+#| "This <link=\"BLEACHSTONE\">Bleach Stone</link> deposit has no room to "
+#| "emit <link=\"CHLORINE\">Chlorine</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP"
 msgid ""
-"This <link=\"BLEACHSTONE\">Bleach Stone</link> deposit has no room to emit "
+"This <link=\"BLEACHSTONE\">Bleachstone</link> deposit has no room to emit "
 "<link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
 "这块<link=\"BLEACHSTONE\">漂白石</link>没有足够的空间排放<link=\"CHLORINE\">"
@@ -32552,10 +32688,15 @@ msgid "Inert"
 msgstr "惰性环境"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
+#| msgid ""
+#| "Environmental air pressure is too high for this <link=\"BLEACHSTONE"
+#| "\">Bleach Stone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
 msgid ""
-"Environmental air pressure is too high for this <link=\"BLEACHSTONE\">Bleach "
-"Stone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
+"Environmental air pressure is too high for this <link=\"BLEACHSTONE"
+"\">Bleachstone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
 "这块<link=\"BLEACHSTONE\">漂白色</link>储存在环境气压太高的地方，不会产生"
 "<link=\"CHLORINE\">氯气</link>"
@@ -40179,7 +40320,7 @@ msgstr "距下一次升级还有"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "DEVELOPMENT BUILD: {0}"
-msgstr "[官中重制版v1.2]开发版本：{0}"
+msgstr "[官中重制版v1.3]开发版本：{0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -40418,8 +40559,11 @@ msgid ""
 msgstr "我的殖民地一天产生了{0}的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
+#| msgid "<link=\"POLLUTED OXYGEN\">Sublimation</link>:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
-msgid "<link=\"POLLUTED OXYGEN\">Sublimation</link>:"
+msgid "<link=\"CONTAMINATEDOXYGEN\">Sublimation</link>:"
 msgstr "<link=\"POLLUTED OXYGEN\">升华</link>："
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
@@ -40439,8 +40583,11 @@ msgid ""
 msgstr "我的殖民地一天产生了{0}的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
+#| msgid "<link=\"POLLUTED OXYGEN\">Toilet Emissions: </link>"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
-msgid "<link=\"POLLUTED OXYGEN\">Toilet Emissions: </link>"
+msgid "<link=\"CONTAMINATEDOXYGEN\">Toilet Emissions: </link>"
 msgstr "<link=\"POLLUTED OXYGEN\">厕所排放：</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
@@ -44673,13 +44820,12 @@ msgid "Building Intake"
 msgstr "输入管道"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
+#| msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
-msgid ""
-"Connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">Liquid "
-"Pipe</link>"
-msgstr ""
-"已连接到一个<link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">液体管道</"
-"link>"
+msgid "Connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
+msgstr "<link=\"LIQUIDCONDUIT\">液体管道</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER"
@@ -44696,10 +44842,13 @@ msgstr ""
 "所在网络至少要有一个<link=\"LIQUIDPIPING\">液体入口</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
+#| msgid ""
+#| "Not connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
+#| "\">Liquid Pipe</link>"
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
-msgid ""
-"Not connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
-"\">Liquid Pipe</link>"
+msgid "Not connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgstr ""
 "未连接到<link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">液体管道</link>"
 
@@ -52454,6 +52603,32 @@ msgstr "播撒沙子……"
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "播撒沙子……"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.HASGANTRY.TOOLTIP"
+#~ msgid ""
+#~ "A <link=\"GANTRY\">Gantry</link> must be built below a <link="
+#~ "\"COMMANDMODULE\">Command Capsule</link> for an astronaut to access it"
+#~ msgstr ""
+#~ "必须在<link=\"COMMANDMODULE\">指令舱</link>下方修建一个<link=\"GANTRY\">台"
+#~ "架</link>，以便宇航员访问它"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.NAME"
+#~ msgid "Missing Foundation"
+#~ msgstr "缺少地基"
+
+#~ msgctxt ""
+#~ "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED."
+#~ "NOTIFICATION_NAME"
+#~ msgid "<link=\"SUPER COMPUTER\">Research Center</link> idle"
+#~ msgstr "<link=\"SUPER COMPUTER\">研究中心</link>闲置"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
+#~ msgid ""
+#~ "Connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
+#~ "\">Liquid Pipe</link>"
+#~ msgstr ""
+#~ "已连接到一个<link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">液体管道"
+#~ "</link>"
 
 #, fuzzy
 #~ msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER1"
