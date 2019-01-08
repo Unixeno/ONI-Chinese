@@ -12005,7 +12005,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ART.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ART.DESC"
-msgid "Determines the speed and finesse with which a Duplicant creates artwork."
+msgid "Determines the speed at which a Duplicant creates artwork."
 msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ART.NAME
