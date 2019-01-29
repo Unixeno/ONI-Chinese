@@ -950,7 +950,7 @@ msgstr "收拢"
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME"
 msgid "Empty Pipe"
-msgstr "清空管道"
+msgstr "空管道"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP"
@@ -1040,15 +1040,6 @@ msgid "Requires Emptying"
 msgstr "需要清空"
 
 #. STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
-#| msgid ""
-#| "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of "
-#| "<link=\"DIRTYWATER\">Polluted Water</link>\n"
-#| "------------------\n"
-#| "<link=\"BOTTLEEMPTIER\">Bottle Emptier</link>s can be used to transport "
-#| "and dispose of <link=\"DIRTYWATER\">Polluted Water</link> in designated "
-#| "areas"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.TOOLTIP"
 msgid ""
 "This <link=\"ALGAEHABITAT\">Algae Terrarium</link> needs to be emptied of "
@@ -1057,8 +1048,8 @@ msgid ""
 "<link=\"BOTTLEEMPTIER\">Bottle Emptiers</link> can be used to transport and "
 "dispose of <link=\"DIRTYWATER\">Contaminated Water</link> in designated areas"
 msgstr ""
-"这个<link=\"ALGAEHABITAT\">藻类蒸馏器</link>里面的<link=\"DIRTYWATER\">污染水"
-"</link>需要清空。\n"
+"这个<link=\"ALGAEHABITAT\">藻类蒸馏器</link>内的<link=\"DIRTYWATER\">污染水</"
+"link>需要清空。\n"
 "------------------\n"
 "<link=\"BOTTLEEMPTIER\">空桶器</link>可以用来将<link=\"DIRTYWATER\">污染水</"
 "link>运走并倾倒至指定区域"
@@ -1567,13 +1558,6 @@ msgid "No Conveyor Loader"
 msgstr "无传送装载器"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
-#| msgid ""
-#| "Material cannot be fed onto this Conveyor Rail system for transport\n"
-#| "------------------\n"
-#| "Enter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build "
-#| "Menu to build and connect a Conveyor Loader"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
 msgid ""
 "Material cannot be fed onto this Conveyor system for transport\n"
@@ -1592,14 +1576,6 @@ msgid "No Conveyor Receptacle"
 msgstr "无传送卸载器"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
-#| msgid ""
-#| "Material cannot be offloaded from this Conveyor system and will backup "
-#| "the rails\n"
-#| "------------------\n"
-#| "Enter the Shipping Tab <color=#F44A47><b>[7]</b></color> of the Build "
-#| "Menu to build and connect a Conveyor Receptacle"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
 msgid ""
 "Material cannot be offloaded from this Conveyor system and will backup the "
@@ -1609,10 +1585,10 @@ msgid ""
 "to build and connect a <link=\"SOLIDCONDUITOUTBOX\">Conveyor Receptacle</"
 "link>"
 msgstr ""
-"无法将材料从此传送系统上卸载，将返回传送轨\n"
+"无法将材料从此传送系统上卸载，材料将返回传送轨\n"
 "------------------\n"
-"进入建造菜单的输送页面<color=#F44A47><b>[7]</b></color>，即可建造并连接传送卸"
-"载器"
+"进入建造菜单的输送页面<color=#F44A47><b>[7]</b></color>，即可建造并连接<link="
+"\"SOLIDCONDUITOUTBOX\">传送卸载器</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME"
@@ -2321,13 +2297,6 @@ msgid "Conveyor Rail Backup"
 msgstr "传送轨备份"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP"
-#| msgid ""
-#| "This Conveyor Rail cannot carry anymore material\n"
-#| "------------------\n"
-#| "Remove material from the Conveyor Receptacle to free space for more "
-#| "objects"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.TOOLTIP"
 msgid ""
 "This Conveyor Rail cannot carry anymore material\n"
@@ -2337,7 +2306,8 @@ msgid ""
 msgstr ""
 "这条传送轨无法承载更多材料了\n"
 "------------------\n"
-"从传送卸载器中移除材料，以便腾出空间来容纳更多物品"
+"从<link=\"SOLIDCONDUITOUTBOX\">传送卸载器</link>中移除材料，以便腾出空间来容"
+"纳更多物品"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.NAME"
@@ -4344,7 +4314,7 @@ msgstr "<link=\"FACILITYBACKWALLWINDOW\">窗户</link>"
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC"
 msgid "This station only has an effect on crops grown within the same room."
-msgstr "站点只对种在同一个房间里的农作物有影响。"
+msgstr "农业站只对种在同一个房间里的农作物有影响。"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
@@ -5184,7 +5154,7 @@ msgid ""
 "\n"
 "There is a chair attached to the device with room for one person."
 msgstr ""
-"一个巨大的人造大脑，悬浮在生理盐水中。\n"
+"一个悬浮在生理盐水中的巨大的人造大脑，。\n"
 "\n"
 "有一把椅子连接到这台设备，可以容下一人。"
 
@@ -6652,11 +6622,6 @@ msgid "<link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link>"
 msgstr "<link=\"LOGICTEMPERATURESENSOR\">温度传感器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.DESC"
-#| msgid ""
-#| "Clock Sensors ensure that systems always turn on at the same time of day "
-#| "or night, every cycle."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.DESC"
 msgid ""
 "Clock sensors ensure that systems always turn on at the same time, day or "
@@ -9422,6 +9387,12 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"[记录开始]\n"
+"\n"
+"……我们还不知道我们能否克服障碍，建立一个能在比我们预期更不适合生存的殖民地环"
+"境里还能繁殖的根，或者这么做是否值得……\n"
+"\n"
+"[记录结束]\n"
 
 #. STRINGS.CODEX.AGRICULTURALNOTES.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.AGRICULTURALNOTES.BODY.CONTAINER4"
@@ -9437,6 +9408,14 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"[记录开始]\n"
+"\n"
+"……暮光伞的基因序列让它能够在低光环境下生长。\n"
+"\n"
+"这些基因应该被取样，希望我们能把这些基因拼接到其它植物设计中……\n"
+"\n"
+"[记录结束]\n"
+"------------------\n"
 
 #. STRINGS.CODEX.AGRICULTURALNOTES.BODY.CONTAINER5
 msgctxt "STRINGS.CODEX.AGRICULTURALNOTES.BODY.CONTAINER5"
@@ -9452,6 +9431,14 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"[记录开始]\n"
+"\n"
+"……打印材料不足的情况下，顶针芦苇会被用作纺织品生产的应急材料。\n"
+"\n"
+"设计应当注重于植物的产量和……emmm，柔软程度。\n"
+"\n"
+"[记录结束]\n"
+"------------------\n"
 
 #. STRINGS.CODEX.AGRICULTURALNOTES.BODY.CONTAINER6
 msgctxt "STRINGS.CODEX.AGRICULTURALNOTES.BODY.CONTAINER6"
@@ -9466,6 +9453,15 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"[记录开始]\n"
+"\n"
+"……芳香百合是一种可靠的万能药用植物。\n"
+"\n"
+"除了保证它能在任何可种植的环境下生存以外，没有什么别的需要修改的地方了……\n"
+"\n"
+"[记录结束]\n"
+"------------------\n"
+"\n"
 
 #. STRINGS.CODEX.AGRICULTURALNOTES.BODY.CONTAINER7
 msgctxt "STRINGS.CODEX.AGRICULTURALNOTES.BODY.CONTAINER7"
@@ -9487,6 +9483,18 @@ msgid ""
 "\n"
 "[LOG ENDS]"
 msgstr ""
+"[语音识别已初始化]\n"
+"[识别出的主体：B577]\n"
+"\n"
+"[记录开始]\n"
+"\n"
+"遗传学家：我们已经设计出了需要根据环境情况旋转种植的作物。虽然各种各样的植物"
+"可以很理想的补充任何所需的营养物质，我们设计的任何一种作物都可以独立的无限维"
+"持我们殖民地的正常生活，而且不会对身体健康产生不良影响。\n"
+"遗传学家：仍然存在一些生存环境问题。不同的温度，是否有光照，和最后一次营养水"
+"平的变化是最重要的，特别是对于生产食物和氧气的植物。\n"
+"\n"
+"[记录结束]"
 
 #. STRINGS.CODEX.AGRICULTURALNOTES.SUBTITLE
 msgctxt "STRINGS.CODEX.AGRICULTURALNOTES.SUBTITLE"
@@ -10075,7 +10083,6 @@ msgstr ""
 "------------------\n"
 
 #. STRINGS.CODEX.B556.BODY.CONTAINER4
-#, fuzzy
 msgctxt "STRINGS.CODEX.B556.BODY.CONTAINER4"
 msgid ""
 "I got home yesterday fully intending to work on my paper after McClintock "
@@ -10725,26 +10732,6 @@ msgid "Dense Puft"
 msgstr "厚毛阿噗"
 
 #. STRINGS.CODEX.DISHBOT.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.DISHBOT.BODY.CONTAINER1"
-#| msgid ""
-#| "<smallcaps><b>Please Claim Your Bot</b>\n"
-#| "From: <b>Admin</b> <alpha=#AA><admin@gravitas.nova></color>\n"
-#| "To: <b>All</b></smallcaps>\n"
-#| "------------------\n"
-#| "\n"
-#| "<indent=5%>While we appreciate your commitment to office upkeep, we would "
-#| "like to inform whomever installed a dishwashing droid in the cafeteria "
-#| "that your prototype was found grievously misusing dishsoap and has been "
-#| "forcefully terminated.\n"
-#| "\n"
-#| "The remains may be collected at Security Block B.\n"
-#| "\n"
-#| "We apologize for the inconvenience and thank you for your timely "
-#| "collection of this prototype.\n"
-#| "\n"
-#| "-Admin\n"
-#| "The Gravitas Facility</indent>"
 msgctxt "STRINGS.CODEX.DISHBOT.BODY.CONTAINER1"
 msgid ""
 "<smallcaps><b>Please Claim Your Bot</b>\n"
@@ -10766,14 +10753,14 @@ msgid ""
 "The Gravitas Facility</indent>"
 msgstr ""
 "<smallcaps><b>请取回你的机器人</b>\n"
-"来着：<b>管理员</b> <alpha=#AA><admin@gravitas.nova></color>\n"
-"发往：<b>全体</b></smallcaps>\n"
+"发件人：<b>管理员</b> <alpha=#AA><admin@gravitas.nova></color>\n"
+"收件人：<b>全体员工</b></smallcaps>\n"
 "------------------\n"
 "\n"
 "<indent=5%>虽然我们感谢您对办公室保养的承诺，但我们要通知在自助餐厅里安装洗碗"
-"机器人的那个人，你的原型机被发现严重滥用洗洁精并被强制停止使用。\n"
+"机器人的那个人，你的原型机被发现严重滥用洗洁精并且已经被强制停止使用了。\n"
 "\n"
-"它剩下的部分可以在安全区B领取。\n"
+"洗碗机器人剩下的部分可以在安全区B领取。\n"
 "\n"
 "我们对给您带来的不便表示歉意，并感谢您及时的领走这个原型机。\n"
 "\n"
@@ -11365,9 +11352,10 @@ msgid "Prerequisite Tech"
 msgstr "前置科技"
 
 #. STRINGS.CODEX.HEADERS.PRODUCES
+#, fuzzy
 msgctxt "STRINGS.CODEX.HEADERS.PRODUCES"
 msgid "Excretes"
-msgstr ""
+msgstr "排泄物"
 
 #. STRINGS.CODEX.HEADERS.RECEPTACLE
 msgctxt "STRINGS.CODEX.HEADERS.RECEPTACLE"
@@ -11416,12 +11404,12 @@ msgctxt "STRINGS.CODEX.HEADERS.UNLOCK_ROLES_DESC"
 msgid ""
 "Promotions introduce further stat boosts and traits that stack with existing "
 "Job Training."
-msgstr ""
+msgstr "晋升会带来更多的属性和特质，这些特质与正在进行的职业培训会相叠加。"
 
 #. STRINGS.CODEX.HEADERS.USED_IN_RECIPES
 msgctxt "STRINGS.CODEX.HEADERS.USED_IN_RECIPES"
 msgid "Ingredient In"
-msgstr ""
+msgstr "成分"
 
 #. STRINGS.CODEX.HEADQUARTERS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.HEADQUARTERS.BODY.CONTAINER1"
@@ -11534,17 +11522,6 @@ msgid "Experiment 7D"
 msgstr "实验7D"
 
 #. STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER1"
-#| msgid ""
-#| "<indent=5%>OMIGOD, every time I go into the breakroom now I get ambushed "
-#| "by Dr. Holland and he traps me in a 20 minute conversation about his new "
-#| "dog.\n"
-#| "\n"
-#| "Like, I GET it! Your puppy is cute! Why do you have like 400 different "
-#| "pictures of it on your phone, FROM THE SAME ANGLE?!\n"
-#| "\n"
-#| "SO annoying.</indent>"
 msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER1"
 msgid ""
 "<indent=5%>OMIGOD, every time I go into the break room now I get ambushed by "
@@ -11684,6 +11661,18 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"<smallcaps>[检测到日志碎片]\n"
+"[语音识别不可用]\n"
+"\n"
+"[日志开始]\n"
+"\n"
+"……哈奇因为它潜在的广泛食物来源而被选来开发。\n"
+"\n"
+"能源生产是我们的首要目标，但增加可消耗的非有机物是一个更容易实现的第一步，并"
+"且还能获得废物处理的额外用途……\n"
+"\n"
+"[记录结束]\n"
+"------------------\n"
 
 #. STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER2"
@@ -11700,6 +11689,16 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"[记录开始]\n"
+"\n"
+"……莫布被选定用来开发是因为它有分解多种废物的能力，如此便能保证生态系统的健"
+"康。\n"
+"\n"
+"设计时应该注意消除成年莫布带来的疾病风险……\n"
+"\n"
+"[记录结束]\n"
+"------------------\n"
+"\n"
 
 #. STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER3"
@@ -11713,6 +11712,15 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"[记录开始]\n"
+"\n"
+"……阿噗可能适合发挥持续去除污染物的作用。\n"
+"\n"
+"潜在设计时应当关注这个过程的效率……\n"
+"\n"
+"[日志结束]\n"
+"[LOG BEGINS]\n"
+"------------------\n"
 
 #. STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER4"
@@ -11728,6 +11736,14 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"[日志开始]\n"
+"\n"
+"……由于影响需求低，改变自然环境的能力强，冰息萝卜是一个理想的选择。\n"
+"\n"
+"设计这些生物的时候应当着重于它们对环境温度的自然影响……\n"
+"\n"
+"[日志结束]\n"
+"------------------\n"
 
 #. STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER5
 msgctxt "STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER5"
@@ -11744,6 +11760,17 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"[记录开始]\n"
+"\n"
+"……哈奇的基因植入是成功的。\n"
+"\n"
+"该物种典型的多产粘液排泄物现在能以令人难以置信的速度生产碳氢化合物。\n"
+"\n"
+"这种生物基本上已经成为了可燃油的天然来源……\n"
+"\n"
+"[记录结束]\n"
+"------------------\n"
+"\n"
 
 #. STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER6
 msgctxt "STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER6"
@@ -11759,6 +11786,15 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
+"[记录开始]\n"
+"\n"
+"……生物发光总是一件很神奇的事情，但是从现在开始不能再花太多时间在完善这种发光"
+"小虫身上了。\n"
+"\n"
+"该项目比光源更紧迫，特别是现在低光照下植物生存的问题已经解决了……\n"
+"\n"
+"[记录结束]\n"
+"------------------\n"
 
 #. STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER7
 msgctxt "STRINGS.CODEX.HUSBANDRYNOTES.BODY.CONTAINER7"
@@ -11781,6 +11817,19 @@ msgid ""
 "\n"
 "[LOG ENDS]"
 msgstr ""
+"[语音识别已初始化]\n"
+"[识别出的主体：B363]\n"
+"\n"
+"[记录开始]\n"
+"\n"
+"遗传学家：这个项目的主要问题是殖民地可能面对的环境变化。我们派出的动物没有时"
+"间来进化和适应新环境，但是每种生物都被选择在殖民地的可持续发展中起着重要的作"
+"用，因此不能冒失败风险。\n"
+"\n"
+"遗传学家：我们设计的每种生物都必须配有能在我们能考虑到的环境变化下生存所需"
+"的“”。我们不可能依靠打印舱来补充维持生物种群数量。\n"
+"\n"
+"[记录结束]"
 
 #. STRINGS.CODEX.HUSBANDRYNOTES.SUBTITLE
 msgctxt "STRINGS.CODEX.HUSBANDRYNOTES.SUBTITLE"
@@ -11848,6 +11897,26 @@ msgid ""
 "matter through time already, the technology was expressly developed for the "
 "purpose of energy generation and is ill-equipped for human transportation."
 msgstr ""
+"来自新成立的“重力实验室”的科学家们推出了他们的第一个技术原型，被称为\"时间之"
+"弓\"，这是一个能操纵第四维空间产生无限、清洁和可再生能源的装置。\n"
+"\n"
+"虽然这听起来有点像科幻小说里的情节，但实验室的创始人杰奎琳 · 斯特恩博士确认这"
+"是真的。\n"
+"\n"
+"“已经证明，在正确的实验条件下，负质量超流体可能违反牛顿第二运动定律，”她"
+"说。\n"
+"\n"
+"“如果运动定律可以被扭曲和修改，为什么热力学定律不可以呢？ 这就是这个项目背后"
+"的主要意图。”\n"
+"\n"
+"时间之弓的工作原理是通过快速前后振动第四维时间的一小段，来向其发送少量的质"
+"量，借此来几乎没有任何浪费地产生大量能量。\n"
+"\n"
+"斯特恩说:\"把第四维空间作为燃料的奇妙之处在于，它真的是无穷无尽的。\"。\n"
+"\n"
+"对于那些急切期待人类时间旅行前景的人们来说，不要对此抱太大希望。 研究所说，虽"
+"然他们已经解决了向时间传送质量的问题，但该技术明确开发的目的是能源生产和装备"
+"落后的人类运输业。"
 
 #. STRINGS.CODEX.MAGAZINEARTICLE.SUBTITLE
 msgctxt "STRINGS.CODEX.MAGAZINEARTICLE.SUBTITLE"
@@ -11860,24 +11929,6 @@ msgid "Article Excerpt"
 msgstr "文章摘录"
 
 #. STRINGS.CODEX.MAILROOMETIQUETTE.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MAILROOMETIQUETTE.BODY.CONTAINER1"
-#| msgid ""
-#| "<smallcaps><b>Reminder: Mailroom Etiquette</b>\n"
-#| "From: <b>Admin</b> <alpha=#AA><admin@gravitas.nova></color>\n"
-#| "To: <b>All</b></smallcaps>\n"
-#| "------------------\n"
-#| "\n"
-#| "<indent=5%>Please do not have live bees delivered to the office mail room."
-#| "Requests and orders for experimental test subjects may be processed "
-#| "through admin.\n"
-#| "\n"
-#| "<i>Please request all test subjects through admin.</i>\n"
-#| "\n"
-#| "Thank-you.\n"
-#| "\n"
-#| "-Admin\n"
-#| "The Gravitas Facility</indent>"
 msgctxt "STRINGS.CODEX.MAILROOMETIQUETTE.BODY.CONTAINER1"
 msgid ""
 "<smallcaps><b>Reminder: Mailroom Etiquette</b>\n"
@@ -11898,7 +11949,7 @@ msgid ""
 msgstr ""
 "<smallcaps><b>提示:邮件室礼仪</b>\n"
 "发件人：<b>管理员</b> <alpha=#AA><admin@gravitas.nova></color>\n"
-"收件人：<b>全体</b></smallcaps>\n"
+"收件人：<b>全体员工</b></smallcaps>\n"
 "------------------\n"
 "\n"
 "<indent=5%>请不要把活蜜蜂送到办公室的邮件室。实验对象的申请和订单可以交给管理"
@@ -12344,14 +12395,14 @@ msgstr "主题：我的钢笔"
 #. STRINGS.CODEX.NEGA.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.NEGA.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Abyss\" Shine Bug variant</smallcaps>"
-msgstr ""
+msgstr "<smallcaps>图片：“深渊”发光虫变异体</smallcaps>"
 
 #. STRINGS.CODEX.NEGA.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.NEGA.BODY.CONTAINER2"
 msgid ""
 "The Abyss Shine Bug morph has an unusual genetic mutation causing it to "
 "absorb light rather than emit it."
-msgstr ""
+msgstr "深渊发光虫的基因有一个特殊的突变，造成它是吸收光线而不是发射光线。"
 
 #. STRINGS.CODEX.NEGA.SUBTITLE
 msgctxt "STRINGS.CODEX.NEGA.SUBTITLE"
@@ -12385,6 +12436,19 @@ msgid ""
 "\n"
 "[LOG ENDS]"
 msgstr ""
+"[记录开始]\n"
+"\n"
+"主管：我已经确认这种物质具有金属性质。它形成的确切原因目前还不太清楚，但我相"
+"信这是宇宙自身免疫反应，它能暂时性的隔离外界物质以避免污染。\n"
+"\n"
+"主管：目前还尚未找到一种方法能成功的从受影响的物体中除去该物质，更大的问题"
+"是，两个分子上、时间上完全相同的物体不能在同一时间共存，这对所有的时间操纵技"
+"术研究都有可怕的影响，而不仅仅是弓。\n"
+"\n"
+"主管：现在我把这种物质命名为\"中子\"，并在元素表上赋予它一个理论上的位置（零"
+"号元素）。 研究还在继续。\n"
+"\n"
+"[记录结束]"
 
 #. STRINGS.CODEX.NEUTRONIUM.SUBTITLE
 msgctxt "STRINGS.CODEX.NEUTRONIUM.SUBTITLE"
@@ -12415,6 +12479,18 @@ msgid ""
 "\n"
 "[END LOG]"
 msgstr ""
+"[记录结束]\n"
+"\n"
+"主管：时间能量可以被重新配置，只要使构成零号元素的物质以适当的频率震动，就能"
+"使其分散并分解。\n"
+"\n"
+"主管：然而，很难长时间稳定的维持这种“重配置”的状态，使其在生活环境中有效的去"
+"除特定量的零号元素。\n"
+"\n"
+"主管：我正在研究如何使这项技术更可靠、更简洁——这些数据有可能用于开发某种通用"
+"的衰变射线。\n"
+"\n"
+"[日志结束]"
 
 #. STRINGS.CODEX.NEUTRONIUMAPPLICATIONS.SUBTITLE
 msgctxt "STRINGS.CODEX.NEUTRONIUMAPPLICATIONS.SUBTITLE"
@@ -12424,7 +12500,7 @@ msgstr "加密等级：三级"
 #. STRINGS.CODEX.NEUTRONIUMAPPLICATIONS.TITLE
 msgctxt "STRINGS.CODEX.NEUTRONIUMAPPLICATIONS.TITLE"
 msgid "Possible Applications"
-msgstr ""
+msgstr "可能的应用"
 
 #. STRINGS.CODEX.NEWEMPLOYEE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.NEWEMPLOYEE.BODY.CONTAINER2"
@@ -12665,6 +12741,12 @@ msgid ""
 "\n"
 "Jackie"
 msgstr ""
+"乔迪，\n"
+"\n"
+"如果你读了这个……对不起。\n"
+"这很残忍，但却是救你的唯一办法。\n"
+"\n"
+"杰基"
 
 #. STRINGS.CODEX.NOTETOJODI.SUBTITLE
 msgctxt "STRINGS.CODEX.NOTETOJODI.SUBTITLE"
@@ -12674,7 +12756,7 @@ msgstr "加密等级：无"
 #. STRINGS.CODEX.NOTETOJODI.TITLE
 msgctxt "STRINGS.CODEX.NOTETOJODI.TITLE"
 msgid "Strange Note"
-msgstr ""
+msgstr "奇怪的日志"
 
 #. STRINGS.CODEX.PACU.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PACU.BODY.CONTAINER1"
@@ -12785,7 +12867,7 @@ msgstr "白日梦"
 #. STRINGS.CODEX.PLACID.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PLACID.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Azure\" Shine Bug variant</smallcaps>"
-msgstr ""
+msgstr "<smallcaps>图片：“琉璃”发光虫变异体</smallcaps>"
 
 #. STRINGS.CODEX.PLACID.SUBTITLE
 msgctxt "STRINGS.CODEX.PLACID.SUBTITLE"
@@ -12844,16 +12926,6 @@ msgid "Polite Request"
 msgstr "礼仪要求"
 
 #. STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2"
-#| msgid ""
-#| "<indent=5%>Director,\n"
-#| "\n"
-#| "Even with dramatic optimization we can't fit the massive volume of "
-#| "resources needed for a colony seed onboard, even when calculating for a "
-#| "very small interplanetary travel duration.\n"
-#| "\n"
-#| "Some serious changes are gonna have to be made for this to work.</indent>"
 msgctxt "STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>Director,\n"
@@ -12912,7 +12984,7 @@ msgstr "初步计算"
 #. STRINGS.CODEX.PRINCE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PRINCE.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: Puft \"Prince\" variant</smallcaps>"
-msgstr ""
+msgstr "<smallcaps>图片：“王子”啊噗变异体</smallcaps>"
 
 #. STRINGS.CODEX.PRINCE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PRINCE.BODY.CONTAINER2"
@@ -12926,6 +12998,11 @@ msgid ""
 "orientation and balance, meanwhile, are maintained by counterweighted "
 "formations of bone located in its otherwise useless legs."
 msgstr ""
+"啊噗胸腔内的专用气囊能储存不同浓度的气体，这使得它能控制浮力并能轻松在空中漂"
+"浮。\n"
+"\n"
+"再加上极轻而富有弹性的皮肤，啊噗能以微不足道的能量消耗来维持无限期的漂浮。此"
+"外，它的方向和平衡是由位于其腿部无用的平衡骨来维持的。"
 
 #. STRINGS.CODEX.PRINCE.SUBTITLE
 msgctxt "STRINGS.CODEX.PRINCE.SUBTITLE"
@@ -13007,6 +13084,12 @@ msgid ""
 "Licensed for industrial use only, resale of Gravitas equipment may carry a "
 "fine of up to $200,000 under the Global Restoration Act."
 msgstr ""
+"使用新的重力研究所推出的个人挖掘机来将您的采矿作业带入二十三世纪。\n"
+"\n"
+"改进的颗粒冷凝器可减少原始体积，从而提高产品运输效率 - 这对您的利润有利。\n"
+"\n"
+"仅限工业使用，根据“全球恢复法案”，转售重力研究所的设备可能会被处以高达200,000"
+"美元的罚款。"
 
 #. STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER2"
@@ -13052,7 +13135,7 @@ msgctxt "STRINGS.CODEX.PUFT.BODY.CONTAINER1"
 msgid ""
 "The Puft is a mellow creature whose limited brainpower is largely dedicated "
 "to sustaining its basic life processes."
-msgstr ""
+msgstr "啊噗是一种憨厚的生物，它那点可怜的智商也就刚好够它吃喝拉撒了。"
 
 #. STRINGS.CODEX.PUFT.SUBTITLE
 msgctxt "STRINGS.CODEX.PUFT.SUBTITLE"
@@ -13247,6 +13330,17 @@ msgid ""
 "The Gravitas Facility</size>\n"
 "------------------\n"
 msgstr ""
+"别太在意，这可能只是因为压力。\n"
+"\n"
+"在你来之前不久，这个实验室进行了一次大检查，所以我想主管估计还得一阵子才能把"
+"一切安排好。\n"
+"\n"
+"一旦所有部门都安排妥当，事情就会平静下来的。\n"
+"\n"
+"斯克洛多夫斯卡博士\n"
+"<size=11>物理部门\n"
+"重力研究所</size>\n"
+"------------------\n"
 
 #. STRINGS.CODEX.RETEMPORALBOWUPDATE.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.RETEMPORALBOWUPDATE.BODY.EMAILHEADER1"
@@ -13264,7 +13358,6 @@ msgstr ""
 "------------------\n"
 
 #. STRINGS.CODEX.RETEMPORALBOWUPDATE.BODY.EMAILHEADER2
-#, fuzzy
 msgctxt "STRINGS.CODEX.RETEMPORALBOWUPDATE.BODY.EMAILHEADER2"
 msgid ""
 "<smallcaps>To: <b>Mr. Kraus</b><alpha=#AA><size=10> <okraus@gravitas.nova></"
@@ -13282,7 +13375,7 @@ msgstr ""
 #. STRINGS.CODEX.RETEMPORALBOWUPDATE.BODY.TITLEALT
 msgctxt "STRINGS.CODEX.RETEMPORALBOWUPDATE.BODY.TITLEALT"
 msgid "To Otto (Spec Changes)"
-msgstr ""
+msgstr "至奥托 (规格变更)"
 
 #. STRINGS.CODEX.RETEMPORALBOWUPDATE.SUBTITLE
 msgctxt "STRINGS.CODEX.RETEMPORALBOWUPDATE.SUBTITLE"
@@ -13292,40 +13385,9 @@ msgstr "未加密"
 #. STRINGS.CODEX.RETEMPORALBOWUPDATE.TITLE
 msgctxt "STRINGS.CODEX.RETEMPORALBOWUPDATE.TITLE"
 msgid "RE: To Otto (Spec Changes)"
-msgstr ""
+msgstr "re: 到奥托 (规格变更)"
 
 #. STRINGS.CODEX.REVISITEDNUMBERS.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.REVISITEDNUMBERS.BODY.CONTAINER1"
-#| msgid ""
-#| "[VOICE RECOGNITION INITIALIZED]\n"
-#| "[SUBJECTS IDENTIFIED: A001, B111]\n"
-#| "\n"
-#| "[LOG BEGINS]\n"
-#| "\n"
-#| "Director: Unacceptable.\n"
-#| "\n"
-#| "Jones: I'm just telling you the numbers, Director, I didn't make them.\n"
-#| "\n"
-#| "Director: In your earlier e-mail you claimed the issue would be solved by "
-#| "the Pod.\n"
-#| "\n"
-#| "Jones: Yeah, the weight issue. And it was solved. The problem now is the "
-#| "insane amount of power that big thing eats every time it prints a "
-#| "colonist.\n"
-#| "\n"
-#| "Director: So how do you suppose we meet these target numbers? Fossil "
-#| "fuels are exhausted, nuclear is outlawed, solar is next to impossible "
-#| "with this smog.\n"
-#| "\n"
-#| "Jones: I dunno. That's why you've got researchers, I just crunch numbers. "
-#| "Although you should avoid fossil fuels and nuclear energy anyway. If you "
-#| "have to load the rocket up with a couple tons of fuel then we're back to "
-#| "square one on the weight problem.It's gotta be something clever.\n"
-#| "\n"
-#| "Director: Thank you, Dr. Jones.You may go.\n"
-#| "\n"
-#| "[LOG ENDS]"
 msgctxt "STRINGS.CODEX.REVISITEDNUMBERS.BODY.CONTAINER1"
 msgid ""
 "[VOICE RECOGNITION INITIALIZED]\n"
@@ -13358,7 +13420,7 @@ msgid ""
 "[LOG ENDS]"
 msgstr ""
 "[语音识别已初始化]\n"
-"[识别出的主体：A001,B111]\n"
+"[识别出的主体：A001，A435]\n"
 "\n"
 "[记录开始]\n"
 "\n"
@@ -13451,7 +13513,6 @@ msgid "<b>Party Time for Local Students</b>"
 msgstr "<b>本地学生的party时间</b>"
 
 #. STRINGS.CODEX.SCHOOLNEWSPAPER.BODY.CONTAINER2
-#, fuzzy
 msgctxt "STRINGS.CODEX.SCHOOLNEWSPAPER.BODY.CONTAINER2"
 msgid ""
 "Students at the Elion University of Science and Technology have held an "
@@ -13477,7 +13538,24 @@ msgid ""
 "Jodie or Jackie.\n"
 "\n"
 "As Jodie put it, \"It just meant more snacks for us!\""
-msgstr "埃里昂科技大学的学生本周末举办了一场非常规派对。\n"
+msgstr ""
+"埃里昂科技大学的学生本周末举办了一场特殊的聚会。\n"
+"\n"
+"虽然他们的同龄人可能已经出门，直到凌晨时分戴着灯罩或在睡觉的同事上画眉毛的时"
+"候，学生杰基 · 斯特恩和朱迪 · 麦克林托克在宿舍里度过了周末，他们准备好了茶点"
+"和装饰品，等待着他们尊贵的客人: 他们自己。\n"
+"\n"
+"这两位研究理论物理学的思特盟学生，专注于研究时空运作，他们假设他们关于时空的"
+"可塑性的理论能够实现，而未来的他们则可以回到聚会的这一时间点给他们打招呼，以"
+"此证明时间旅行的存在。\n"
+"\n"
+"他们并没有忽略他们未来自己繁忙的日程安排；如果荣誉嘉宾无法参加，他们会被鼓励"
+"使用暗号“沙漏”发回一条消息，表明他们虽然想来，但他们就是不能来。\n"
+"\n"
+"遗憾的是，没有人回复邀请，也没有人来参加聚会，但这并没有让朱迪和杰基灰心丧"
+"气。\n"
+"\n"
+"正如朱迪所说，“这意味着我们有更多的零食吃！”"
 
 #. STRINGS.CODEX.SCHOOLNEWSPAPER.SUBTITLE
 msgctxt "STRINGS.CODEX.SCHOOLNEWSPAPER.SUBTITLE"
@@ -13648,6 +13726,14 @@ msgid ""
 "waste material and any indigestible particles or pathogens which it then "
 "evacuates as solid biomass."
 msgstr ""
+"在阿噗的嘴脊上通常有一排不对成的牙齿，尽管这些牙齿由于长期不吃食用固体食物早"
+"已经退化了。\n"
+"\n"
+"相反，在阿噗喉咙里拥有由角蛋白构成的鲸须状网络，这些蛋白质网可以过滤掉空气中"
+"的微小生物和食物颗粒。\n"
+"\n"
+"没用的空气则会从阿噗的后躯干排出，而废弃物和任何不能消化的颗粒或病原体则会以"
+"固体生物质的形态一同排出。"
 
 #. STRINGS.CODEX.SQUEAKY.SUBTITLE
 msgctxt "STRINGS.CODEX.SQUEAKY.SUBTITLE"
@@ -13691,27 +13777,6 @@ msgid "Stone Hatch"
 msgstr "石壳哈奇"
 
 #. STRINGS.CODEX.SUNFLOWERSEEDS.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.SUNFLOWERSEEDS.BODY.CONTAINER1"
-#| msgid ""
-#| "[VOICE RECOGNITION INITIALIZED]\n"
-#| "[SUBJECT IDENTIFIED: B111]\n"
-#| "\n"
-#| "[LOG BEGINS]\n"
-#| "\n"
-#| "\"How are you chaps today?\n"
-#| "\n"
-#| "(squeaking)\n"
-#| "\n"
-#| "I brought sunflower seeds. Look! Your favourite! Are you hungry?\n"
-#| "\n"
-#| "(excited squeaking)\n"
-#| "\n"
-#| "Oh, one moment friends. I left the recorder on --\n"
-#| "\n"
-#| "(rustling)\"\n"
-#| "\n"
-#| "[LOG ENDS]"
 msgctxt "STRINGS.CODEX.SUNFLOWERSEEDS.BODY.CONTAINER1"
 msgid ""
 "[VOICE RECOGNITION INITIALIZED]\n"
@@ -13797,6 +13862,14 @@ msgid ""
 "Physics Department\n"
 "The Gravitas Facility"
 msgstr ""
+"罗多夫斯卡博士，我可以请你把时间之弓的新规格变化转发给我吗？\n"
+"\n"
+"当我今天早上要求更新项目时，主任完全不理我。 她在大厅里从我身边走过——我没有意"
+"识到我在食物链的最底层。 :(\n"
+"\n"
+"克劳斯先生\n"
+"物理部门\n"
+"重力研究所"
 
 #. STRINGS.CODEX.TEMPORALBOWUPDATE.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.TEMPORALBOWUPDATE.BODY.EMAILHEADER1"
@@ -13821,7 +13894,7 @@ msgstr "未加密"
 #. STRINGS.CODEX.TEMPORALBOWUPDATE.TITLE
 msgctxt "STRINGS.CODEX.TEMPORALBOWUPDATE.TITLE"
 msgid "Spec Changes"
-msgstr ""
+msgstr "规格变更"
 
 #. STRINGS.CODEX.THEJANITOR.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.THEJANITOR.BODY.CONTAINER2"
@@ -13841,12 +13914,6 @@ msgstr ""
 "力而有些压抑。</indent>"
 
 #. STRINGS.CODEX.THEJANITOR.BODY.CONTAINER4
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.THEJANITOR.BODY.CONTAINER4"
-#| msgid ""
-#| "<indent=5%>OMIGOSH have you seen our building's janitor? He totally "
-#| "smells and he has sweatstains under his armpits like EVERY time I see "
-#| "him. SO embarassing.</indent>"
 msgctxt "STRINGS.CODEX.THEJANITOR.BODY.CONTAINER4"
 msgid ""
 "<indent=5%>OMIGOSH have you seen our building's janitor? He totally smells "
@@ -13949,6 +14016,12 @@ msgid ""
 "\n"
 "</indent>"
 msgstr ""
+"<indent=5%><i>Hello</i>克劳斯先生\n"
+"\n"
+"我在我们聊天之后给你发了一封邮件，里面有一些你可能会感兴趣的内容——我想你会发"
+"现它在你的研究中非常有用！\n"
+"\n"
+"</indent>"
 
 #. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.CONTAINER2"
@@ -14005,7 +14078,6 @@ msgstr ""
 "i>。;)</indent>"
 
 #. STRINGS.CODEX.THERMODYNAMICLAWS.BODY.EMAILHEADER1
-#, fuzzy
 msgctxt "STRINGS.CODEX.THERMODYNAMICLAWS.BODY.EMAILHEADER1"
 msgid ""
 "<smallcaps>To: <b>Mr. Kraus</b><alpha=#AA><size=12> <okraus@gravitas.nova></"
@@ -14014,7 +14086,7 @@ msgid ""
 "color></smallcaps>\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>收件人：<b>萨默斯博士</b><alpha=#AA><size=12> <okraus@gravitas."
+"<smallcaps>收件人：<b>克劳斯先生</b><alpha=#AA><size=12> <okraus@gravitas."
 "nova></size></color>\n"
 "发件人：<b>琼斯博士</b><alpha=#AA><size=12> <ejones@gravitas.nova></size></"
 "color></smallcaps>\n"
@@ -14090,7 +14162,7 @@ msgid ""
 "Still, one can't help but be curious; what if the Arrow's trajectory could "
 "be curved? What if it could be redirected, guided, or loosed? What if we "
 "could create Time's Bow?"
-msgstr ""
+msgstr "时间之弓？"
 
 #. STRINGS.CODEX.TIMEMUSINGS.SUBTITLE
 msgctxt "STRINGS.CODEX.TIMEMUSINGS.SUBTITLE"
@@ -14116,6 +14188,14 @@ msgid ""
 "\n"
 "I have to pursue this dream, no matter what."
 msgstr ""
+"我一直无法摆脱弓的概念。\n"
+"\n"
+"我对它的机械原理很感兴趣，我只能想象这样一个装置会在世界上留下什么样的印记——"
+"想象一下，它是取之不尽用之不竭的能量之源！\n"
+"\n"
+"这项发明可以解决人类的许多问题——家庭能源、环境污染、燃料战争。\n"
+"\n"
+"无论如何，我都要追求这个梦想。"
 
 #. STRINGS.CODEX.TIMESARROWTHOUGHTS.SUBTITLE
 msgctxt "STRINGS.CODEX.TIMESARROWTHOUGHTS.SUBTITLE"
@@ -14125,7 +14205,7 @@ msgstr "加密等级：三级"
 #. STRINGS.CODEX.TIMESARROWTHOUGHTS.TITLE
 msgctxt "STRINGS.CODEX.TIMESARROWTHOUGHTS.TITLE"
 msgid "Time's Arrow Thoughts"
-msgstr ""
+msgstr "时间之矢的想法"
 
 #. STRINGS.CODEX.TROPICAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.TROPICAL.BODY.CONTAINER1"
@@ -14201,6 +14281,13 @@ msgid ""
 "Instead, the Wheezewort respires in a recently developed method similar to "
 "amphibians, using its membranous skin for cutaneous respiration."
 msgstr ""
+"这种属于刺胞动物门的动物在外表上具有欺骗性，实际上它是一种动物，而不是一种植"
+"物。\n"
+"\n"
+"冰息萝卜的细胞不含叶绿体、液泡或细胞壁，不能进行光合作用。\n"
+"\n"
+"相反，冰息萝卜最近进化出了类似两栖动物的呼吸方法，使用其膜的皮肤进行皮肤呼"
+"吸。"
 
 #. STRINGS.CODEX.WHEEZEWORT.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.WHEEZEWORT.BODY.CONTAINER3"
@@ -14212,6 +14299,10 @@ msgid ""
 "supported by a jelly-like mesoglea located beneath its outer respiratory "
 "membrane."
 msgstr ""
+"在未使用的空气从皮肤呼出之前，一系列奶油色的毛细血管会将血液泵入动物的全"
+"身。\n"
+"\n"
+"冰息萝卜不具有大脑和骨骼结构，它是由位于呼吸外膜下的果冻状胶层支撑的。"
 
 #. STRINGS.CODEX.WHEEZEWORT.SUBTITLE
 msgctxt "STRINGS.CODEX.WHEEZEWORT.SUBTITLE"
@@ -15656,11 +15747,6 @@ msgid "<link=\"MOO\">Gassy Moo</link>"
 msgstr "<link=\"MOO\">胀气海牛</link>"
 
 #. STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC"
-#| msgid ""
-#| "Dusk Caps produce <link=\"MUSHROOM\">Mushroom</link>, fungal growths that "
-#| "can be harvested for <link=\"FOOD\">Food</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC"
 msgid ""
 "Dusk Caps produce <link=\"MUSHROOM\">Mushrooms</link>, fungal growths that "
@@ -15845,13 +15931,6 @@ msgid "<link=\"PACU\">Pacu Fry</link>"
 msgstr "<link=\"PACU\">小只鲤宝宝</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.DESC"
-#| msgid ""
-#| "Pacus are aquatic creatures that cannot live outside of <link=\"WATER"
-#| "\">Water</link> or <link=\"DIRTYWATER\">Polluted Water</link>.\n"
-#| "\n"
-#| "Every organism in the known universe finds the Pacu extremely delicious."
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.DESC"
 msgid ""
 "Pacus are aquatic creatures that cannot live outside of <link=\"WATER"
@@ -16104,11 +16183,6 @@ msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puftlet</link>"
 msgstr "<link=\"PUFTBLEACHSTONE\">尖叫阿噗宝宝</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC"
-#| msgid ""
-#| "Squeaky Pufts are non-aggressive critters that excrete lumps of <link="
-#| "\"BLEACHSTONE\">Bleach Stone</link> with each breath."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC"
 msgid ""
 "Squeaky Pufts are non-aggressive critters that excrete lumps of <link="
@@ -17840,9 +17914,8 @@ msgstr "氧气消耗率"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ART.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ART.DESC"
-msgid ""
-"Determines the speed and finesse with which a Duplicant creates artwork."
-msgstr "决定了复制人艺术创作的速度和质量。"
+msgid "Determines the speed at which a Duplicant creates artwork."
+msgstr "决定了复制人艺术创作的速度。"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ART.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ART.NAME"
@@ -24013,7 +24086,7 @@ msgctxt "STRINGS.DUPLICANTS.STATS.BLADDER.TOOLTIP"
 msgid ""
 "Duplicants make \"messes\" if no toilets are available at one hundred "
 "percent bladder fullness"
-msgstr "复制人的膀胱被尿液100%充满的时候，如果附近没有厕所，就等着看“好戏”吧"
+msgstr "复制人的膀胱被尿液充满的时候，如果附近没有厕所，就等着看“好戏”吧"
 
 #. STRINGS.DUPLICANTS.STATS.BREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.BREATH.NAME"
@@ -24941,9 +25014,6 @@ msgid "Exiting <link=\"EXOSUIT\">Exosuit</link> area"
 msgstr "离开<link=\"EXOSUIT\">太空服</link>区域"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP"
-#| msgid "This Duplicant is leaving an area where an exosuit was required"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP"
 msgid "This Duplicant is leaving an area where a suit was required"
 msgstr "这名复制人正在离开需要穿着太空服的区域"
@@ -24954,9 +25024,6 @@ msgid "Moving to safe area"
 msgstr "正在前往安全区域"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.TOOLTIP"
-#| msgid "This Duplicant is finding a safer place"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.TOOLTIP"
 msgid "This Duplicant is finding a less dangerous place"
 msgstr "这名复制人正在寻找更安全的地方"
@@ -25107,7 +25174,7 @@ msgstr ""
 "可以在 <link=\"MISC\">管道菜单</link><color=#F44A47><b>[5]</b></color>中找到"
 "并建造<link=\"OUTHOUSE\">茅厕</link>\n"
 "------------------\n"
-"这些复制人需要有一个<link=\"OUTHOUSE\">茅厕</link>"
+"这些复制人需要有一个<link=\"OUTHOUSE\">茅厕</link>："
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.TOOLTIP"
@@ -25121,7 +25188,7 @@ msgstr ""
 "复制人需要有一个<link=\"OUTHOUSE\">茅厕</link>\n"
 "------------------\n"
 "可以在 <link=\"MISC\">管道菜单</link><color=#F44A47><b>[5]</b></color>中找到"
-"并建造<link=\"OUTHOUSE\">茅厕</link>"
+"并建造<link=\"OUTHOUSE\">茅厕</link>。"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOUSABLETOILETS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOUSABLETOILETS.NAME"
@@ -25961,6 +26028,10 @@ msgid ""
 "------------------\n"
 "A <link=\"DISEASE\">Disease</link> has caused these Duplicants to throw up:"
 msgstr ""
+"复制人的“呕吐物”可以使用<link=\"MISC\">拖地工具</link> "
+"<color=#F44A47><b>[M]</b></color>擦除。\n"
+"------------------\n"
+"<link=\"DISEASE\">疾病</link>让这些复制人呕吐："
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.VOMITING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.VOMITING.TOOLTIP"
@@ -25971,6 +26042,10 @@ msgid ""
 "Duplicant-related \"spills\" can be cleaned up using the <link=\"MISC\">MOP "
 "TOOL</link> <color=#F44A47><b>[M]</b></color>"
 msgstr ""
+"由于<link=\"DISEASE\">疾病</link>的折磨，这名复制人吐的满地都是\n"
+"------------------\n"
+"复制人的“呕吐物”可以使用<link=\"MISC\">拖地工具</link> "
+"<color=#F44A47><b>[M]</b></color>擦除"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.WARMINGUP.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.WARMINGUP.NAME"
@@ -26231,7 +26306,7 @@ msgstr "这名复制人可不是天才"
 #. STRINGS.DUPLICANTS.TRAITS.CANTRESEARCH.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTRESEARCH.NAME"
 msgid "Yokel"
-msgstr "粗人"
+msgstr "乡巴佬"
 
 #. STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.DESC"
@@ -26614,7 +26689,7 @@ msgstr "这位复制人的肌肉上面还有肌肉"
 #. STRINGS.DUPLICANTS.TRAITS.STRONGARM.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STRONGARM.NAME"
 msgid "Buff"
-msgstr "肌肉鼓鼓"
+msgstr "大肌霸"
 
 #. STRINGS.DUPLICANTS.TRAITS.STRONGIMMUNESYSTEM.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STRONGIMMUNESYSTEM.DESC"
@@ -26675,7 +26750,7 @@ msgstr "全宇宙的维生素C都挡不住这名复制人生病"
 #. STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME"
 msgid "Biohazardous"
-msgstr "病如山倒"
+msgstr "病秧子"
 
 #. STRINGS.ELEMENTS.AEROGEL.DESC
 msgctxt "STRINGS.ELEMENTS.AEROGEL.DESC"
@@ -26929,19 +27004,13 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.ELEMENTS.COPPER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.COPPER.DESC"
-#| msgid ""
-#| "(Cu) Copper is a conductive <link=\"RAWMETAL\">Metal</link>.\n"
-#| "\n"
-#| "It is suitable for building <link=\"POWER\">Power</link> systems."
 msgctxt "STRINGS.ELEMENTS.COPPER.DESC"
 msgid ""
 "(Cu) Copper is a conductive <link=\"METAL\">Metal</link>.\n"
 "\n"
 "It is suitable for building <link=\"POWER\">Power</link> systems."
 msgstr ""
-"(Cu)铜是一种导电<link=\"RAWMETAL\">金属</link>。\n"
+"(Cu)铜是一种导电<link=\"METAL\">金属</link>。\n"
 "\n"
 "它适用于建造<link=\"POWER\">电力</link>系统。"
 
@@ -26951,18 +27020,13 @@ msgid "<link=\"COPPER\">Copper</link>"
 msgstr "<link=\"COPPER\">铜</link>"
 
 #. STRINGS.ELEMENTS.COPPERGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.COPPERGAS.DESC"
-#| msgid ""
-#| "(Cu) Copper is a conductive <link=\"RAWMETAL\">Metal</link> heated into a "
-#| "<link=\"ELEMENTSGAS\">Gas</link>."
 msgctxt "STRINGS.ELEMENTS.COPPERGAS.DESC"
 msgid ""
 "(Cu) Copper is a conductive <link=\"METAL\">Metal</link> heated into a <link="
 "\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
 "(Cu)气态铜是一种加热成<link=\"ELEMENTSGAS\">气体</link>形态的导电<link="
-"\"RAWMETAL\">金属</link>。"
+"\"METAL\">金属</link>。"
 
 #. STRINGS.ELEMENTS.COPPERGAS.NAME
 msgctxt "STRINGS.ELEMENTS.COPPERGAS.NAME"
@@ -26977,9 +27041,9 @@ msgid ""
 "\n"
 "Duplicants are printed from pure <link=\"SOLID\">Ooze</link>."
 msgstr ""
-"(DuPe) 生物软泥是由水，碳，和许多微量元素组成的泥浆。\n"
+"(DuPe) 基因软泥是由水，碳，和许多微量元素组成的泥浆。\n"
 "\n"
-"复制人通过纯净的<link=\"SOLID\">生物软泥</link>打印。"
+"复制人通过纯净的<link=\"SOLID\">基因软泥</link>打印。"
 
 #. STRINGS.ELEMENTS.CREATURE.NAME
 msgctxt "STRINGS.ELEMENTS.CREATURE.NAME"
@@ -27159,12 +27223,6 @@ msgid "Properties: {0}"
 msgstr "属性：{0}"
 
 #. STRINGS.ELEMENTS.FERTILIZER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
-#| msgid ""
-#| "Fertilizer is a processed mixture of biological nutrients.\n"
-#| "\n"
-#| "It aids in the growth of certain <link=\"PLANTS\">plant</link>."
 msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
 msgid ""
 "Fertilizer is a processed mixture of biological nutrients.\n"
@@ -28109,14 +28167,6 @@ msgid "<link=\"POLYPROPYLENE\">Plastic</link>"
 msgstr "<link=\"POLYPROPYLENE\">塑料</link>"
 
 #. STRINGS.ELEMENTS.PONDSCUM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.PONDSCUM.DESC"
-#| msgid ""
-#| "Pondscum is a soft, naturally occurring composite of biological "
-#| "nutrients.\n"
-#| "\n"
-#| "It may be processed into <link=\"FERTILIZER\">Fertilizer</link> and aids "
-#| "in the growth of certain <link=\"PLANTS\">plant</link>."
 msgctxt "STRINGS.ELEMENTS.PONDSCUM.DESC"
 msgid ""
 "Pondscum is a soft, naturally occurring composite of biological nutrients.\n"
@@ -28124,7 +28174,7 @@ msgid ""
 "It may be processed into <link=\"FERTILIZER\">Fertilizer</link> and aids in "
 "the growth of certain <link=\"PLANTS\">Plants</link>."
 msgstr ""
-"绿藻是自然生成的生物营养素，质地柔软。\n"
+"绿藻是一种自然生成的，质地柔软的生物营养素复合物。\n"
 "\n"
 "可制作成<link=\"FERTILIZER\">肥料</link>，有助于某些<link=\"PLANTS\">植物</"
 "link>的生长。"
@@ -28237,12 +28287,6 @@ msgid "<link=\"SANDCEMENT\">Sand Cement</link>"
 msgstr "<link=\"SANDCEMENT\">砂水泥</link>"
 
 #. STRINGS.ELEMENTS.SANDSTONE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SANDSTONE.DESC"
-#| msgid ""
-#| "Sandstone is a composite of relatively soft sedimentary rock.\n"
-#| "\n"
-#| "It is useful as a Construction Material."
 msgctxt "STRINGS.ELEMENTS.SANDSTONE.DESC"
 msgid ""
 "Sandstone is a composite of relatively soft sedimentary rock.\n"
@@ -28259,12 +28303,6 @@ msgid "<link=\"SANDSTONE\">Sandstone</link>"
 msgstr "<link=\"SANDSTONE\">砂岩</link>"
 
 #. STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC"
-#| msgid ""
-#| "Sedimentary Rock is a hardened composite of sediment layers.\n"
-#| "\n"
-#| "It is useful as a Construction Material."
 msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC"
 msgid ""
 "Sedimentary Rock is a hardened composite of sediment layers.\n"
@@ -28639,11 +28677,6 @@ msgid "<link=\"SUPERCOOLANTGAS\">Super Coolant</link>"
 msgstr "<link=\"SUPERCOOLANTGAS\">超级冷却剂</link>"
 
 #. STRINGS.ELEMENTS.SUPERINSULATOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SUPERINSULATOR.DESC"
-#| msgid ""
-#| "Insulation reduces <link=\"HEAT\">Heat Transfer</link> and is composed of "
-#| "recrystalized <link=\"KATAIRITE\">Abyssalite</link>."
 msgctxt "STRINGS.ELEMENTS.SUPERINSULATOR.DESC"
 msgid ""
 "Insulation reduces <link=\"HEAT\">Heat Transfer</link> and is composed of "
@@ -28852,13 +28885,6 @@ msgid "Because breathing underwater is better than... not."
 msgstr "毕竟在水下呼吸总好过……不呼吸。"
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT"
-#| msgid ""
-#| "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in underwater "
-#| "environments.\n"
-#| "\n"
-#| "Must be refilled with oxygen at an Exosuit Dock when depleted."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT"
 msgid ""
 "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in underwater "
@@ -28867,14 +28893,14 @@ msgid ""
 "Must be refilled with <link=\"OXYGEN\">Oxygen</link> at an Atmo Suit Dock "
 "when depleted."
 msgstr ""
-"在水下环境为复制人供给<style=\"oxygen\">氧</style>气。\n"
+"在水下环境为复制人供给<style=\"oxygen\">氧气</style>。\n"
 "\n"
-"耗尽后必须在太空服充能站补充氧气。"
+"耗尽后必须在太空服充能站补充<style=\"oxygen\">氧气</style>。"
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.NAME"
 msgid "<link=\"AQUASUIT\">Aqua Suit</link>"
-msgstr ""
+msgstr "<link=\"AQUASUIT\">潜水服</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.RECIPE_DESC"
@@ -28884,9 +28910,6 @@ msgid ""
 msgstr "在水下为复制人供给<style=\"oxygen\">氧</style>气。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC"
-#| msgid "Make sure your Duplicants can breathe easy, anytime, anywhere."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC"
 msgid "Ensures my Duplicants can breathe easy, anytime, anywhere."
 msgstr "确保复制人能随时随地轻松呼吸。"
@@ -28918,7 +28941,7 @@ msgstr "太空服"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME"
 msgid "<link=\"ATMOSUIT\">Atmo Suit</link>"
-msgstr ""
+msgstr "<link=\"ATMOSUIT\">太空服</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.RECIPE_DESC"
@@ -28957,9 +28980,6 @@ msgid ""
 msgstr "通过减少隔热来保护穿戴者免受<style=\"heat\">高温</style>伤害。"
 
 #. STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC"
-#| msgid "Turn your Duplicant into a walking beacon of charm and style."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC"
 msgid "This transforms my Duplicant into a walking beacon of charm and style."
 msgstr "让复制人绽放时尚光彩。"
@@ -28985,9 +29005,6 @@ msgid "Increases Decor in a small area effect around the wearer."
 msgstr "提高穿着者身边小范围内的装饰度。"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.DESC"
-#| msgid "Allow your Duplicants to take to the skies, for a time."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.DESC"
 msgid "Allows my Duplicants to take to the skies, for a time."
 msgstr "让你的复制人上天！当然是一小会儿啦。"
@@ -29119,13 +29136,6 @@ msgid "Keeps my Duplicants cool in case things heat up."
 msgstr "温度上升时，能保持复制人凉爽。"
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT"
-#| msgid ""
-#| "Provides insulation in regions with extreme <style=\"heat\">Temperatures</"
-#| "style>.\n"
-#| "\n"
-#| "Must be powered at an Exosuit Dock when depleted."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT"
 msgid ""
 "Provides insulation in regions with extreme <style=\"heat\">Temperatures</"
@@ -29135,7 +29145,7 @@ msgid ""
 msgstr ""
 "在极端<style=\"heat\">温度</style>环境中提供隔热保护。\n"
 "\n"
-"氧气耗尽后必须在太空服充气站充气。"
+"氧气耗尽后必须在隔热服充气站充气。"
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.NAME"
@@ -29289,9 +29299,6 @@ msgid "BuildCategoryTiles"
 msgstr "砖块建造类型"
 
 #. STRINGS.INPUT_BINDINGS.BASEMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
-#| msgid "BaseMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
 msgid "Base Menu"
 msgstr "基地菜单"
@@ -29582,9 +29589,6 @@ msgid "BuildCategoryRanching"
 msgstr "牧场建造类型"
 
 #. STRINGS.INPUT_BINDINGS.FOODANDAGRICULTUREMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.FOODANDAGRICULTUREMENU.NAME"
-#| msgid "FoodAndAgricultureMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.FOODANDAGRICULTUREMENU.NAME"
 msgid "Food And Agriculture Menu"
 msgstr "食物和农业菜单"
@@ -29615,9 +29619,6 @@ msgid "BuildCategoryRecreation"
 msgstr "娱乐建造类型"
 
 #. STRINGS.INPUT_BINDINGS.HEALTHANDHAPPINESSMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.HEALTHANDHAPPINESSMENU.NAME"
-#| msgid "HealthAndHappinessMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.HEALTHANDHAPPINESSMENU.NAME"
 msgid "Health And Happiness Menu"
 msgstr "健康和快乐菜单"
@@ -29648,9 +29649,6 @@ msgid "BuildCategoryUtilities"
 msgstr "通用建造类型"
 
 #. STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.NAME"
-#| msgid "IndustrialMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.NAME"
 msgid "Industrial Menu"
 msgstr "工业菜单"
@@ -29688,9 +29686,6 @@ msgid "BuildCategoryWires"
 msgstr "电线建造类型"
 
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.NAME"
-#| msgid "InfrastructureMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.NAME"
 msgid "Infrastructure Menu"
 msgstr "基础设施菜单"
@@ -29726,9 +29721,6 @@ msgid "BuildCategoryTravelTubes"
 msgstr "中转管建造类型"
 
 #. STRINGS.INPUT_BINDINGS.LOGISTICSMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.LOGISTICSMENU.NAME"
-#| msgid "LogisticsMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.LOGISTICSMENU.NAME"
 msgid "Logistics Menu"
 msgstr "自动化菜单"
@@ -29924,12 +29916,9 @@ msgid "Clear"
 msgstr "打扫"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.COPYBUILDING
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.NAME"
-#| msgid "Building"
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.COPYBUILDING"
 msgid "CopyBuilding"
-msgstr "建筑"
+msgstr "复制建筑"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.CYCLESPEED
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CYCLESPEED"
@@ -30405,12 +30394,6 @@ msgid "Deep fried, solidified mudslop."
 msgstr "油炸变硬的泥浆。"
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.DESC"
-#| msgid ""
-#| "A fried dish made with a fruiting <link=\"MUSHROOM\">Mushroom</link>.\n"
-#| "\n"
-#| "It has a thick, savory flavor with subtle earthy undertones."
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.DESC"
 msgid ""
 "A fried dish made with a fruiting <link=\"MUSHROOM\">Dusk Cap</link>.\n"
@@ -30419,7 +30402,7 @@ msgid ""
 msgstr ""
 "用<link=\"MUSHROOM\">蘑菇</link>煎炸而成的食物。\n"
 "\n"
-"它口感浓厚，风味极佳，且微微带有泥土气息。"
+"它口感浓厚，风味极佳，还带有一点泥土的气息。"
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.NAME
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.NAME"
@@ -30427,10 +30410,6 @@ msgid "<link=\"FRIEDMUSHROOM\">Fried Mushroom</link>"
 msgstr "<link=\"FRIEDMUSHROOM\">油炸蘑菇</link>"
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC"
-#| msgid ""
-#| "A fried dish made with a fruiting <link=\"MUSHROOM\">Mushroom</link>."
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC"
 msgid "A fried dish made with a fruiting <link=\"MUSHROOM\">Dusk Cap</link>."
 msgstr "用<link=\"MUSHROOM\">蘑菇</link>煎炸而成的食物。"
@@ -30527,7 +30506,7 @@ msgstr "<link=\"LIGHTBUG\">发光虫</link>产下的一个蛋。"
 #. STRINGS.ITEMS.FOOD.MEAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MEAT.DESC"
 msgid "Uncooked meat from a very dead critter. Yum!"
-msgstr "新鲜生肉。好吃！"
+msgstr "新鲜生肉。真香！"
 
 #. STRINGS.ITEMS.FOOD.MEAT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.MEAT.NAME"
@@ -30959,15 +30938,12 @@ msgstr ""
 #. STRINGS.ITEMS.PILLS.HERBALREMEDY.NAME
 msgctxt "STRINGS.ITEMS.PILLS.HERBALREMEDY.NAME"
 msgid "Digestive Tonic"
-msgstr "助消化剂"
+msgstr "健胃消食片"
 
 #. STRINGS.ITEMS.PILLS.HERBALREMEDY.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.HERBALREMEDY.RECIPEDESC"
-#| msgid "Cures <link=\"DISEASES\">Diarrhea</link>."
 msgctxt "STRINGS.ITEMS.PILLS.HERBALREMEDY.RECIPEDESC"
 msgid "Cures <link=\"DISEASE\">Diarrhea</link>."
-msgstr "治疗<link=\"DISEASES\">腹泻</link>。"
+msgstr "专治<link=\"DISEASES\">腹泻</link>。"
 
 #. STRINGS.ITEMS.PILLS.MUSCARINICANTAGONIST.DESC
 msgctxt "STRINGS.ITEMS.PILLS.MUSCARINICANTAGONIST.DESC"
@@ -31016,16 +30992,11 @@ msgid "A medical-grade destinkifier."
 msgstr "医用级除臭产品。"
 
 #. STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.DESC"
-#| msgid ""
-#| "A health Supplement for improving <link=\"IMMUNE SYSTEM\">Immune System</"
-#| "link> strength."
 msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.DESC"
 msgid ""
 "A health Supplement for improving <link=\"DISEASE\">Immune System</link> "
 "strength."
-msgstr "有助于提高<link=\"IMMUNE SYSTEM\">免疫力</link>的保健品。"
+msgstr "有助于提高<link=\"DISEASE\">免疫力</link>的保健品。"
 
 #. STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.NAME
 msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.NAME"
@@ -31033,12 +31004,9 @@ msgid "Vitamin Chews"
 msgstr "维生素咀嚼片"
 
 #. STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.RECIPEDESC"
-#| msgid "Improves <link=\"IMMUNE SYSTEM\">Immune System</link> strength."
 msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.RECIPEDESC"
 msgid "Improves <link=\"DISEASE\">Immune System</link> strength."
-msgstr "提升<link=\"IMMUNE SYSTEM\">免疫</link>力。"
+msgstr "提升<link=\"DISEASE\">免疫</link>力。"
 
 #. STRINGS.LORE.BUILDINGS.Desk.ENTRY
 msgctxt "STRINGS.LORE.BUILDINGS.Desk.ENTRY"
@@ -31296,9 +31264,6 @@ msgstr ""
 "容，以便在忘记任何重要内容时再参考。"
 
 #. STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.NAME"
-#| msgid "TIP: Basic Controls"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.NAME"
 msgid "Tutorial: Basic Controls"
 msgstr "提示：基本操作"
@@ -32621,11 +32586,6 @@ msgid "Bleachstone blocked"
 msgstr "漂白石受阻"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP"
-#| msgid ""
-#| "This <link=\"BLEACHSTONE\">Bleach Stone</link> deposit is not exposed to "
-#| "air and cannot emit <link=\"CHLORINE\">Chlorine</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP"
 msgid ""
 "This <link=\"BLEACHSTONE\">Bleachstone</link> deposit is not exposed to air "
@@ -32640,18 +32600,13 @@ msgid "Inert"
 msgstr "惰性"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP"
-#| msgid ""
-#| "Environmental air pressure is too high for this <link=\"BLEACHSTONE"
-#| "\">Bleach Stone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP"
 msgid ""
 "Environmental air pressure is too high for this <link=\"BLEACHSTONE"
 "\">Bleachstone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
-"这块<link=\"BLEACHSTONE\">漂白色</link>储存在环境气压太高的地方，不会产生"
-"<link=\"CHLORINE\">氯气</link>"
+"环境气压过高，<link=\"BLEACHSTONE\">漂白石</link>沉淀物无法排放<link="
+"\"CHLORINE\">氯气</link>"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.NAME"
@@ -32659,11 +32614,6 @@ msgid "{BlockedString}"
 msgstr "{BlockedString}"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP"
-#| msgid ""
-#| "This <link=\"BLEACHSTONE\">Bleach Stone</link> deposit has no room to "
-#| "emit <link=\"CHLORINE\">Chlorine</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP"
 msgid ""
 "This <link=\"BLEACHSTONE\">Bleachstone</link> deposit has no room to emit "
@@ -32688,18 +32638,13 @@ msgid "Inert"
 msgstr "惰性环境"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
-#| msgid ""
-#| "Environmental air pressure is too high for this <link=\"BLEACHSTONE"
-#| "\">Bleach Stone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
 msgid ""
 "Environmental air pressure is too high for this <link=\"BLEACHSTONE"
 "\">Bleachstone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
-"这块<link=\"BLEACHSTONE\">漂白色</link>储存在环境气压太高的地方，不会产生"
-"<link=\"CHLORINE\">氯气</link>"
+"环境气压过高，<link=\"BLEACHSTONE\">漂白石</link>沉淀物无法排放<link="
+"\"CHLORINE\">氯气</link>"
 
 #. STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME"
@@ -33471,9 +33416,6 @@ msgid "Liquid"
 msgstr "液体"
 
 #. STRINGS.MISC.TAGS.LIQUIFIABLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.LIQUIFIABLE"
-#| msgid "Liquifiable"
 msgctxt "STRINGS.MISC.TAGS.LIQUIFIABLE"
 msgid "Liquefiable"
 msgstr "可液化材料"
@@ -34611,7 +34553,7 @@ msgstr "玛哈"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.MOZZARELLA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.MOZZARELLA"
 msgid "Mozzarella"
-msgstr ""
+msgstr "莫扎里拉"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.NABIEAH
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.NABIEAH"
@@ -35016,7 +34958,7 @@ msgstr "法拉赫"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.FRIMBLE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.FRIMBLE"
 msgid "Frimble"
-msgstr ""
+msgstr "弗里布尔"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.GEORGIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.GEORGIE"
@@ -35126,7 +35068,7 @@ msgstr "赛德莫"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SKIDOOSH
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SKIDOOSH"
 msgid "Skidoosh"
-msgstr ""
+msgstr "斯基多什"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SLAB
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SLAB"
@@ -35429,7 +35371,7 @@ msgstr "适应性强"
 #. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.ARDENT
 msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.ARDENT"
 msgid "Ardent"
-msgstr ""
+msgstr "热切的"
 
 #. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.BRAVE
 msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.BRAVE"
@@ -35524,7 +35466,7 @@ msgstr "进步的"
 #. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.RECON
 msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.RECON"
 msgid "Recon"
-msgstr ""
+msgstr "侦察的"
 
 #. STRINGS.NAMEGEN.ROCKET.ADJECTIVE.SCIENTIFIC
 msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.SCIENTIFIC"
@@ -35544,12 +35486,12 @@ msgstr "流浪的"
 #. STRINGS.NAMEGEN.ROCKET.FMT_ADJECTIVE_NOUN
 msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_ADJECTIVE_NOUN"
 msgid "{Adjective} {Noun}"
-msgstr "{Adjective} {Noun}"
+msgstr "{Adjective}{Noun}"
 
 #. STRINGS.NAMEGEN.ROCKET.FMT_ADJECTIVE_NOUN_SUFFIX
 msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_ADJECTIVE_NOUN_SUFFIX"
 msgid "{Adjective} {Noun} {Suffix}"
-msgstr "{Adjective} {Noun} {Suffix}"
+msgstr "{Adjective}{Noun}{Suffix}"
 
 #. STRINGS.NAMEGEN.ROCKET.FMT_NOUN
 msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_NOUN"
@@ -35559,32 +35501,32 @@ msgstr "{Noun}"
 #. STRINGS.NAMEGEN.ROCKET.FMT_NOUN_SUFFIX
 msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_NOUN_SUFFIX"
 msgid "{Noun} {Suffix}"
-msgstr "{Noun} {Suffix}"
+msgstr "{Noun}{Suffix}"
 
 #. STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_ADJECTIVE_NOUN
 msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_ADJECTIVE_NOUN"
 msgid "{Prefix} {Adjective} {Noun}"
-msgstr "{Prefix} {Adjective} {Noun}"
+msgstr "{Adjective}{Noun}"
 
 #. STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_ADJECTIVE_NOUN_SUFFIX
 msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_ADJECTIVE_NOUN_SUFFIX"
 msgid "{Prefix} {Adjective} {Noun} {Suffix}"
-msgstr "{Prefix} {Adjective} {Noun} {Suffix}"
+msgstr "{Adjective}{Noun}{Suffix}"
 
 #. STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_NOUN
 msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_NOUN"
 msgid "{Prefix} {Noun}"
-msgstr "{Prefix} {Noun}"
+msgstr "{Noun}"
 
 #. STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_NOUN_SUFFIX
 msgctxt "STRINGS.NAMEGEN.ROCKET.FMT_PREFIX_NOUN_SUFFIX"
 msgid "{Prefix} {Noun} {Suffix}"
-msgstr ""
+msgstr "{Noun}{Suffix}"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.ADEOS
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ADEOS"
 msgid "Adeos"
-msgstr ""
+msgstr "阿迪斯"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.APOLLO
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.APOLLO"
@@ -35594,27 +35536,27 @@ msgstr "阿波罗"
 #. STRINGS.NAMEGEN.ROCKET.NOUN.ARTEMIS
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ARTEMIS"
 msgid "Artemis"
-msgstr ""
+msgstr "阿耳特弥斯"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.BEAUTY
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.BEAUTY"
 msgid "Beauty"
-msgstr ""
+msgstr "美丽号"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.CALIPSO
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.CALIPSO"
 msgid "Calipso"
-msgstr ""
+msgstr "卡利普索"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.CALPANA
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.CALPANA"
 msgid "Calpana"
-msgstr ""
+msgstr "卡帕纳"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.EOS
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.EOS"
 msgid "Eos"
-msgstr ""
+msgstr "黎明号"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.EXPLORER
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.EXPLORER"
@@ -35624,12 +35566,12 @@ msgstr "探险者"
 #. STRINGS.NAMEGEN.ROCKET.NOUN.GEMINI
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.GEMINI"
 msgid "Gemini"
-msgstr ""
+msgstr "双子座"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.HELIOS
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.HELIOS"
 msgid "Helios"
-msgstr ""
+msgstr "太阳神"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.HOPE
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.HOPE"
@@ -35637,41 +35579,39 @@ msgid "Hope"
 msgstr "希望"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.JUPITER
-#, fuzzy
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.JUPITER"
 msgid "Jupiter"
-msgstr "朱庇特"
+msgstr "木星"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.KNOWLEDGE
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.KNOWLEDGE"
 msgid "Knowledge"
-msgstr ""
+msgstr "博学号"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.MARS
-#, fuzzy
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.MARS"
 msgid "Mars"
-msgstr "玛尔斯"
+msgstr "火星"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.MIR
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.MIR"
 msgid "Mir"
-msgstr ""
+msgstr "和平"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.NEPTUNE
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.NEPTUNE"
 msgid "Neptune"
-msgstr ""
+msgstr "海王星"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.PLUTO
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.PLUTO"
 msgid "Pluto"
-msgstr ""
+msgstr "冥王星"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.PROTOTYPE
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.PROTOTYPE"
 msgid "Prototype"
-msgstr ""
+msgstr "原型"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.ROCKET
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ROCKET"
@@ -35681,12 +35621,12 @@ msgstr "火箭"
 #. STRINGS.NAMEGEN.ROCKET.NOUN.ROVER
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ROVER"
 msgid "Rover"
-msgstr ""
+msgstr "流浪"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.SAT
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SAT"
 msgid "SAT"
-msgstr ""
+msgstr "萨特"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.SATURN
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SATURN"
@@ -35701,7 +35641,7 @@ msgstr "月亮神"
 #. STRINGS.NAMEGEN.ROCKET.NOUN.SKYLAB
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SKYLAB"
 msgid "Skylab"
-msgstr ""
+msgstr "太空实验室"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.SOL
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SOL"
@@ -35724,49 +35664,44 @@ msgid "Sputnik"
 msgstr "伴侣号"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.URANUS
-#, fuzzy
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.URANUS"
 msgid "Uranus"
-msgstr "乌拉诺斯"
+msgstr "天王星"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.VENESAT
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VENESAT"
 msgid "Venesat"
-msgstr ""
+msgstr "威尼斯特"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.VENUS
-#, fuzzy
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VENUS"
 msgid "Venus"
-msgstr "维纳斯"
+msgstr "金星"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.VESSEL
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VESSEL"
 msgid "Vessel"
-msgstr ""
+msgstr "飞船"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.VGER
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VGER"
 msgid "V'ger"
-msgstr ""
+msgstr "维杰号"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.VIRGO
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.VIRGO"
 msgid "Virgo"
-msgstr ""
+msgstr "处女座"
 
 #. STRINGS.NAMEGEN.ROCKET.NOUN.WANDERER
 msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.WANDERER"
 msgid "Wanderer"
-msgstr ""
+msgstr "漫游号"
 
 #. STRINGS.NAMEGEN.ROCKET.PREFIX.OL
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.OLD"
-#| msgid "Old"
 msgctxt "STRINGS.NAMEGEN.ROCKET.PREFIX.OL"
 msgid "Ol'"
-msgstr "老头"
+msgstr ""
 
 #. STRINGS.NAMEGEN.ROCKET.PREFIX.SPIRITOF
 msgctxt "STRINGS.NAMEGEN.ROCKET.PREFIX.SPIRITOF"
@@ -35979,12 +35914,9 @@ msgid "Enables fabrication of Jet Suits at the Exosuit Forge."
 msgstr "允许在太空服锻造台制造喷气服。"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.NAME"
-#| msgid "Jet Suit"
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.NAME"
 msgid "Jet Suit Pattern"
-msgstr "喷气服"
+msgstr "喷气服图纸"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.DESC"
@@ -36577,7 +36509,6 @@ msgid "Methods for working with high quality art materials."
 msgstr "使用高质量艺术材料的方法。"
 
 #. STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME
-#, fuzzy
 msgctxt "STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME"
 msgid "<link=\"REFRACTIVEDECOR\">Advanced Chiselwork</link>"
 msgstr "<link=\"REFRACTIVEDECOR\">高级雕刻</link>"
@@ -37864,12 +37795,9 @@ msgid "<b>Requirements:</b>"
 msgstr "<b>要求：</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.OVER_PRESSURE_MASS
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.OVER_PRESSURE_MASS"
-#| msgid "Over Pressure: {0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.OVER_PRESSURE_MASS"
 msgid "Overpressure: {0}"
-msgstr "压力过高：{0}"
+msgstr "建筑过压：{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.OVERHEAT_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.OVERHEAT_TEMP"
@@ -38681,7 +38609,7 @@ msgstr "<link=\"EMAILS\">电子邮件</link>"
 #. STRINGS.UI.CODEX.CATEGORYNAMES.EQUIPMENT
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.EQUIPMENT"
 msgid "<link=\"EQUIPMENT\">Equipment</link>"
-msgstr "<link=\"EQUIPMENT\">设备</link>"
+msgstr "<link=\"EQUIPMENT\">装备</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.FOOD
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.FOOD"
@@ -40320,7 +40248,7 @@ msgstr "距下一次升级还有"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "DEVELOPMENT BUILD: {0}"
-msgstr "[官中重制版v1.3]开发版本：{0}"
+msgstr "[官中重制版v1.5]开发版本：{0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -40559,12 +40487,9 @@ msgid ""
 msgstr "我的殖民地一天产生了{0}的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
-#| msgid "<link=\"POLLUTED OXYGEN\">Sublimation</link>:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
 msgid "<link=\"CONTAMINATEDOXYGEN\">Sublimation</link>:"
-msgstr "<link=\"POLLUTED OXYGEN\">升华</link>："
+msgstr "<link=\"CONTAMINATEDOXYGEN\">升华</link>："
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
 msgctxt ""
@@ -40583,12 +40508,9 @@ msgid ""
 msgstr "我的殖民地一天产生了{0}的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
-#| msgid "<link=\"POLLUTED OXYGEN\">Toilet Emissions: </link>"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
 msgid "<link=\"CONTAMINATEDOXYGEN\">Toilet Emissions: </link>"
-msgstr "<link=\"POLLUTED OXYGEN\">厕所排放：</link>"
+msgstr "<link=\"CONTAMINATEDOXYGEN\">厕所排放：</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
@@ -41919,9 +41841,6 @@ msgstr ""
 "{0}"
 
 #. STRINGS.UI.FRONTEND.MODS.DRAG_TO_REORDER
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MODS.DRAG_TO_REORDER"
-#| msgid "Drag to re-order"
 msgctxt "STRINGS.UI.FRONTEND.MODS.DRAG_TO_REORDER"
 msgid "Drag to reorder"
 msgstr "拖动以重新排序"
@@ -43098,7 +43017,7 @@ msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY"
 msgid ""
 "The Printing Pod will need time to recharge if I return these Duplicants to "
 "ooze."
-msgstr "如果我把这些复制人退回成遗传生物软泥，打印舱就需要一定时间再充能。"
+msgstr "如果我把这些复制人退回成基因软泥，打印舱就需要一定时间再充能。"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE"
@@ -43294,9 +43213,6 @@ msgid "Options"
 msgstr "选项"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY.DISABLED
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.DISABLED"
-#| msgid "Disabled"
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.DISABLED"
 msgid "Disallowed"
 msgstr "禁用"
@@ -44278,7 +44194,7 @@ msgstr "0"
 msgctxt ""
 "STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.THRESHOLD_PREFIX"
 msgid "Disinfect At:"
-msgstr "消毒于："
+msgstr "达到此条件开始消毒："
 
 #. STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.TOOLTIP"
@@ -44820,12 +44736,9 @@ msgid "Building Intake"
 msgstr "输入管道"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
-#| msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
 msgid "Connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
-msgstr "<link=\"LIQUIDCONDUIT\">液体管道</link>"
+msgstr "已连接到一个<link=\"LIQUIDCONDUIT\">液体管道</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER"
@@ -44842,15 +44755,9 @@ msgstr ""
 "所在网络至少要有一个<link=\"LIQUIDPIPING\">液体入口</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
-#| msgid ""
-#| "Not connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
-#| "\">Liquid Pipe</link>"
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
 msgid "Not connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
-msgstr ""
-"未连接到<link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">液体管道</link>"
+msgstr "未连接到<link=\"LIQUIDCONDUIT\">液体管道</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
@@ -46928,7 +46835,7 @@ msgstr ""
 #. STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS"
 msgid "Warning: Scheduling Issues ({0})"
-msgstr "警告：日程表问题 ({0})"
+msgstr "警告：日程表存在问题 ({0})"
 
 #. STRINGS.UI.SCHEDULEGROUPS.NOTIME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.NOTIME"
@@ -47069,12 +46976,12 @@ msgstr ""
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_DISABLED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_DISABLED"
 msgid "Alarm Off"
-msgstr "警报已开启"
+msgstr "音效已开启"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_ENABLED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_ENABLED"
 msgid "Alarm On"
-msgstr "警告已关闭"
+msgstr "音效已关闭"
 
 #. STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP"
@@ -47099,7 +47006,7 @@ msgstr "dar"
 #. STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP"
 msgid "Rename custom schedule"
-msgstr "重命名自定义日程表"
+msgstr "重命名此日程表"
 
 #. STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS"
@@ -47364,7 +47271,7 @@ msgstr "无法起飞"
 #. STRINGS.UI.STARMAP.CARGOEMPTY.NAME
 msgctxt "STRINGS.UI.STARMAP.CARGOEMPTY.NAME"
 msgid "Emptied Cargo Bay"
-msgstr ""
+msgstr "已清空的货舱"
 
 #. STRINGS.UI.STARMAP.CARGOEMPTY.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.CARGOEMPTY.TOOLTIP"
@@ -47387,12 +47294,9 @@ msgid "Rocket Engine"
 msgstr "火箭发动机"
 
 #. STRINGS.UI.STARMAP.COMPOSITION_SMALL_AMOUNT
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPOSITION_SMALL_AMOUNT"
-#| msgid "Trace Amounts"
 msgctxt "STRINGS.UI.STARMAP.COMPOSITION_SMALL_AMOUNT"
 msgid "Trace Amount"
-msgstr "跟踪数量"
+msgstr "痕量"
 
 #. STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED
 msgctxt "STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED"
@@ -47862,7 +47766,7 @@ msgstr "无"
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.LOCKEDIN
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.LOCKEDIN"
 msgid "LOCKED IN"
-msgstr ""
+msgstr "已锁定"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.NODESTINATION
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.NODESTINATION"
@@ -48587,7 +48491,6 @@ msgid "Gas ports cannot overlap"
 msgstr "不能重叠气体端口"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_HIGHWATT_NOT_IN_TILE
-#, fuzzy
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_HIGHWATT_NOT_IN_TILE"
 msgid "Heavi-Watt power connectors cannot be built inside tile"
 msgstr "不可在砖块内建造高功率线桥"
@@ -49426,12 +49329,9 @@ msgid "Meteor Showers"
 msgstr "流星雨"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.DISABLED"
-#| msgid "Ineligible"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED"
 msgid "Ineligible"
-msgstr "不符合条件"
+msgstr "不合格"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING"
