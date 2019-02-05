@@ -4065,7 +4065,7 @@ msgid ""
 "it into <link=\"STEAM\">Steam</link> and <link=\"TOXICSAND\">Polluted Dirt</"
 "link>."
 msgstr ""
-"把送入的<link=\"DIRTYWATER\">污水</link>转化成<link=\"STEAM\">蒸气</link>和"
+"把送入的<link=\"DIRTYWATER\">污染水</link>转化成<link=\"STEAM\">蒸气</link>和"
 "<link=\"TOXICSAND\">污染土</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME
@@ -36787,7 +36787,7 @@ msgstr "需要装饰性物体，同时需要最少{0}的装饰度。"
 #. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.NAME"
 msgid "Decor item: {0}+ Decor"
-msgstr "装饰性物体：{0}+装饰度"
+msgstr "装饰性物品：{0}+装饰度（单个物品）"
 
 #. STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION"
@@ -44655,7 +44655,7 @@ msgstr "伸手不见五指"
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.VERY_HIGH_LIGHT
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.VERY_HIGH_LIGHT"
 msgid "Brilliant"
-msgstr "灯火辉煌"
+msgstr "刺眼"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.VERY_LOW_LIGHT
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.VERY_LOW_LIGHT"
@@ -50633,7 +50633,7 @@ msgstr "只储存被标记为打扫<color=#F44A47><b>[K]</b></color>的物品"
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE"
 msgid "Element Filter"
-msgstr "物质分离"
+msgstr "元素筛选"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE_CRITTER
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE_CRITTER"
